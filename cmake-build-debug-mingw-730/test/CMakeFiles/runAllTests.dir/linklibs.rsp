@@ -1,0 +1,1 @@
+ lib/googletest/libgtestd.a lib/googletest/libgtest_maind.a ../libcore.a lib/googletest/libgtestd.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
