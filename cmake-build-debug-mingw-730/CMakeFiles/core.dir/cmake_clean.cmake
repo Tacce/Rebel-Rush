@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/core.dir/GameCharacter.cpp.obj"
   "CMakeFiles/core.dir/main.cpp.obj"
   "libcore.a"
   "libcore.pdb"

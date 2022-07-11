@@ -180,6 +180,33 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+GameCharacter.obj: GameCharacter.cpp.obj
+.PHONY : GameCharacter.obj
+
+# target to build an object file
+GameCharacter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/GameCharacter.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GameCharacter.cpp.obj
+.PHONY : GameCharacter.cpp.obj
+
+GameCharacter.i: GameCharacter.cpp.i
+.PHONY : GameCharacter.i
+
+# target to preprocess a source file
+GameCharacter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/GameCharacter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GameCharacter.cpp.i
+.PHONY : GameCharacter.cpp.i
+
+GameCharacter.s: GameCharacter.cpp.s
+.PHONY : GameCharacter.s
+
+# target to generate assembly for a file
+GameCharacter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/GameCharacter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GameCharacter.cpp.s
+.PHONY : GameCharacter.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -220,6 +247,9 @@ help:
 	@echo ... gtest
 	@echo ... gtest_main
 	@echo ... runAllTests
+	@echo ... GameCharacter.obj
+	@echo ... GameCharacter.i
+	@echo ... GameCharacter.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
