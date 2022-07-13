@@ -180,6 +180,33 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+Game.obj: Game.cpp.obj
+.PHONY : Game.obj
+
+# target to build an object file
+Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Game.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Game.cpp.obj
+.PHONY : Game.cpp.obj
+
+Game.i: Game.cpp.i
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Game.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Game.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 GameCharacter.obj: GameCharacter.cpp.obj
 .PHONY : GameCharacter.obj
 
@@ -206,6 +233,60 @@ GameCharacter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/GameCharacter.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GameCharacter.cpp.s
 .PHONY : GameCharacter.cpp.s
+
+Gunfigther.obj: Gunfigther.cpp.obj
+.PHONY : Gunfigther.obj
+
+# target to build an object file
+Gunfigther.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfigther.cpp.obj
+.PHONY : Gunfigther.cpp.obj
+
+Gunfigther.i: Gunfigther.cpp.i
+.PHONY : Gunfigther.i
+
+# target to preprocess a source file
+Gunfigther.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfigther.cpp.i
+.PHONY : Gunfigther.cpp.i
+
+Gunfigther.s: Gunfigther.cpp.s
+.PHONY : Gunfigther.s
+
+# target to generate assembly for a file
+Gunfigther.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfigther.cpp.s
+.PHONY : Gunfigther.cpp.s
+
+Swordman.obj: Swordman.cpp.obj
+.PHONY : Swordman.obj
+
+# target to build an object file
+Swordman.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Swordman.cpp.obj
+.PHONY : Swordman.cpp.obj
+
+Swordman.i: Swordman.cpp.i
+.PHONY : Swordman.i
+
+# target to preprocess a source file
+Swordman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Swordman.cpp.i
+.PHONY : Swordman.cpp.i
+
+Swordman.s: Swordman.cpp.s
+.PHONY : Swordman.s
+
+# target to generate assembly for a file
+Swordman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Swordman.cpp.s
+.PHONY : Swordman.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -247,9 +328,18 @@ help:
 	@echo ... gtest
 	@echo ... gtest_main
 	@echo ... runAllTests
+	@echo ... Game.obj
+	@echo ... Game.i
+	@echo ... Game.s
 	@echo ... GameCharacter.obj
 	@echo ... GameCharacter.i
 	@echo ... GameCharacter.s
+	@echo ... Gunfigther.obj
+	@echo ... Gunfigther.i
+	@echo ... Gunfigther.s
+	@echo ... Swordman.obj
+	@echo ... Swordman.i
+	@echo ... Swordman.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

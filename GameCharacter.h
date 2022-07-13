@@ -7,6 +7,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "Definitions.h"
+#include <memory>
 using namespace sf;
 
 class GameCharacter {
@@ -16,8 +17,9 @@ public:
     virtual void attack()=0;
     virtual void jump();
     virtual void receiveDamage();
-    virtual void draw(RenderWindow* window);
+    virtual void draw(RenderWindow** window);
     virtual void update();
+    virtual Rect<float> getGlobalBounds() const;
 
     bool isShielded1() const;
     void setIsShielded(bool isShielded);
@@ -25,12 +27,16 @@ public:
     void setPosY(float posY);
     float getYVelocity() const;
     void setYVelocity(float yVelocity);
+    unsigned int getHp() const;
+    void setHp(unsigned int hp);
+
 
 
 protected:
     bool isShielded;
     float posY;
     float yVelocity;
+    unsigned int hp;
     RectangleShape sprite;
     Clock movementClock;
 };

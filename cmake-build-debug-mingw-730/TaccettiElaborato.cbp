@@ -275,11 +275,35 @@
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h">
 			<Option target="core"/>
 		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.cpp">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.h">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.cpp">
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfigther.cpp">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfigther.h">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.cpp">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h">
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
 		</Unit>

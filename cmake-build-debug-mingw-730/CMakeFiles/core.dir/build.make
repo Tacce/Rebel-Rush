@@ -93,19 +93,67 @@ CMakeFiles/core.dir/GameCharacter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/GameCharacter.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\GameCharacter.cpp" -o CMakeFiles\core.dir\GameCharacter.cpp.s
 
+CMakeFiles/core.dir/Game.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Game.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/Game.cpp.obj: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/Game.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Game.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Game.cpp"
+
+CMakeFiles/core.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Game.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Game.cpp" > CMakeFiles\core.dir\Game.cpp.i
+
+CMakeFiles/core.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Game.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Game.cpp" -o CMakeFiles\core.dir\Game.cpp.s
+
+CMakeFiles/core.dir/Gunfigther.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Gunfigther.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/Gunfigther.cpp.obj: ../Gunfigther.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/Gunfigther.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Gunfigther.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfigther.cpp"
+
+CMakeFiles/core.dir/Gunfigther.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Gunfigther.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfigther.cpp" > CMakeFiles\core.dir\Gunfigther.cpp.i
+
+CMakeFiles/core.dir/Gunfigther.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Gunfigther.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfigther.cpp" -o CMakeFiles\core.dir\Gunfigther.cpp.s
+
+CMakeFiles/core.dir/Swordman.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Swordman.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/Swordman.cpp.obj: ../Swordman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core.dir/Swordman.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Swordman.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Swordman.cpp"
+
+CMakeFiles/core.dir/Swordman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Swordman.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Swordman.cpp" > CMakeFiles\core.dir\Swordman.cpp.i
+
+CMakeFiles/core.dir/Swordman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Swordman.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Swordman.cpp" -o CMakeFiles\core.dir\Swordman.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/main.cpp.obj" \
-"CMakeFiles/core.dir/GameCharacter.cpp.obj"
+"CMakeFiles/core.dir/GameCharacter.cpp.obj" \
+"CMakeFiles/core.dir/Game.cpp.obj" \
+"CMakeFiles/core.dir/Gunfigther.cpp.obj" \
+"CMakeFiles/core.dir/Swordman.cpp.obj"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
 libcore.a: CMakeFiles/core.dir/main.cpp.obj
 libcore.a: CMakeFiles/core.dir/GameCharacter.cpp.obj
+libcore.a: CMakeFiles/core.dir/Game.cpp.obj
+libcore.a: CMakeFiles/core.dir/Gunfigther.cpp.obj
+libcore.a: CMakeFiles/core.dir/Swordman.cpp.obj
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\core.dir\link.txt --verbose=$(VERBOSE)
 

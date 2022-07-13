@@ -4,9 +4,9 @@
 
 #include "GameCharacter.h"
 
-GameCharacter::GameCharacter(float y):isShielded(false), posY(y), yVelocity(0) {
+GameCharacter::GameCharacter(float y): isShielded(false), posY(y), yVelocity(0), hp(3) {
     sprite.setPosition(Vector2f(PLAYER_POSX,posY));
-    //FIXME Rectangual shape is a placeholder
+    //Rectangual shape is a placeholder
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
     sprite.setFillColor(Color::Green);
 }
@@ -21,11 +21,13 @@ void GameCharacter::jump() {
 void GameCharacter::receiveDamage() {
     if(isShielded)
         isShielded = false;
+    else
+        hp--;
 }
 
-void GameCharacter::draw(RenderWindow* window) {
+void GameCharacter::draw(RenderWindow** window) {
     sprite.setPosition(PLAYER_POSX, posY);
-    window->draw(sprite);
+    (*window)->draw(sprite);
 }
 
 void GameCharacter::update() {
@@ -36,6 +38,10 @@ void GameCharacter::update() {
         posY= (SCREEN_HEIGHT - sprite.getSize().y);
     else if(posY < 0)
         posY=0;
+}
+
+Rect<float> GameCharacter::getGlobalBounds() const{
+    return sprite.getGlobalBounds();
 }
 
 bool GameCharacter::isShielded1() const {
@@ -62,4 +68,13 @@ void GameCharacter::setYVelocity(float yVelocity) {
     GameCharacter::yVelocity = yVelocity;
 }
 
+unsigned int GameCharacter::getHp() const {
+    return hp;
+}
+
+void GameCharacter::setHp(unsigned int hp) {
+    GameCharacter::hp = hp;
+}
+
+GameCharacter::~GameCharacter() = default;
 

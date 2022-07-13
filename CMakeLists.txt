@@ -3,7 +3,7 @@ project(TaccettiElaborato)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TaccettiElaborato main.cpp GameCharacter.cpp GameCharacter.h)
+add_executable(TaccettiElaborato main.cpp GameCharacter.cpp GameCharacter.h Game.cpp Game.h Gunfigther.cpp Gunfigther.h Swordman.cpp Swordman.h)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/lib/cmake/SFML)
@@ -13,7 +13,7 @@ target_link_libraries(TaccettiElaborato sfml-system sfml-window sfml-graphics sf
 
 add_subdirectory(test)
 
-set(SOURCE_FILES main.cpp GameCharacter.cpp GameCharacter.h Definitions.h)
+set(SOURCE_FILES main.cpp GameCharacter.cpp GameCharacter.h Definitions.h Game.cpp Game.h Gunfigther.cpp Gunfigther.h Swordman.cpp Swordman.h)
 add_library(core ${SOURCE_FILES})
 target_link_libraries(TaccettiElaborato core)
 
