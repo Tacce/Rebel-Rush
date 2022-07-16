@@ -1,2 +1,2 @@
-C:\mingw64\bin\ar.exe qc libcore.a CMakeFiles/core.dir/main.cpp.obj CMakeFiles/core.dir/GameCharacter.cpp.obj CMakeFiles/core.dir/Game.cpp.obj CMakeFiles/core.dir/Gunfigther.cpp.obj CMakeFiles/core.dir/Swordman.cpp.obj
+C:\mingw64\bin\ar.exe qc libcore.a CMakeFiles/core.dir/main.cpp.obj CMakeFiles/core.dir/GameCharacter.cpp.obj CMakeFiles/core.dir/Game.cpp.obj CMakeFiles/core.dir/Gunfigther.cpp.obj CMakeFiles/core.dir/Swordman.cpp.obj CMakeFiles/core.dir/Map.cpp.obj
 C:\mingw64\bin\ranlib.exe libcore.a

@@ -15,8 +15,8 @@
 
 //JUMP
 #define GRAVITY 0.09
-#define JUMP_FORCE (-27)
-#define MAX_YVELOCITY 30
+#define JUMP_FORCE (-28)
+#define MAX_YVELOCITY 15
 
 
 #endif //TACCETTIELABORATO_DEFINITIONS_H

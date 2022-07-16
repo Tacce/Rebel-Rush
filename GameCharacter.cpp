@@ -6,7 +6,7 @@
 
 GameCharacter::GameCharacter(float y): isShielded(false), posY(y), yVelocity(0), hp(3) {
     sprite.setPosition(Vector2f(PLAYER_POSX,posY));
-    //Rectangual shape is a placeholder
+    //Rectangular shape is a placeholder
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
     sprite.setFillColor(Color::Green);
 }
@@ -25,9 +25,9 @@ void GameCharacter::receiveDamage() {
         hp--;
 }
 
-void GameCharacter::draw(RenderWindow** window) {
+void GameCharacter::draw(std::shared_ptr<RenderWindow> & window) {
     sprite.setPosition(PLAYER_POSX, posY);
-    (*window)->draw(sprite);
+    window->draw(sprite);
 }
 
 void GameCharacter::update() {
@@ -35,9 +35,11 @@ void GameCharacter::update() {
         yVelocity += GRAVITY;
     posY += (yVelocity * movementClock.getElapsedTime().asSeconds())/2  ;
     if(posY > (SCREEN_HEIGHT - sprite.getSize().y))
-        posY= (SCREEN_HEIGHT - sprite.getSize().y);
-    else if(posY < 0)
-        posY=0;
+        posY = (SCREEN_HEIGHT - sprite.getSize().y);
+    else if(posY < 0) {
+        posY = 0;
+        yVelocity=0;
+    }
 }
 
 Rect<float> GameCharacter::getGlobalBounds() const{
@@ -76,5 +78,5 @@ void GameCharacter::setHp(unsigned int hp) {
     GameCharacter::hp = hp;
 }
 
-GameCharacter::~GameCharacter() = default;
+
 

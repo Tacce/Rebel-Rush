@@ -129,6 +129,54 @@ runAllTests/fast:
 	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/build
 .PHONY : runAllTests/fast
 
+GunfighterTest.obj: GunfighterTest.cpp.obj
+.PHONY : GunfighterTest.obj
+
+# target to build an object file
+GunfighterTest.cpp.obj:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj
+.PHONY : GunfighterTest.cpp.obj
+
+GunfighterTest.i: GunfighterTest.cpp.i
+.PHONY : GunfighterTest.i
+
+# target to preprocess a source file
+GunfighterTest.cpp.i:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.i
+.PHONY : GunfighterTest.cpp.i
+
+GunfighterTest.s: GunfighterTest.cpp.s
+.PHONY : GunfighterTest.s
+
+# target to generate assembly for a file
+GunfighterTest.cpp.s:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.s
+.PHONY : GunfighterTest.cpp.s
+
+SwordamanTest.obj: SwordamanTest.cpp.obj
+.PHONY : SwordamanTest.obj
+
+# target to build an object file
+SwordamanTest.cpp.obj:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj
+.PHONY : SwordamanTest.cpp.obj
+
+SwordamanTest.i: SwordamanTest.cpp.i
+.PHONY : SwordamanTest.i
+
+# target to preprocess a source file
+SwordamanTest.cpp.i:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.i
+.PHONY : SwordamanTest.cpp.i
+
+SwordamanTest.s: SwordamanTest.cpp.s
+.PHONY : SwordamanTest.s
+
+# target to generate assembly for a file
+SwordamanTest.cpp.s:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.s
+.PHONY : SwordamanTest.cpp.s
+
 runAllTests.obj: runAllTests.cpp.obj
 .PHONY : runAllTests.obj
 
@@ -162,6 +210,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... runAllTests
+	@echo ... GunfighterTest.obj
+	@echo ... GunfighterTest.i
+	@echo ... GunfighterTest.s
+	@echo ... SwordamanTest.obj
+	@echo ... SwordamanTest.i
+	@echo ... SwordamanTest.s
 	@echo ... runAllTests.obj
 	@echo ... runAllTests.i
 	@echo ... runAllTests.s

@@ -4,6 +4,7 @@
 
 #include "Gunfigther.h"
 
+
 Gunfigther::Gunfigther(): GameCharacter() {
     sprite.setFillColor(Color(255,127,0));
 }

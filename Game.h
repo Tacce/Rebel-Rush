@@ -8,6 +8,7 @@
 #include <SFML/Graphics.hpp>
 #include <memory>
 #include "Definitions.h"
+#include "Map.h"
 #include "GameCharacter.h"
 #include "Gunfigther.h"
 #include "Swordman.h"
@@ -25,9 +26,10 @@ private:
     virtual void update();
 
 
-    RenderWindow*  window;
+    std::shared_ptr<RenderWindow> window;
     Event event{};
-    std::unique_ptr<GameCharacter> player;
+    std::shared_ptr<GameCharacter> player;
+    std::unique_ptr<Map> map;
     int score;
     int phase;
     bool isGameOvered;

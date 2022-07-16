@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/core.dir/Game.cpp.obj"
   "CMakeFiles/core.dir/GameCharacter.cpp.obj"
   "CMakeFiles/core.dir/Gunfigther.cpp.obj"
+  "CMakeFiles/core.dir/Map.cpp.obj"
   "CMakeFiles/core.dir/Swordman.cpp.obj"
   "CMakeFiles/core.dir/main.cpp.obj"
   "libcore.a"

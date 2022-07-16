@@ -6,15 +6,15 @@
 #include <memory>
 
 Game::Game(const int role) : score(0), isGameOvered(false), phase(0){
-    window = new RenderWindow(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Escape from Hazotic City");
+    window = std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Escape from Hazotic City");
     if(role==0)
-        player = std::make_unique<Gunfigther>();
+        player = std::make_shared<Gunfigther>();
     else if(role==1)
-        player = std::make_unique<Swordman>();
+        player = std::make_shared<Swordman>();
+    map = std::make_unique<Map>(player);
 }
 
 Game::~Game() {
-    delete window;
 }
 
 void Game::run() {
@@ -40,12 +40,12 @@ void Game::update() {
     if(player->getHp() < 0)
         isGameOvered= true;
     if(!isGameOvered)
-        player->update();
+        map->update();
 }
 
 void Game::draw() {
     window->clear();
-    player->draw(& window);
+    map->draw(window);
     window->display();
 }
 

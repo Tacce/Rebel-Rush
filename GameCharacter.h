@@ -13,11 +13,11 @@ using namespace sf;
 class GameCharacter {
 public:
     explicit GameCharacter(float y=0);
-    virtual ~GameCharacter()=0;
+    virtual ~GameCharacter() = default;
     virtual void attack()=0;
     virtual void jump();
     virtual void receiveDamage();
-    virtual void draw(RenderWindow** window);
+    virtual void draw(std::shared_ptr<RenderWindow> & window);
     virtual void update();
     virtual Rect<float> getGlobalBounds() const;
 

@@ -14,7 +14,7 @@ using namespace sf;
 class Gunfigther: public GameCharacter{
 public:
     Gunfigther();
-    ~Gunfigther() override = default;;
+    ~Gunfigther() override = default;
     void attack() override;
 
 
