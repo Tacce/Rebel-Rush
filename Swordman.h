@@ -16,6 +16,8 @@ public:
     Swordman();
     virtual ~Swordman(){};
     void attack() override;
+    void update() override;
+    void draw(std::shared_ptr<RenderWindow> & window) override;
 
 private:
 

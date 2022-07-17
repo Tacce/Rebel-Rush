@@ -107,19 +107,19 @@ CMakeFiles/TaccettiElaborato.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TaccettiElaborato.dir/Game.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Game.cpp" -o CMakeFiles\TaccettiElaborato.dir\Game.cpp.s
 
-CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.obj: CMakeFiles/TaccettiElaborato.dir/flags.make
-CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.obj: CMakeFiles/TaccettiElaborato.dir/includes_CXX.rsp
-CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.obj: ../Gunfigther.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TaccettiElaborato.dir\Gunfigther.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfigther.cpp"
+CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.obj: CMakeFiles/TaccettiElaborato.dir/flags.make
+CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.obj: CMakeFiles/TaccettiElaborato.dir/includes_CXX.rsp
+CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.obj: ../Gunfighter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TaccettiElaborato.dir\Gunfighter.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfighter.cpp"
 
-CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfigther.cpp" > CMakeFiles\TaccettiElaborato.dir\Gunfigther.cpp.i
+CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfighter.cpp" > CMakeFiles\TaccettiElaborato.dir\Gunfighter.cpp.i
 
-CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfigther.cpp" -o CMakeFiles\TaccettiElaborato.dir\Gunfigther.cpp.s
+CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfighter.cpp" -o CMakeFiles\TaccettiElaborato.dir\Gunfighter.cpp.s
 
 CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.obj: CMakeFiles/TaccettiElaborato.dir/flags.make
 CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.obj: CMakeFiles/TaccettiElaborato.dir/includes_CXX.rsp
@@ -149,14 +149,29 @@ CMakeFiles/TaccettiElaborato.dir/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TaccettiElaborato.dir/Map.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Map.cpp" -o CMakeFiles\TaccettiElaborato.dir\Map.cpp.s
 
+CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.obj: CMakeFiles/TaccettiElaborato.dir/flags.make
+CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.obj: CMakeFiles/TaccettiElaborato.dir/includes_CXX.rsp
+CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.obj: ../Projectile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TaccettiElaborato.dir\Projectile.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Projectile.cpp"
+
+CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Projectile.cpp" > CMakeFiles\TaccettiElaborato.dir\Projectile.cpp.i
+
+CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Projectile.cpp" -o CMakeFiles\TaccettiElaborato.dir\Projectile.cpp.s
+
 # Object files for target TaccettiElaborato
 TaccettiElaborato_OBJECTS = \
 "CMakeFiles/TaccettiElaborato.dir/main.cpp.obj" \
 "CMakeFiles/TaccettiElaborato.dir/GameCharacter.cpp.obj" \
 "CMakeFiles/TaccettiElaborato.dir/Game.cpp.obj" \
-"CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.obj" \
+"CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.obj" \
 "CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.obj" \
-"CMakeFiles/TaccettiElaborato.dir/Map.cpp.obj"
+"CMakeFiles/TaccettiElaborato.dir/Map.cpp.obj" \
+"CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.obj"
 
 # External object files for target TaccettiElaborato
 TaccettiElaborato_EXTERNAL_OBJECTS =
@@ -164,9 +179,10 @@ TaccettiElaborato_EXTERNAL_OBJECTS =
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/main.cpp.obj
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/GameCharacter.cpp.obj
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/Game.cpp.obj
-TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.obj
+TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.obj
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.obj
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/Map.cpp.obj
+TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.obj
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/build.make
 TaccettiElaborato.exe: C:/SFML/lib/libsfml-system-s-d.a
 TaccettiElaborato.exe: C:/SFML/lib/libsfml-window-s-d.a
@@ -190,7 +206,7 @@ TaccettiElaborato.exe: C:/SFML/lib/libsfml-system-s-d.a
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/linklibs.rsp
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/objects1.rsp
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable TaccettiElaborato.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TaccettiElaborato.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TaccettiElaborato.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

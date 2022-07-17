@@ -949,7 +949,7 @@ your project uses something else, for example /MD (use multi-threaded
 DLLs, /MDd for debug), you need to change the setting in the Google
 Test project to match your project's.
 
-To update this setting open the project properties in the Visual
+To movementeUpdate this setting open the project properties in the Visual
 Studio IDE then select the branch Configuration Properties | C/C++ |
 Code Generation and change the option "Runtime Library".  You may also try
 using gtest-md.vcproj instead of gtest.vcproj.

@@ -107,19 +107,19 @@ CMakeFiles/core.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Game.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Game.cpp" -o CMakeFiles\core.dir\Game.cpp.s
 
-CMakeFiles/core.dir/Gunfigther.cpp.obj: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/Gunfigther.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
-CMakeFiles/core.dir/Gunfigther.cpp.obj: ../Gunfigther.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/Gunfigther.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Gunfigther.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfigther.cpp"
+CMakeFiles/core.dir/Gunfighter.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Gunfighter.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/Gunfighter.cpp.obj: ../Gunfighter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/Gunfighter.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Gunfighter.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfighter.cpp"
 
-CMakeFiles/core.dir/Gunfigther.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Gunfigther.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfigther.cpp" > CMakeFiles\core.dir\Gunfigther.cpp.i
+CMakeFiles/core.dir/Gunfighter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Gunfighter.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfighter.cpp" > CMakeFiles\core.dir\Gunfighter.cpp.i
 
-CMakeFiles/core.dir/Gunfigther.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Gunfigther.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfigther.cpp" -o CMakeFiles\core.dir\Gunfigther.cpp.s
+CMakeFiles/core.dir/Gunfighter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Gunfighter.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Gunfighter.cpp" -o CMakeFiles\core.dir\Gunfighter.cpp.s
 
 CMakeFiles/core.dir/Swordman.cpp.obj: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/Swordman.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
@@ -149,14 +149,29 @@ CMakeFiles/core.dir/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Map.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Map.cpp" -o CMakeFiles\core.dir\Map.cpp.s
 
+CMakeFiles/core.dir/Projectile.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Projectile.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/Projectile.cpp.obj: ../Projectile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/core.dir/Projectile.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Projectile.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Projectile.cpp"
+
+CMakeFiles/core.dir/Projectile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Projectile.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Projectile.cpp" > CMakeFiles\core.dir\Projectile.cpp.i
+
+CMakeFiles/core.dir/Projectile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Projectile.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Projectile.cpp" -o CMakeFiles\core.dir\Projectile.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/main.cpp.obj" \
 "CMakeFiles/core.dir/GameCharacter.cpp.obj" \
 "CMakeFiles/core.dir/Game.cpp.obj" \
-"CMakeFiles/core.dir/Gunfigther.cpp.obj" \
+"CMakeFiles/core.dir/Gunfighter.cpp.obj" \
 "CMakeFiles/core.dir/Swordman.cpp.obj" \
-"CMakeFiles/core.dir/Map.cpp.obj"
+"CMakeFiles/core.dir/Map.cpp.obj" \
+"CMakeFiles/core.dir/Projectile.cpp.obj"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -164,12 +179,13 @@ core_EXTERNAL_OBJECTS =
 libcore.a: CMakeFiles/core.dir/main.cpp.obj
 libcore.a: CMakeFiles/core.dir/GameCharacter.cpp.obj
 libcore.a: CMakeFiles/core.dir/Game.cpp.obj
-libcore.a: CMakeFiles/core.dir/Gunfigther.cpp.obj
+libcore.a: CMakeFiles/core.dir/Gunfighter.cpp.obj
 libcore.a: CMakeFiles/core.dir/Swordman.cpp.obj
 libcore.a: CMakeFiles/core.dir/Map.cpp.obj
+libcore.a: CMakeFiles/core.dir/Projectile.cpp.obj
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\core.dir\link.txt --verbose=$(VERBOSE)
 

@@ -6,8 +6,15 @@
 #include "../Swordman.cpp"
 
 TEST(Swordman, DefaultConstructor) {
-    Swordman c;
-    ASSERT_EQ(0, c.getPosY());
-    ASSERT_EQ(3,c.getHp());
-    ASSERT_FALSE(c.isShielded1());
+    Swordman s;
+    ASSERT_EQ(0, s.getPosY());
+    ASSERT_EQ(3,s.getHp());
+    ASSERT_FALSE(s.isShielded1());
+}
+
+TEST(Swordman, Jump){
+    Swordman s;
+    s.jump();
+    ASSERT_EQ(JUMP_FORCE,s.getYVelocity());
+    ASSERT_EQ(0,s.getMovementClock().getElapsedTime().asSeconds());
 }

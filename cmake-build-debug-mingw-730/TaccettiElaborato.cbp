@@ -293,11 +293,11 @@
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfigther.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.cpp">
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfigther.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h">
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
 		</Unit>
@@ -306,6 +306,14 @@
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.cpp">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h">
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
 		</Unit>
@@ -320,6 +328,9 @@
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/main.cpp">
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/GameTest.cpp">
+			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/GunfighterTest.cpp">
 			<Option target="runAllTests"/>

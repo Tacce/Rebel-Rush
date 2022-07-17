@@ -12,7 +12,7 @@ GameCharacter::GameCharacter(float y): isShielded(false), posY(y), yVelocity(0),
 }
 
 void GameCharacter::jump() {
-    if(yVelocity>0) {
+    if(yVelocity>=0) {
         movementClock.restart();
         yVelocity = JUMP_FORCE;
     }
@@ -25,12 +25,12 @@ void GameCharacter::receiveDamage() {
         hp--;
 }
 
-void GameCharacter::draw(std::shared_ptr<RenderWindow> & window) {
+void GameCharacter::characterDraw(std::shared_ptr<RenderWindow> & window) {
     sprite.setPosition(PLAYER_POSX, posY);
     window->draw(sprite);
 }
 
-void GameCharacter::update() {
+void GameCharacter::movementeUpdate() {
     if(yVelocity < MAX_YVELOCITY)
         yVelocity += GRAVITY;
     posY += (yVelocity * movementClock.getElapsedTime().asSeconds())/2  ;
@@ -76,6 +76,10 @@ unsigned int GameCharacter::getHp() const {
 
 void GameCharacter::setHp(unsigned int hp) {
     GameCharacter::hp = hp;
+}
+
+const Clock &GameCharacter::getMovementClock() const {
+    return movementClock;
 }
 
 

@@ -129,6 +129,30 @@ runAllTests/fast:
 	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/build
 .PHONY : runAllTests/fast
 
+GameTest.obj: GameTest.cpp.obj
+.PHONY : GameTest.obj
+
+# target to build an object file
+GameTest.cpp.obj:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/GameTest.cpp.obj
+.PHONY : GameTest.cpp.obj
+
+GameTest.i: GameTest.cpp.i
+.PHONY : GameTest.i
+
+# target to preprocess a source file
+GameTest.cpp.i:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/GameTest.cpp.i
+.PHONY : GameTest.cpp.i
+
+GameTest.s: GameTest.cpp.s
+.PHONY : GameTest.s
+
+# target to generate assembly for a file
+GameTest.cpp.s:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/GameTest.cpp.s
+.PHONY : GameTest.cpp.s
+
 GunfighterTest.obj: GunfighterTest.cpp.obj
 .PHONY : GunfighterTest.obj
 
@@ -210,6 +234,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... runAllTests
+	@echo ... GameTest.obj
+	@echo ... GameTest.i
+	@echo ... GameTest.s
 	@echo ... GunfighterTest.obj
 	@echo ... GunfighterTest.i
 	@echo ... GunfighterTest.s

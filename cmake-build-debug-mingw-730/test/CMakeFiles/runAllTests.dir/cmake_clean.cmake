@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/runAllTests.dir/GameTest.cpp.obj"
   "CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj"
   "CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj"
   "CMakeFiles/runAllTests.dir/runAllTests.cpp.obj"

@@ -8,7 +8,7 @@
 Game::Game(const int role) : score(0), isGameOvered(false), phase(0){
     window = std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Escape from Hazotic City");
     if(role==0)
-        player = std::make_shared<Gunfigther>();
+        player = std::make_shared<Gunfighter>();
     else if(role==1)
         player = std::make_shared<Swordman>();
     map = std::make_unique<Map>(player);

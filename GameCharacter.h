@@ -16,9 +16,10 @@ public:
     virtual ~GameCharacter() = default;
     virtual void attack()=0;
     virtual void jump();
+    virtual void draw(std::shared_ptr<RenderWindow> & window)=0;
+    virtual void update() = 0;
     virtual void receiveDamage();
-    virtual void draw(std::shared_ptr<RenderWindow> & window);
-    virtual void update();
+
     virtual Rect<float> getGlobalBounds() const;
 
     bool isShielded1() const;
@@ -29,16 +30,20 @@ public:
     void setYVelocity(float yVelocity);
     unsigned int getHp() const;
     void setHp(unsigned int hp);
-
+    const Clock &getMovementClock() const;
 
 
 protected:
+    virtual void movementeUpdate();
+    virtual void characterDraw(std::shared_ptr<RenderWindow> & window);
+
     bool isShielded;
     float posY;
     float yVelocity;
     unsigned int hp;
     RectangleShape sprite;
     Clock movementClock;
+
 };
 
 

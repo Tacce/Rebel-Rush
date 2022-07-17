@@ -4,10 +4,8 @@
 
 #include "Map.h"
 
-#include <utility>
 
-Map::Map(std::shared_ptr<GameCharacter> player1) {
-    player=std::move(player1);
+Map::Map(std::shared_ptr<GameCharacter> player1):player(std::move(player1)) {
 }
 
 void Map::draw(const std::shared_ptr<RenderWindow>& window) {

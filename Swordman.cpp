@@ -11,3 +11,11 @@ Swordman::Swordman() : GameCharacter() {
 void Swordman::attack() {
 
 }
+
+void Swordman::update() {
+    movementeUpdate();
+}
+
+void Swordman::draw(std::shared_ptr<RenderWindow> &window) {
+    characterDraw(const_cast<std::shared_ptr<RenderWindow> &>(window));
+}

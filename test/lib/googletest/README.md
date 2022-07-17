@@ -233,7 +233,7 @@ different locations.
 If you wish to use the Google Test Xcode project with Xcode 4.x and
 above, you need to either:
 
- * update the SDK configuration options in xcode/Config/General.xconfig.
+ * movementeUpdate the SDK configuration options in xcode/Config/General.xconfig.
    Comment options `SDKROOT`, `MACOS_DEPLOYMENT_TARGET`, and `GCC_VERSION`. If
    you choose this route you lose the ability to target earlier versions
    of MacOS X.

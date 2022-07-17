@@ -234,32 +234,32 @@ GameCharacter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GameCharacter.cpp.s
 .PHONY : GameCharacter.cpp.s
 
-Gunfigther.obj: Gunfigther.cpp.obj
-.PHONY : Gunfigther.obj
+Gunfighter.obj: Gunfighter.cpp.obj
+.PHONY : Gunfighter.obj
 
 # target to build an object file
-Gunfigther.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfigther.cpp.obj
-.PHONY : Gunfigther.cpp.obj
+Gunfighter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfighter.cpp.obj
+.PHONY : Gunfighter.cpp.obj
 
-Gunfigther.i: Gunfigther.cpp.i
-.PHONY : Gunfigther.i
+Gunfighter.i: Gunfighter.cpp.i
+.PHONY : Gunfighter.i
 
 # target to preprocess a source file
-Gunfigther.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfigther.cpp.i
-.PHONY : Gunfigther.cpp.i
+Gunfighter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfighter.cpp.i
+.PHONY : Gunfighter.cpp.i
 
-Gunfigther.s: Gunfigther.cpp.s
-.PHONY : Gunfigther.s
+Gunfighter.s: Gunfighter.cpp.s
+.PHONY : Gunfighter.s
 
 # target to generate assembly for a file
-Gunfigther.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfigther.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfigther.cpp.s
-.PHONY : Gunfigther.cpp.s
+Gunfighter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfighter.cpp.s
+.PHONY : Gunfighter.cpp.s
 
 Map.obj: Map.cpp.obj
 .PHONY : Map.obj
@@ -287,6 +287,33 @@ Map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Map.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Map.cpp.s
 .PHONY : Map.cpp.s
+
+Projectile.obj: Projectile.cpp.obj
+.PHONY : Projectile.obj
+
+# target to build an object file
+Projectile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Projectile.cpp.obj
+.PHONY : Projectile.cpp.obj
+
+Projectile.i: Projectile.cpp.i
+.PHONY : Projectile.i
+
+# target to preprocess a source file
+Projectile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Projectile.cpp.i
+.PHONY : Projectile.cpp.i
+
+Projectile.s: Projectile.cpp.s
+.PHONY : Projectile.s
+
+# target to generate assembly for a file
+Projectile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Projectile.cpp.s
+.PHONY : Projectile.cpp.s
 
 Swordman.obj: Swordman.cpp.obj
 .PHONY : Swordman.obj
@@ -361,12 +388,15 @@ help:
 	@echo ... GameCharacter.obj
 	@echo ... GameCharacter.i
 	@echo ... GameCharacter.s
-	@echo ... Gunfigther.obj
-	@echo ... Gunfigther.i
-	@echo ... Gunfigther.s
+	@echo ... Gunfighter.obj
+	@echo ... Gunfighter.i
+	@echo ... Gunfighter.s
 	@echo ... Map.obj
 	@echo ... Map.i
 	@echo ... Map.s
+	@echo ... Projectile.obj
+	@echo ... Projectile.i
+	@echo ... Projectile.s
 	@echo ... Swordman.obj
 	@echo ... Swordman.i
 	@echo ... Swordman.s

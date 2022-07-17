@@ -10,7 +10,7 @@
 #include "Definitions.h"
 #include "Map.h"
 #include "GameCharacter.h"
-#include "Gunfigther.h"
+#include "Gunfighter.h"
 #include "Swordman.h"
 using namespace sf;
 
