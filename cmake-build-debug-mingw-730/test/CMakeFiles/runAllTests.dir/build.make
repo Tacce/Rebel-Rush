@@ -121,12 +121,27 @@ test/CMakeFiles/runAllTests.dir/GameTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/GameTest.cpp.s"
 	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\GameTest.cpp" -o CMakeFiles\runAllTests.dir\GameTest.cpp.s
 
+test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj: test/CMakeFiles/runAllTests.dir/flags.make
+test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj: test/CMakeFiles/runAllTests.dir/includes_CXX.rsp
+test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj: ../test/ProjectileInstersectionFixture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj"
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\runAllTests.dir\ProjectileInstersectionFixture.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\ProjectileInstersectionFixture.cpp"
+
+test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.i"
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\ProjectileInstersectionFixture.cpp" > CMakeFiles\runAllTests.dir\ProjectileInstersectionFixture.cpp.i
+
+test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.s"
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\ProjectileInstersectionFixture.cpp" -o CMakeFiles\runAllTests.dir\ProjectileInstersectionFixture.cpp.s
+
 # Object files for target runAllTests
 runAllTests_OBJECTS = \
 "CMakeFiles/runAllTests.dir/runAllTests.cpp.obj" \
 "CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj" \
 "CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj" \
-"CMakeFiles/runAllTests.dir/GameTest.cpp.obj"
+"CMakeFiles/runAllTests.dir/GameTest.cpp.obj" \
+"CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj"
 
 # External object files for target runAllTests
 runAllTests_EXTERNAL_OBJECTS =
@@ -135,6 +150,7 @@ test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/GameTest.cpp.obj
+test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/build.make
 test/runAllTests.exe: C:/SFML/lib/libsfml-system-s-d.a
 test/runAllTests.exe: C:/SFML/lib/libsfml-window-s-d.a
@@ -160,7 +176,7 @@ test/runAllTests.exe: test/lib/googletest/libgtestd.a
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/linklibs.rsp
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/objects1.rsp
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runAllTests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable runAllTests.exe"
 	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\runAllTests.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

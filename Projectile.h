@@ -15,12 +15,16 @@ public:
     explicit Projectile(float posY=0);
     void update();
     void draw(std::shared_ptr<RenderWindow> & window);
+    Rect<float> getGlobalBounds() const;
+
     float getPosX() const;
+    void setPosX(float posX);
+    float getPosY() const;
+    void setPosY(float posY);
 
 private:
     RectangleShape sprite;
     float posX,posY;
-
 };
 
 

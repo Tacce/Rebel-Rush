@@ -177,6 +177,30 @@ GunfighterTest.cpp.s:
 	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.s
 .PHONY : GunfighterTest.cpp.s
 
+ProjectileInstersectionFixture.obj: ProjectileInstersectionFixture.cpp.obj
+.PHONY : ProjectileInstersectionFixture.obj
+
+# target to build an object file
+ProjectileInstersectionFixture.cpp.obj:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj
+.PHONY : ProjectileInstersectionFixture.cpp.obj
+
+ProjectileInstersectionFixture.i: ProjectileInstersectionFixture.cpp.i
+.PHONY : ProjectileInstersectionFixture.i
+
+# target to preprocess a source file
+ProjectileInstersectionFixture.cpp.i:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.i
+.PHONY : ProjectileInstersectionFixture.cpp.i
+
+ProjectileInstersectionFixture.s: ProjectileInstersectionFixture.cpp.s
+.PHONY : ProjectileInstersectionFixture.s
+
+# target to generate assembly for a file
+ProjectileInstersectionFixture.cpp.s:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.s
+.PHONY : ProjectileInstersectionFixture.cpp.s
+
 SwordamanTest.obj: SwordamanTest.cpp.obj
 .PHONY : SwordamanTest.obj
 
@@ -240,6 +264,9 @@ help:
 	@echo ... GunfighterTest.obj
 	@echo ... GunfighterTest.i
 	@echo ... GunfighterTest.s
+	@echo ... ProjectileInstersectionFixture.obj
+	@echo ... ProjectileInstersectionFixture.i
+	@echo ... ProjectileInstersectionFixture.s
 	@echo ... SwordamanTest.obj
 	@echo ... SwordamanTest.i
 	@echo ... SwordamanTest.s

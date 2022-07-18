@@ -16,7 +16,7 @@ public:
     void update() override;
     void draw(std::shared_ptr<RenderWindow> &window) override;
     void attack() override{};
-
+    bool handleEnemyCollision(GameCharacter *enemy) override{return false;};
 
 private:
     float xVelocity;

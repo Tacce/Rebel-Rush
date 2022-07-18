@@ -28,9 +28,9 @@ void Game::handleEvent() {
     while (window->pollEvent(event)) {
         if (event.type == Event::Closed)
             window->close();
-        if(Keyboard::isKeyPressed(Keyboard::W))
+        if(Keyboard::isKeyPressed(Keyboard::W) || Keyboard::isKeyPressed(Keyboard::Space))
             player->jump();
-        if(Mouse::isButtonPressed(sf::Mouse::Left))
+        if(Mouse::isButtonPressed(sf::Mouse::Left) || Keyboard::isKeyPressed(Keyboard::D))
             player->attack();
     }
 }

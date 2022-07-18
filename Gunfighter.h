@@ -19,10 +19,11 @@ public:
     void attack() override;
     void update() override;
     void draw(std::shared_ptr<RenderWindow> & window) override;
+    bool handleEnemyCollision(GameCharacter *enemy) override;
 
+    void setProjectiles(const std::vector<Projectile> &projectiles);
     const std::vector<Projectile> &getProjectiles() const;
     int getShootingCooldown() const;
-
 private:
     std::vector<Projectile> projectiles;
     int shootingCooldown;

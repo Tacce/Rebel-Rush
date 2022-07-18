@@ -19,3 +19,7 @@ void Swordman::update() {
 void Swordman::draw(std::shared_ptr<RenderWindow> &window) {
     characterDraw(const_cast<std::shared_ptr<RenderWindow> &>(window));
 }
+
+bool Swordman::handleEnemyCollision(GameCharacter *enemy) {
+    return false;
+}

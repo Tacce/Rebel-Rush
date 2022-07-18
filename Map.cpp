@@ -20,10 +20,34 @@ void Map::update() {
         enemiesSpawnCoolDown=0;
         enemies.emplace_back();
     }
-    for (size_t j=0; j<enemies.size();j++){
+    for (size_t j=0; j<enemies.size();j++) {
         enemies[j].update();
-        if(enemies[j].getPosX()<-ENEMY_DIMENSIONS)
-            enemies.erase(enemies.begin()+j);
+        if(player->handleEnemyCollision(&(enemies[j])) || enemies[j].getPosX() < -ENEMY_DIMENSIONS)
+            enemies.erase(enemies.begin() + j);
     }
     enemiesSpawnCoolDown++;
+}
+
+const std::shared_ptr<GameCharacter> &Map::getPlayer() const {
+    return player;
+}
+
+void Map::setPlayer(const std::shared_ptr<GameCharacter> &player) {
+    Map::player = player;
+}
+
+const std::vector<Enemy> &Map::getEnemies() const {
+    return enemies;
+}
+
+void Map::setEnemies(const std::vector<Enemy> &enemies) {
+    Map::enemies = enemies;
+}
+
+int Map::getEnemiesSpawnCoolDown() const {
+    return enemiesSpawnCoolDown;
+}
+
+void Map::setEnemiesSpawnCoolDown(int enemiesSpawnCoolDown) {
+    Map::enemiesSpawnCoolDown = enemiesSpawnCoolDown;
 }

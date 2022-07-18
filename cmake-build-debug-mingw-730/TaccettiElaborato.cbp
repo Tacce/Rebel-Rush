@@ -343,6 +343,9 @@
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/GunfighterTest.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/ProjectileInstersectionFixture.cpp">
+			<Option target="runAllTests"/>
+		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordamanTest.cpp">
 			<Option target="runAllTests"/>
 		</Unit>

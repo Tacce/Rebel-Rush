@@ -19,10 +19,18 @@ public:
     void draw(const std::shared_ptr<RenderWindow>& window);
     void update();
 
+    const std::shared_ptr<GameCharacter> &getPlayer() const;
+    void setPlayer(const std::shared_ptr<GameCharacter> &player);
+    const std::vector<Enemy> &getEnemies() const;
+    void setEnemies(const std::vector<Enemy> &enemies);
+    int getEnemiesSpawnCoolDown() const;
+    void setEnemiesSpawnCoolDown(int enemiesSpawnCoolDown);
+
 private:
     std::shared_ptr<GameCharacter> player;
     std::vector<Enemy> enemies;
     int enemiesSpawnCoolDown;
+
 };
 
 

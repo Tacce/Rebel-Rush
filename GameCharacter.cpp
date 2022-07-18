@@ -26,7 +26,6 @@ void GameCharacter::receiveDamage() {
 }
 
 void GameCharacter::characterDraw(std::shared_ptr<RenderWindow> & window) {
-    sprite.setPosition(posX, posY);
     window->draw(sprite);
 }
 
@@ -40,6 +39,7 @@ void GameCharacter::movementeUpdate() {
         posY = 0;
         yVelocity=0;
     }
+    sprite.setPosition(posX, posY);
 }
 
 Rect<float> GameCharacter::getGlobalBounds() const{

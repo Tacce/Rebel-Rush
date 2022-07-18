@@ -33,11 +33,36 @@ void Gunfighter::draw(std::shared_ptr<RenderWindow> &window) {
         projectile.draw(window);
 }
 
-int Gunfighter::getShootingCooldown() const {
-    return shootingCooldown;
+
+bool Gunfighter::handleEnemyCollision(GameCharacter *enemy) {
+    bool killed=false;
+    if(enemy->getGlobalBounds().intersects(this->getGlobalBounds())){
+        killed= true;
+        this->receiveDamage();
+    }
+    size_t j=0;
+    while(j<projectiles.size() && !killed) {
+        if(projectiles[j].getGlobalBounds().intersects(enemy->getGlobalBounds())) {
+            projectiles.erase(projectiles.begin() + j);
+            enemy->receiveDamage();
+        }
+        if(enemy->getHp()>0)
+            j++;
+        else
+            killed = true;
+    }
+    return killed;
+}
+
+void Gunfighter::setProjectiles(const std::vector<Projectile> &projectiles) {
+    Gunfighter::projectiles = projectiles;
 }
 
 const std::vector<Projectile> &Gunfighter::getProjectiles() const {
     return projectiles;
+}
+
+int Gunfighter::getShootingCooldown() const {
+    return shootingCooldown;
 }
 

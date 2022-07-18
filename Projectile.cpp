@@ -13,13 +13,29 @@ Projectile::Projectile(float y):posX(PLAYER_POSX),posY(y+PLAYER_DIMENSIONS/3.0){
 
 void Projectile::update() {
     posX = posX + PROJECTILE_SPEED;
+    sprite.setPosition(Vector2f(posX,posY));
 }
 
 void Projectile::draw(std::shared_ptr<RenderWindow> &window) {
-    sprite.setPosition(Vector2f(posX,posY));
     window->draw(sprite);
+}
+
+Rect<float> Projectile::getGlobalBounds() const {
+    return sprite.getGlobalBounds();
 }
 
 float Projectile::getPosX() const {
     return posX;
+}
+
+void Projectile::setPosX(float posX) {
+    Projectile::posX = posX;
+}
+
+float Projectile::getPosY() const {
+    return posY;
+}
+
+void Projectile::setPosY(float posY) {
+    Projectile::posY = posY;
 }

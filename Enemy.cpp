@@ -5,7 +5,6 @@
 #include "Enemy.h"
 
 Enemy::Enemy(unsigned int hp, float vel): GameCharacter((rand()%(SCREEN_HEIGHT-ENEMY_DIMENSIONS)),hp,SCREEN_WIDTH),xVelocity(vel) {
-    sprite.setPosition(Vector2f(posX,posY));
     sprite.setFillColor(Color::Red);
 }
 
@@ -15,4 +14,5 @@ void Enemy::draw(std::shared_ptr<RenderWindow> &window) {
 
 void Enemy::update() {
     posX-=xVelocity;
+    sprite.setPosition(Vector2f(posX,posY));
 }

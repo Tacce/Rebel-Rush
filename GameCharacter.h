@@ -19,8 +19,8 @@ public:
     virtual void draw(std::shared_ptr<RenderWindow> & window)=0;
     virtual void update() = 0;
     virtual void receiveDamage();
-
     virtual Rect<float> getGlobalBounds() const;
+    virtual bool handleEnemyCollision(GameCharacter* enemy)=0;
 
     bool isShielded1() const;
     void setIsShielded(bool isShielded);
