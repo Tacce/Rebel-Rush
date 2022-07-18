@@ -4,8 +4,8 @@
 
 #include "GameCharacter.h"
 
-GameCharacter::GameCharacter(float y): isShielded(false), posY(y), yVelocity(0), hp(3) {
-    sprite.setPosition(Vector2f(PLAYER_POSX,posY));
+GameCharacter::GameCharacter(float y,unsigned int hp, float x): isShielded(false), posY(y), yVelocity(0), hp(hp), posX(x) {
+    sprite.setPosition(Vector2f(posX,posY));
     //Rectangular shape is a placeholder
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
     sprite.setFillColor(Color::Green);
@@ -26,7 +26,7 @@ void GameCharacter::receiveDamage() {
 }
 
 void GameCharacter::characterDraw(std::shared_ptr<RenderWindow> & window) {
-    sprite.setPosition(PLAYER_POSX, posY);
+    sprite.setPosition(posX, posY);
     window->draw(sprite);
 }
 
@@ -80,6 +80,14 @@ void GameCharacter::setHp(unsigned int hp) {
 
 const Clock &GameCharacter::getMovementClock() const {
     return movementClock;
+}
+
+float GameCharacter::getPosX() const {
+    return posX;
+}
+
+void GameCharacter::setPosX(float posX) {
+    GameCharacter::posX = posX;
 }
 
 

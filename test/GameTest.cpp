@@ -4,9 +4,15 @@
 
 #include "gtest/gtest.h"
 #include "../Game.h"
-//#include "../Game.cpp"
+#include "../Game.cpp"
+#include "../Map.cpp"
+#include "../Enemy.cpp"
 
-/*TEST(Game,Run){
+TEST(Game,GameOver){
     Game g;
-    g.player->receiveDamage();
-}*/
+    g.getPlayer()->setHp(3);
+    ASSERT_FALSE(g.isGameOvered1());
+    g.getPlayer()->setHp(0);
+    g.update();
+    ASSERT_TRUE(g.isGameOvered1());
+}

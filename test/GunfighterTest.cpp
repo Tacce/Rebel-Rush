@@ -18,7 +18,7 @@ TEST(Gunfighter, Jump){
     Gunfighter g;
     g.jump();
     ASSERT_EQ(JUMP_FORCE,g.getYVelocity());
-    ASSERT_EQ(0,g.getMovementClock().getElapsedTime().asSeconds());
+    ASSERT_FLOAT_EQ(0,g.getMovementClock().getElapsedTime().asSeconds());
 }
 
 TEST(Gunfighter,Attack){

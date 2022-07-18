@@ -10,6 +10,7 @@
 #include "GameCharacter.h"
 #include "Gunfighter.h"
 #include "Swordman.h"
+#include "Enemy.h"
 using namespace sf;
 
 class Map {
@@ -20,6 +21,8 @@ public:
 
 private:
     std::shared_ptr<GameCharacter> player;
+    std::vector<Enemy> enemies;
+    int enemiesSpawnCoolDown;
 };
 
 

@@ -14,8 +14,7 @@ Game::Game(const int role) : score(0), isGameOvered(false), phase(0){
     map = std::make_unique<Map>(player);
 }
 
-Game::~Game() {
-}
+Game::~Game() = default;
 
 void Game::run() {
     while (window->isOpen()){
@@ -31,13 +30,13 @@ void Game::handleEvent() {
             window->close();
         if(Keyboard::isKeyPressed(Keyboard::W))
             player->jump();
-        if(Keyboard::isKeyPressed(Keyboard::D))
+        if(Mouse::isButtonPressed(sf::Mouse::Left))
             player->attack();
     }
 }
 
 void Game::update() {
-    if(player->getHp() < 0)
+    if(player->getHp() <= 0)
         isGameOvered= true;
     if(!isGameOvered)
         map->update();
@@ -47,6 +46,18 @@ void Game::draw() {
     window->clear();
     map->draw(window);
     window->display();
+}
+
+const std::shared_ptr<GameCharacter> &Game::getPlayer() const {
+    return player;
+}
+
+const std::shared_ptr<RenderWindow> &Game::getWindow() const {
+    return window;
+}
+
+bool Game::isGameOvered1() const {
+    return isGameOvered;
 }
 
 

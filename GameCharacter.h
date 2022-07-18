@@ -12,7 +12,7 @@ using namespace sf;
 
 class GameCharacter {
 public:
-    explicit GameCharacter(float y=0);
+    explicit GameCharacter(float y=0, unsigned int hp=3, float x=PLAYER_POSX);
     virtual ~GameCharacter() = default;
     virtual void attack()=0;
     virtual void jump();
@@ -31,6 +31,8 @@ public:
     unsigned int getHp() const;
     void setHp(unsigned int hp);
     const Clock &getMovementClock() const;
+    float getPosX() const;
+    void setPosX(float posX);
 
 
 protected:
@@ -39,6 +41,7 @@ protected:
 
     bool isShielded;
     float posY;
+    float posX;
     float yVelocity;
     unsigned int hp;
     RectangleShape sprite;

@@ -19,11 +19,16 @@ public:
     explicit Game(int role=0);
     virtual ~Game();
     virtual void run();
+    virtual void update();
+
+    const std::shared_ptr<GameCharacter> &getPlayer() const;
+    const std::shared_ptr<RenderWindow> &getWindow() const;
+    bool isGameOvered1() const;
+
 
 private:
     virtual void handleEvent();
     virtual void draw();
-    virtual void update();
 
 
     std::shared_ptr<RenderWindow> window;

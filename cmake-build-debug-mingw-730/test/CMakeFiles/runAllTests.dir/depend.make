@@ -99,9 +99,13 @@ test/CMakeFiles/runAllTests.dir/GameTest.cpp.obj: \
  C:/SFML/include/SFML/Window/WindowHandle.hpp \
  C:/SFML/include/SFML/Window/WindowStyle.hpp \
  ../Definitions.h \
+ ../Enemy.cpp \
+ ../Enemy.h \
+ ../Game.cpp \
  ../Game.h \
  ../GameCharacter.h \
  ../Gunfighter.h \
+ ../Map.cpp \
  ../Map.h \
  ../Projectile.h \
  ../Swordman.h \

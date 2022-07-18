@@ -16,5 +16,5 @@ TEST(Swordman, Jump){
     Swordman s;
     s.jump();
     ASSERT_EQ(JUMP_FORCE,s.getYVelocity());
-    ASSERT_EQ(0,s.getMovementClock().getElapsedTime().asSeconds());
+    ASSERT_FLOAT_EQ(0,s.getMovementClock().getElapsedTime().asSeconds());
 }
