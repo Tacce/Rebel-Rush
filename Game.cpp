@@ -30,7 +30,7 @@ void Game::handleEvent() {
             window->close();
         if(Keyboard::isKeyPressed(Keyboard::W) || Keyboard::isKeyPressed(Keyboard::Space))
             player->jump();
-        if(Mouse::isButtonPressed(sf::Mouse::Left) || Keyboard::isKeyPressed(Keyboard::D))
+        if((Mouse::isButtonPressed(sf::Mouse::Left) || Keyboard::isKeyPressed(Keyboard::D)) && !isGameOvered)
             player->attack();
     }
 }

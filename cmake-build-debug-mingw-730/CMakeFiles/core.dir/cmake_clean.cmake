@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/core.dir/Gunfighter.cpp.obj"
   "CMakeFiles/core.dir/Map.cpp.obj"
   "CMakeFiles/core.dir/Projectile.cpp.obj"
+  "CMakeFiles/core.dir/Sword.cpp.obj"
   "CMakeFiles/core.dir/Swordman.cpp.obj"
   "CMakeFiles/core.dir/main.cpp.obj"
   "libcore.a"

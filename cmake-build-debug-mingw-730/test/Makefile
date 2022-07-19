@@ -201,6 +201,30 @@ ProjectileInstersectionFixture.cpp.s:
 	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.s
 .PHONY : ProjectileInstersectionFixture.cpp.s
 
+SwordIntersectionFixture.obj: SwordIntersectionFixture.cpp.obj
+.PHONY : SwordIntersectionFixture.obj
+
+# target to build an object file
+SwordIntersectionFixture.cpp.obj:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordIntersectionFixture.cpp.obj
+.PHONY : SwordIntersectionFixture.cpp.obj
+
+SwordIntersectionFixture.i: SwordIntersectionFixture.cpp.i
+.PHONY : SwordIntersectionFixture.i
+
+# target to preprocess a source file
+SwordIntersectionFixture.cpp.i:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordIntersectionFixture.cpp.i
+.PHONY : SwordIntersectionFixture.cpp.i
+
+SwordIntersectionFixture.s: SwordIntersectionFixture.cpp.s
+.PHONY : SwordIntersectionFixture.s
+
+# target to generate assembly for a file
+SwordIntersectionFixture.cpp.s:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordIntersectionFixture.cpp.s
+.PHONY : SwordIntersectionFixture.cpp.s
+
 SwordamanTest.obj: SwordamanTest.cpp.obj
 .PHONY : SwordamanTest.obj
 
@@ -267,6 +291,9 @@ help:
 	@echo ... ProjectileInstersectionFixture.obj
 	@echo ... ProjectileInstersectionFixture.i
 	@echo ... ProjectileInstersectionFixture.s
+	@echo ... SwordIntersectionFixture.obj
+	@echo ... SwordIntersectionFixture.i
+	@echo ... SwordIntersectionFixture.s
 	@echo ... SwordamanTest.obj
 	@echo ... SwordamanTest.i
 	@echo ... SwordamanTest.s

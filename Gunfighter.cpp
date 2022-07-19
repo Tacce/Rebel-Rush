@@ -37,7 +37,7 @@ void Gunfighter::draw(std::shared_ptr<RenderWindow> &window) {
 bool Gunfighter::handleEnemyCollision(GameCharacter *enemy) {
     bool killed=false;
     if(enemy->getGlobalBounds().intersects(this->getGlobalBounds())){
-        killed= true;
+        killed=true;
         this->receiveDamage();
     }
     size_t j=0;
@@ -49,7 +49,7 @@ bool Gunfighter::handleEnemyCollision(GameCharacter *enemy) {
         if(enemy->getHp()>0)
             j++;
         else
-            killed = true;
+            killed=true;
     }
     return killed;
 }

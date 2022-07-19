@@ -9,6 +9,7 @@
 #include "Definitions.h"
 #include <memory>
 #include "GameCharacter.h"
+#include "Sword.h"
 using namespace sf;
 
 class Swordman: public GameCharacter{
@@ -19,10 +20,15 @@ public:
     void update() override;
     void draw(std::shared_ptr<RenderWindow> & window) override;
     bool handleEnemyCollision(GameCharacter *enemy) override;
-
+    int getSwordCoolDown() const;
+    void setSwordCoolDown(int swordCoolDown);
+    bool isAttacking1() const;
+    void setIsAttacking(bool isAttacking);
 
 private:
-
+    Sword sword;
+    bool isAttacking;
+    int swordCoolDown;
 };
 
 

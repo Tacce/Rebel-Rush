@@ -7,6 +7,9 @@ using namespace sf;
 
 int main(){
     srand(time(NULL));
-    Game game;
+    int a=1;
+    //std::cout << "PRESS 0 PLAY AS GUNFIGHTER OR PRESS 1 PLAY AS SWORDMAN" << std::endl;
+    //std::cin >> a;
+    Game game(a);
     game.run();
 }

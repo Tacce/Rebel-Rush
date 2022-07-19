@@ -177,6 +177,20 @@ CMakeFiles/core.dir/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Enemy.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Enemy.cpp" -o CMakeFiles\core.dir\Enemy.cpp.s
 
+CMakeFiles/core.dir/Sword.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Sword.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/Sword.cpp.obj: ../Sword.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/core.dir/Sword.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Sword.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Sword.cpp"
+
+CMakeFiles/core.dir/Sword.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Sword.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Sword.cpp" > CMakeFiles\core.dir\Sword.cpp.i
+
+CMakeFiles/core.dir/Sword.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Sword.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Sword.cpp" -o CMakeFiles\core.dir\Sword.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/main.cpp.obj" \
@@ -186,7 +200,8 @@ core_OBJECTS = \
 "CMakeFiles/core.dir/Swordman.cpp.obj" \
 "CMakeFiles/core.dir/Map.cpp.obj" \
 "CMakeFiles/core.dir/Projectile.cpp.obj" \
-"CMakeFiles/core.dir/Enemy.cpp.obj"
+"CMakeFiles/core.dir/Enemy.cpp.obj" \
+"CMakeFiles/core.dir/Sword.cpp.obj"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -199,9 +214,10 @@ libcore.a: CMakeFiles/core.dir/Swordman.cpp.obj
 libcore.a: CMakeFiles/core.dir/Map.cpp.obj
 libcore.a: CMakeFiles/core.dir/Projectile.cpp.obj
 libcore.a: CMakeFiles/core.dir/Enemy.cpp.obj
+libcore.a: CMakeFiles/core.dir/Sword.cpp.obj
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\core.dir\link.txt --verbose=$(VERBOSE)
 

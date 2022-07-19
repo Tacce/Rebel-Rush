@@ -4,6 +4,7 @@
 #include "gtest/gtest.h"
 #include "../Swordman.h"
 #include "../Swordman.cpp"
+#include "../Sword.cpp"
 
 TEST(Swordman, DefaultConstructor) {
     Swordman s;
@@ -17,4 +18,13 @@ TEST(Swordman, Jump){
     s.jump();
     ASSERT_EQ(JUMP_FORCE,s.getYVelocity());
     ASSERT_FLOAT_EQ(0,s.getMovementClock().getElapsedTime().asSeconds());
+}
+
+TEST(Swordman,Attack){
+    Swordman s;
+    s.attack();
+    ASSERT_TRUE(s.isAttacking1());
+    s.setSwordCoolDown(SWORD_COOLDOWN);
+    s.update();
+    ASSERT_FALSE(s.isAttacking1());
 }

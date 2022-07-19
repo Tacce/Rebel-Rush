@@ -342,6 +342,33 @@ Projectile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Projectile.cpp.s
 .PHONY : Projectile.cpp.s
 
+Sword.obj: Sword.cpp.obj
+.PHONY : Sword.obj
+
+# target to build an object file
+Sword.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Sword.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Sword.cpp.obj
+.PHONY : Sword.cpp.obj
+
+Sword.i: Sword.cpp.i
+.PHONY : Sword.i
+
+# target to preprocess a source file
+Sword.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Sword.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Sword.cpp.i
+.PHONY : Sword.cpp.i
+
+Sword.s: Sword.cpp.s
+.PHONY : Sword.s
+
+# target to generate assembly for a file
+Sword.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Sword.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Sword.cpp.s
+.PHONY : Sword.cpp.s
+
 Swordman.obj: Swordman.cpp.obj
 .PHONY : Swordman.obj
 
@@ -427,6 +454,9 @@ help:
 	@echo ... Projectile.obj
 	@echo ... Projectile.i
 	@echo ... Projectile.s
+	@echo ... Sword.obj
+	@echo ... Sword.i
+	@echo ... Sword.s
 	@echo ... Swordman.obj
 	@echo ... Swordman.i
 	@echo ... Swordman.s
