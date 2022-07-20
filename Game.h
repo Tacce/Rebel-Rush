@@ -35,9 +35,11 @@ private:
     Event event{};
     std::shared_ptr<GameCharacter> player;
     std::unique_ptr<Map> map;
-    int score;
-    int phase;
+    unsigned int phase;
     bool isGameOvered;
+
+    Font font;
+    Text scoreText;
 };
 
 

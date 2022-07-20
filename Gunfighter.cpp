@@ -25,6 +25,7 @@ void Gunfighter::update() {
             projectiles.erase(projectiles.begin()+i);
     }
     shootingCooldown++;
+    score+=POINTS_FOR_FRAME;
 }
 
 void Gunfighter::draw(std::shared_ptr<RenderWindow> &window) {
@@ -48,9 +49,12 @@ bool Gunfighter::handleEnemyCollision(GameCharacter *enemy) {
         }
         if(enemy->getHp()>0)
             j++;
-        else
+        else{
             killed=true;
+            score += POINTS_MULTIPLIER * (enemy->getMaxHp());
+        }
     }
+
     return killed;
 }
 

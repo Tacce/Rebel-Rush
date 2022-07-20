@@ -4,7 +4,8 @@
 
 #include "GameCharacter.h"
 
-GameCharacter::GameCharacter(float y,unsigned int hp, float x): isShielded(false), posY(y), yVelocity(0), hp(hp), posX(x) {
+GameCharacter::GameCharacter(float y,unsigned int hp, float x): isShielded(false), posY(y), yVelocity(0), hp(hp),maxHp(hp),
+posX(x), score(0) {
     sprite.setPosition(Vector2f(posX,posY));
     //Rectangular shape is a placeholder
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
@@ -88,6 +89,22 @@ float GameCharacter::getPosX() const {
 
 void GameCharacter::setPosX(float posX) {
     GameCharacter::posX = posX;
+}
+
+float GameCharacter::getScore() const {
+    return score;
+}
+
+void GameCharacter::setScore(float score) {
+    GameCharacter::score = score;
+}
+
+unsigned int GameCharacter::getMaxHp() const {
+    return maxHp;
+}
+
+void GameCharacter::setMaxHp(unsigned int maxHp) {
+    GameCharacter::maxHp = maxHp;
 }
 
 

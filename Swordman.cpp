@@ -24,6 +24,7 @@ void Swordman::update() {
         swordCoolDown=0;
         sword.reset();
     }
+    score += POINTS_FOR_FRAME;
 }
 
 void Swordman::draw(std::shared_ptr<RenderWindow> &window) {
@@ -38,8 +39,10 @@ bool Swordman::handleEnemyCollision(GameCharacter *enemy) {
         killed=true;
         this->receiveDamage();
     }
-    if(enemy->getGlobalBounds().intersects(sword.getGlobalBounds()))
+    if(enemy->getGlobalBounds().intersects(sword.getGlobalBounds())){
         killed=true;
+        score += POINTS_MULTIPLIER * (enemy->getMaxHp());
+    }
     return killed;
 }
 

@@ -21,6 +21,7 @@ protected:
         enemies.push_back(e);
         m->setEnemies(enemies);
         m->setEnemiesSpawnCoolDown(0);
+        g->setScore(0);
     }
     Map* m;
     std::shared_ptr<Gunfighter> g = std::make_shared<Gunfighter>();
@@ -38,5 +39,6 @@ TEST_F(ProjectileIntersection, DamageTest){
     ASSERT_EQ(1,g->getProjectiles().size());
     ASSERT_EQ(100 + PROJECTILE_SPEED,g->getProjectiles()[0].getPosX());
     ASSERT_EQ(400,g->getProjectiles()[0].getPosY());
+    ASSERT_FLOAT_EQ(POINTS_MULTIPLIER+ POINTS_FOR_FRAME,g->getScore());
 }
 

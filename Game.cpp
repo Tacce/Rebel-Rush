@@ -5,13 +5,16 @@
 #include "Game.h"
 #include <memory>
 
-Game::Game(const int role) : score(0), isGameOvered(false), phase(0){
+Game::Game(const int role) : isGameOvered(false), phase(0){
     window = std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Escape from Hazotic City");
     if(role==0)
         player = std::make_shared<Gunfighter>();
     else if(role==1)
         player = std::make_shared<Swordman>();
     map = std::make_unique<Map>(player);
+    font.loadFromFile(R"(..\Font\PublicPixel-0W5Kv.ttf)");
+    scoreText.setFont(font);
+    scoreText.setFillColor(Color::White);
 }
 
 Game::~Game() = default;
@@ -40,11 +43,13 @@ void Game::update() {
         isGameOvered= true;
     if(!isGameOvered)
         map->update();
+    scoreText.setString("SCORE:\n"+std::to_string(static_cast<int>(player->getScore())));
 }
 
 void Game::draw() {
     window->clear();
     map->draw(window);
+    window->draw(scoreText);
     window->display();
 }
 

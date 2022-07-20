@@ -16,6 +16,7 @@ protected:
         s->setIsAttacking(true);
         s->setPosX(239);
         s->setPosY(300);
+        s->setScore(0);
     }
     Map* m;
     std::shared_ptr<Swordman> s = std::make_shared<Swordman>();
@@ -31,5 +32,6 @@ TEST_F(SwordIntersection, DamageTest){
     ASSERT_EQ(0,m->getEnemies().size());
     ASSERT_TRUE(s->isAttacking1());
     ASSERT_EQ(3,s->getHp());
+    ASSERT_FLOAT_EQ(POINTS_MULTIPLIER+ POINTS_FOR_FRAME,s->getScore());
 }
 

@@ -5,6 +5,7 @@
 #ifndef TACCETTIELABORATO_GAMECHARACTER_H
 #define TACCETTIELABORATO_GAMECHARACTER_H
 
+
 #include <SFML/Graphics.hpp>
 #include "Definitions.h"
 #include <memory>
@@ -30,10 +31,13 @@ public:
     void setYVelocity(float yVelocity);
     unsigned int getHp() const;
     void setHp(unsigned int hp);
+    unsigned int getMaxHp() const;
+    void setMaxHp(unsigned int maxHp);
     const Clock &getMovementClock() const;
     float getPosX() const;
     void setPosX(float posX);
-
+    float getScore() const;
+    void setScore(float score);
 
 protected:
     virtual void movementeUpdate();
@@ -44,8 +48,10 @@ protected:
     float posX;
     float yVelocity;
     unsigned int hp;
+    unsigned int maxHp;
     RectangleShape sprite;
     Clock movementClock;
+    float score;
 
 };
 

@@ -4,7 +4,7 @@
 
 #include "Enemy.h"
 
-Enemy::Enemy(unsigned int hp, float vel): GameCharacter((rand()%(SCREEN_HEIGHT-ENEMY_DIMENSIONS)),hp,SCREEN_WIDTH),xVelocity(vel) {
+Enemy::Enemy(unsigned int hp, float vel): GameCharacter((rand()%(SCREEN_HEIGHT-ENEMY_DIMENSIONS)),hp,SCREEN_WIDTH),xVelocity(vel){
     sprite.setFillColor(Color::Red);
 }
 
