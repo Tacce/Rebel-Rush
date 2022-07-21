@@ -8,7 +8,7 @@ class ProjectileIntersection : public ::testing::Test {
 protected:
     void SetUp() override {
         Test::SetUp();
-        p1.setPosX(240);
+        p1.setPosX(200);
         p1.setPosY(300);
         p2.setPosX(100);
         p2.setPosY(400);
@@ -35,6 +35,7 @@ TEST_F(ProjectileIntersection, DamageTest){
     ASSERT_EQ(2,g->getProjectiles().size());
     ASSERT_EQ(1,m->getEnemies().size());
     m->update();
+    //The enemy is dead, the projectile that hit him is disappeared and the other projectile moved forward
     ASSERT_EQ(0,m->getEnemies().size());
     ASSERT_EQ(1,g->getProjectiles().size());
     ASSERT_EQ(100 + PROJECTILE_SPEED,g->getProjectiles()[0].getPosX());

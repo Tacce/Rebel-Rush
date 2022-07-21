@@ -25,6 +25,7 @@ TEST(Gunfighter,Attack){
     Gunfighter g;
     g.attack();
     ASSERT_EQ(1,g.getProjectiles().size());
+    //Cannot create another projectile because of the cooldown
     g.attack();
     ASSERT_EQ(1,g.getProjectiles().size());
 }

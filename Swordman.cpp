@@ -29,7 +29,7 @@ void Swordman::update() {
 
 void Swordman::draw(std::shared_ptr<RenderWindow> &window) {
     characterDraw(const_cast<std::shared_ptr<RenderWindow> &>(window));
-    if(isAttacking && swordCoolDown < 200)
+    if(isAttacking && swordCoolDown < SWORD_DRAW_COOLDOWN)
         sword.draw(window);
 }
 

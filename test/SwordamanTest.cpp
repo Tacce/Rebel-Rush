@@ -25,6 +25,7 @@ TEST(Swordman,Attack){
     s.attack();
     ASSERT_TRUE(s.isAttacking1());
     s.setSwordCoolDown(SWORD_COOLDOWN);
+    //After the attack cooldown, the player can attack again
     s.update();
     ASSERT_FALSE(s.isAttacking1());
 }

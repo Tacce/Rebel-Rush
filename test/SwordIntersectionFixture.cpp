@@ -14,7 +14,7 @@ protected:
         m->setEnemies(enemies);
         m->setEnemiesSpawnCoolDown(0);
         s->setIsAttacking(true);
-        s->setPosX(239);
+        s->setPosX(200);
         s->setPosY(300);
         s->setScore(0);
     }
@@ -29,6 +29,7 @@ TEST_F(SwordIntersection, DamageTest){
     ASSERT_EQ(1,m->getEnemies().size());
     ASSERT_EQ(3,s->getHp());
     m->update();
+    //The enemy is dead but the sword is still swinging
     ASSERT_EQ(0,m->getEnemies().size());
     ASSERT_TRUE(s->isAttacking1());
     ASSERT_EQ(3,s->getHp());

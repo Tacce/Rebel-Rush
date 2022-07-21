@@ -7,14 +7,21 @@
 
 Game::Game(const int role) : isGameOvered(false), phase(0){
     window = std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Escape from Hazotic City");
+    window->setFramerateLimit(60);
+
     if(role==0)
         player = std::make_shared<Gunfighter>();
     else if(role==1)
         player = std::make_shared<Swordman>();
     map = std::make_unique<Map>(player);
+
     font.loadFromFile(R"(..\Font\PublicPixel-0W5Kv.ttf)");
     scoreText.setFont(font);
     scoreText.setFillColor(Color::White);
+    gameOverText.setFont(font);
+    gameOverText.setFillColor(Color::Red);
+    gameOverText.setPosition(SCREEN_WIDTH/2.7,SCREEN_HEIGHT/2.7);
+    gameOverText.setString("GAME OVER");
 }
 
 Game::~Game() = default;
@@ -50,6 +57,8 @@ void Game::draw() {
     window->clear();
     map->draw(window);
     window->draw(scoreText);
+    if(isGameOvered)
+        window->draw(gameOverText);
     window->display();
 }
 

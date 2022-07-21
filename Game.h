@@ -40,6 +40,7 @@ private:
 
     Font font;
     Text scoreText;
+    Text gameOverText;
 };
 
 

@@ -12,7 +12,7 @@ Sword::Sword(){
 
 void Sword::update(float x, float y) {
     sprite.setPosition(Vector2f (x,y));
-    sprite.rotate(-0.5);
+    sprite.rotate(-SWORD_ROTATION);
 }
 
 void Sword::draw(std::shared_ptr<RenderWindow> &window) {
