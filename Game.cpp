@@ -5,7 +5,7 @@
 #include "Game.h"
 #include <memory>
 
-Game::Game(const int role) : isGameOvered(false), phase(0){
+Game::Game(const int role) : gameOvered(false), phase(0){
     window = std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Escape from Hazotic City");
     window->setFramerateLimit(60);
 
@@ -40,15 +40,15 @@ void Game::handleEvent() {
             window->close();
         if(Keyboard::isKeyPressed(Keyboard::W) || Keyboard::isKeyPressed(Keyboard::Space))
             player->jump();
-        if((Mouse::isButtonPressed(sf::Mouse::Left) || Keyboard::isKeyPressed(Keyboard::D)) && !isGameOvered)
+        if((Mouse::isButtonPressed(sf::Mouse::Left) || Keyboard::isKeyPressed(Keyboard::D)) && !gameOvered)
             player->attack();
     }
 }
 
 void Game::update() {
     if(player->getHp() <= 0)
-        isGameOvered= true;
-    if(!isGameOvered)
+        gameOvered= true;
+    if(!gameOvered)
         map->update();
     scoreText.setString("SCORE:\n"+std::to_string(static_cast<int>(player->getScore())));
 }
@@ -57,7 +57,7 @@ void Game::draw() {
     window->clear();
     map->draw(window);
     window->draw(scoreText);
-    if(isGameOvered)
+    if(gameOvered)
         window->draw(gameOverText);
     window->display();
 }
@@ -70,8 +70,8 @@ const std::shared_ptr<RenderWindow> &Game::getWindow() const {
     return window;
 }
 
-bool Game::isGameOvered1() const {
-    return isGameOvered;
+bool Game::isGameOvered() const {
+    return gameOvered;
 }
 
 

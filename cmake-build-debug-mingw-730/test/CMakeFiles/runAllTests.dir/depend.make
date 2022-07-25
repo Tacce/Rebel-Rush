@@ -107,6 +107,7 @@ test/CMakeFiles/runAllTests.dir/GameTest.cpp.obj: \
  ../Gunfighter.h \
  ../Map.cpp \
  ../Map.h \
+ ../Obstacle.h \
  ../Projectile.h \
  ../Sword.h \
  ../Swordman.h \
@@ -212,6 +213,7 @@ test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj: \
  ../GameCharacter.h \
  ../Gunfighter.cpp \
  ../Gunfighter.h \
+ ../Obstacle.h \
  ../Projectile.cpp \
  ../Projectile.h \
  ../test/GunfighterTest.cpp
@@ -317,6 +319,7 @@ test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj: \
  ../GameCharacter.h \
  ../Gunfighter.h \
  ../Map.h \
+ ../Obstacle.h \
  ../Projectile.h \
  ../Sword.h \
  ../Swordman.h \
@@ -423,11 +426,12 @@ test/CMakeFiles/runAllTests.dir/SwordIntersectionFixture.cpp.obj: \
  ../GameCharacter.h \
  ../Gunfighter.h \
  ../Map.h \
+ ../Obstacle.h \
  ../Projectile.h \
  ../Sword.h \
  ../Swordman.h \
  ../test/SwordIntersectionFixture.cpp
-test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj: \
+test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj: \
  ../test/lib/googletest/include/gtest/gtest-death-test.h \
  ../test/lib/googletest/include/gtest/gtest-message.h \
  ../test/lib/googletest/include/gtest/gtest-param-test.h \
@@ -526,11 +530,12 @@ test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj: \
  C:/SFML/include/SFML/Window/WindowStyle.hpp \
  ../Definitions.h \
  ../GameCharacter.h \
+ ../Obstacle.h \
  ../Sword.cpp \
  ../Sword.h \
  ../Swordman.cpp \
  ../Swordman.h \
- ../test/SwordamanTest.cpp
+ ../test/SwordmanTest.cpp
 test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj: \
  ../test/lib/googletest/include/gtest/gtest-death-test.h \
  ../test/lib/googletest/include/gtest/gtest-message.h \
@@ -631,4 +636,6 @@ test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj: \
  ../Definitions.h \
  ../GameCharacter.cpp \
  ../GameCharacter.h \
+ ../Obstacle.cpp \
+ ../Obstacle.h \
  ../test/runAllTests.cpp

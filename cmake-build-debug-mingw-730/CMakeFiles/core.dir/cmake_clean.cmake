@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/core.dir/GameCharacter.cpp.obj"
   "CMakeFiles/core.dir/Gunfighter.cpp.obj"
   "CMakeFiles/core.dir/Map.cpp.obj"
+  "CMakeFiles/core.dir/Obstacle.cpp.obj"
   "CMakeFiles/core.dir/Projectile.cpp.obj"
   "CMakeFiles/core.dir/Sword.cpp.obj"
   "CMakeFiles/core.dir/Swordman.cpp.obj"

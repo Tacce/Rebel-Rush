@@ -11,6 +11,7 @@
 #include "Gunfighter.h"
 #include "Swordman.h"
 #include "Enemy.h"
+#include "Obstacle.h"
 using namespace sf;
 
 class Map {
@@ -27,9 +28,15 @@ public:
     void setEnemiesSpawnCoolDown(int enemiesSpawnCoolDown);
 
 private:
+    void enemiesUpdate();
+    void obstaclesUpdate();
+
+
     std::shared_ptr<GameCharacter> player;
     std::vector<Enemy> enemies;
+    std::vector<Obstacle> obstacles;
     int enemiesSpawnCoolDown;
+    int obstacleSpawnCoolDown;
 
 };
 

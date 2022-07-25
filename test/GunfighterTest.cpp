@@ -11,14 +11,14 @@ TEST(Gunfighter, DefaultConstructor) {
     ASSERT_EQ(0, g.getPosY());
     ASSERT_EQ(3,g.getHp());
     ASSERT_EQ(PROJECTILE_COOLDOWN, g.getShootingCooldown());
-    ASSERT_FALSE(g.isShielded1());
+    ASSERT_FALSE(g.isShielded());
 }
 
 TEST(Gunfighter, Jump){
     Gunfighter g;
     g.jump();
     ASSERT_EQ(JUMP_FORCE,g.getYVelocity());
-    ASSERT_FLOAT_EQ(0,g.getMovementClock().getElapsedTime().asSeconds());
+    EXPECT_NEAR(0,g.getMovementClock().getElapsedTime().asSeconds(), 0.001);
 }
 
 TEST(Gunfighter,Attack){

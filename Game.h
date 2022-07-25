@@ -23,7 +23,7 @@ public:
 
     const std::shared_ptr<GameCharacter> &getPlayer() const;
     const std::shared_ptr<RenderWindow> &getWindow() const;
-    bool isGameOvered1() const;
+    bool isGameOvered() const;
 
 
 private:
@@ -36,7 +36,7 @@ private:
     std::shared_ptr<GameCharacter> player;
     std::unique_ptr<Map> map;
     unsigned int phase;
-    bool isGameOvered;
+    bool gameOvered;
 
     Font font;
     Text scoreText;

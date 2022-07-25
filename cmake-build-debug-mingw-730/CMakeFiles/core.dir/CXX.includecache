@@ -709,6 +709,8 @@ SFML/Graphics.hpp
 -
 Definitions.h
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+Obstacle.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
 memory
 -
 
@@ -739,6 +741,16 @@ Swordman.h
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
 Enemy.h
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.h
+Obstacle.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
+
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
+SFML/Graphics.hpp
+-
+memory
+-
+Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
 
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
 SFML/Graphics.hpp

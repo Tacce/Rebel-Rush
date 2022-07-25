@@ -6,16 +6,25 @@
 #include "Map.h"
 
 
-Map::Map(std::shared_ptr<GameCharacter> player1):player(std::move(player1)),enemiesSpawnCoolDown(ENEMY_COOLDOWN) {}
+Map::Map(std::shared_ptr<GameCharacter> player1):player(std::move(player1)),enemiesSpawnCoolDown(ENEMY_COOLDOWN),
+obstacleSpawnCoolDown(0) {}
 
 void Map::draw(const std::shared_ptr<RenderWindow>& window) {
     player->draw(const_cast<std::shared_ptr<RenderWindow> &>(window));
     for(auto & enemy : enemies)
         enemy.draw(const_cast<std::shared_ptr<RenderWindow> &>(window));
+    for(auto & obstacle : obstacles)
+        obstacle.draw(const_cast<std::shared_ptr<RenderWindow> &>(window));
 }
 
 void Map::update() {
     player->update();
+    enemiesUpdate();
+    obstaclesUpdate();
+}
+
+
+void Map::enemiesUpdate() {
     if(enemiesSpawnCoolDown>=ENEMY_COOLDOWN){
         enemiesSpawnCoolDown=0;
         enemies.emplace_back();
@@ -26,6 +35,20 @@ void Map::update() {
             enemies.erase(enemies.begin() + j);
     }
     enemiesSpawnCoolDown++;
+}
+
+void Map::obstaclesUpdate() {
+    if(obstacleSpawnCoolDown>=OBSTACLE_COOLDOWN) {
+        obstacleSpawnCoolDown = 0;
+        obstacles.emplace_back();
+    }
+    for (size_t j=0; j<obstacles.size();j++) {
+        obstacles[j].update();
+        player->handleObstacleCollision(obstacles[j]);
+        if(obstacles[j].getPosX() < -OBSTACLE_DIMENSION)
+            obstacles.erase(obstacles.begin() + j);
+    }
+    obstacleSpawnCoolDown++;
 }
 
 const std::shared_ptr<GameCharacter> &Map::getPlayer() const {
@@ -51,3 +74,4 @@ int Map::getEnemiesSpawnCoolDown() const {
 void Map::setEnemiesSpawnCoolDown(int enemiesSpawnCoolDown) {
     Map::enemiesSpawnCoolDown = enemiesSpawnCoolDown;
 }
+

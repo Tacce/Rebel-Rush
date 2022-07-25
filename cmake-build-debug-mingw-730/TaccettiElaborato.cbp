@@ -317,6 +317,14 @@
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
 		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.cpp">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.cpp">
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
@@ -357,7 +365,7 @@
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordIntersectionFixture.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordamanTest.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordmanTest.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/src/gtest-all.cc">

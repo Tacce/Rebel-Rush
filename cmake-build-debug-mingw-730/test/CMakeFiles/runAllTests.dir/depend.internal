@@ -107,6 +107,7 @@ test/CMakeFiles/runAllTests.dir/GameTest.cpp.obj
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.cpp
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
+ C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
@@ -212,6 +213,7 @@ test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.cpp
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
+ C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.cpp
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/GunfighterTest.cpp
@@ -317,6 +319,7 @@ test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
+ C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
@@ -423,11 +426,12 @@ test/CMakeFiles/runAllTests.dir/SwordIntersectionFixture.cpp.obj
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
+ C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordIntersectionFixture.cpp
-test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj
+test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj
  ../test/lib/googletest/include/gtest/gtest-death-test.h
  ../test/lib/googletest/include/gtest/gtest-message.h
  ../test/lib/googletest/include/gtest/gtest-param-test.h
@@ -526,11 +530,12 @@ test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj
  C:/SFML/include/SFML/Window/WindowStyle.hpp
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+ C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.cpp
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.cpp
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
- C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordamanTest.cpp
+ C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordmanTest.cpp
 test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj
  ../test/lib/googletest/include/gtest/gtest-death-test.h
  ../test/lib/googletest/include/gtest/gtest-message.h
@@ -631,4 +636,6 @@ test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.cpp
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+ C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.cpp
+ C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
  C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/runAllTests.cpp

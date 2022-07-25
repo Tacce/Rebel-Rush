@@ -4,23 +4,23 @@
 
 #include "Swordman.h"
 
-Swordman::Swordman() : GameCharacter(), isAttacking(false), swordCoolDown(0) {
+Swordman::Swordman() : GameCharacter(), attacking(false), swordCoolDown(0) {
     sprite.setFillColor(Color::Cyan);
 }
 
 void Swordman::attack() {
     if(swordCoolDown <= SWORD_COOLDOWN)
-        isAttacking=true;
+        attacking=true;
 }
 
 void Swordman::update() {
     movementeUpdate();
-    if(isAttacking) {
+    if(attacking) {
         sword.update(posX + PLAYER_DIMENSIONS / 2, posY + PLAYER_DIMENSIONS / 2);
         swordCoolDown++;
     }
     if(swordCoolDown > SWORD_COOLDOWN ){
-        isAttacking=false;
+        attacking=false;
         swordCoolDown=0;
         sword.reset();
     }
@@ -29,7 +29,7 @@ void Swordman::update() {
 
 void Swordman::draw(std::shared_ptr<RenderWindow> &window) {
     characterDraw(const_cast<std::shared_ptr<RenderWindow> &>(window));
-    if(isAttacking && swordCoolDown < SWORD_DRAW_COOLDOWN)
+    if(attacking && swordCoolDown < SWORD_DRAW_COOLDOWN)
         sword.draw(window);
 }
 
@@ -54,10 +54,10 @@ void Swordman::setSwordCoolDown(int swordCoolDown) {
     Swordman::swordCoolDown = swordCoolDown;
 }
 
-bool Swordman::isAttacking1() const {
-    return isAttacking;
+bool Swordman::isAttacking() const {
+    return attacking;
 }
 
-void Swordman::setIsAttacking(bool isAttacking) {
-    Swordman::isAttacking = isAttacking;
+void Swordman::setAttacking(bool isAttacking) {
+    Swordman::attacking = isAttacking;
 }

@@ -22,12 +22,12 @@ public:
     bool handleEnemyCollision(GameCharacter *enemy) override;
     int getSwordCoolDown() const;
     void setSwordCoolDown(int swordCoolDown);
-    bool isAttacking1() const;
-    void setIsAttacking(bool isAttacking);
+    bool isAttacking() const;
+    void setAttacking(bool isAttacking);
 
 private:
     Sword sword;
-    bool isAttacking;
+    bool attacking;
     int swordCoolDown;
 };
 

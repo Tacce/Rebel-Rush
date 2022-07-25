@@ -315,6 +315,33 @@ Map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Map.cpp.s
 .PHONY : Map.cpp.s
 
+Obstacle.obj: Obstacle.cpp.obj
+.PHONY : Obstacle.obj
+
+# target to build an object file
+Obstacle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Obstacle.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Obstacle.cpp.obj
+.PHONY : Obstacle.cpp.obj
+
+Obstacle.i: Obstacle.cpp.i
+.PHONY : Obstacle.i
+
+# target to preprocess a source file
+Obstacle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Obstacle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Obstacle.cpp.i
+.PHONY : Obstacle.cpp.i
+
+Obstacle.s: Obstacle.cpp.s
+.PHONY : Obstacle.s
+
+# target to generate assembly for a file
+Obstacle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Obstacle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Obstacle.cpp.s
+.PHONY : Obstacle.cpp.s
+
 Projectile.obj: Projectile.cpp.obj
 .PHONY : Projectile.obj
 
@@ -451,6 +478,9 @@ help:
 	@echo ... Map.obj
 	@echo ... Map.i
 	@echo ... Map.s
+	@echo ... Obstacle.obj
+	@echo ... Obstacle.i
+	@echo ... Obstacle.s
 	@echo ... Projectile.obj
 	@echo ... Projectile.i
 	@echo ... Projectile.s

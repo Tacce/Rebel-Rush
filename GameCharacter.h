@@ -8,6 +8,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "Definitions.h"
+#include "Obstacle.h"
 #include <memory>
 using namespace sf;
 
@@ -22,9 +23,10 @@ public:
     virtual void receiveDamage();
     virtual Rect<float> getGlobalBounds() const;
     virtual bool handleEnemyCollision(GameCharacter* enemy)=0;
+    virtual void handleObstacleCollision(Obstacle & obstacle);
 
-    bool isShielded1() const;
-    void setIsShielded(bool isShielded);
+    bool isShielded() const;
+    void setShielded(bool isShielded);
     float getPosY() const;
     void setPosY(float posY);
     float getYVelocity() const;
@@ -43,7 +45,7 @@ protected:
     virtual void movementeUpdate();
     virtual void characterDraw(std::shared_ptr<RenderWindow> & window);
 
-    bool isShielded;
+    bool shielded;
     float posY;
     float posX;
     float yVelocity;

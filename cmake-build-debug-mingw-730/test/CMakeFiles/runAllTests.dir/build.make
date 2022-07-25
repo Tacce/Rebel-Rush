@@ -79,19 +79,19 @@ test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/runAllTests.cpp.s"
 	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\runAllTests.cpp" -o CMakeFiles\runAllTests.dir\runAllTests.cpp.s
 
-test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj: test/CMakeFiles/runAllTests.dir/flags.make
-test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj: test/CMakeFiles/runAllTests.dir/includes_CXX.rsp
-test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj: ../test/SwordamanTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj"
-	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\runAllTests.dir\SwordamanTest.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\SwordamanTest.cpp"
+test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj: test/CMakeFiles/runAllTests.dir/flags.make
+test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj: test/CMakeFiles/runAllTests.dir/includes_CXX.rsp
+test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj: ../test/SwordmanTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj"
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\runAllTests.dir\SwordmanTest.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\SwordmanTest.cpp"
 
-test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/SwordamanTest.cpp.i"
-	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\SwordamanTest.cpp" > CMakeFiles\runAllTests.dir\SwordamanTest.cpp.i
+test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/SwordmanTest.cpp.i"
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\SwordmanTest.cpp" > CMakeFiles\runAllTests.dir\SwordmanTest.cpp.i
 
-test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/SwordamanTest.cpp.s"
-	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\SwordamanTest.cpp" -o CMakeFiles\runAllTests.dir\SwordamanTest.cpp.s
+test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/SwordmanTest.cpp.s"
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2\test && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\test\SwordmanTest.cpp" -o CMakeFiles\runAllTests.dir\SwordmanTest.cpp.s
 
 test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj: test/CMakeFiles/runAllTests.dir/flags.make
 test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj: test/CMakeFiles/runAllTests.dir/includes_CXX.rsp
@@ -152,7 +152,7 @@ test/CMakeFiles/runAllTests.dir/SwordIntersectionFixture.cpp.s: cmake_force
 # Object files for target runAllTests
 runAllTests_OBJECTS = \
 "CMakeFiles/runAllTests.dir/runAllTests.cpp.obj" \
-"CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj" \
+"CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj" \
 "CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj" \
 "CMakeFiles/runAllTests.dir/GameTest.cpp.obj" \
 "CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj" \
@@ -162,7 +162,7 @@ runAllTests_OBJECTS = \
 runAllTests_EXTERNAL_OBJECTS =
 
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj
-test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj
+test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/GameTest.cpp.obj
 test/runAllTests.exe: test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj

@@ -298,6 +298,9 @@ OpenAL_LIB:FILEPATH=C:/SFML/lib/libopenal32.a
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=PYTHON_EXECUTABLE-NOTFOUND
 
+//The directory containing a CMake configuration file for SFML.
+SFML_DIR:PATH=SFML_DIR-NOTFOUND
+
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
 

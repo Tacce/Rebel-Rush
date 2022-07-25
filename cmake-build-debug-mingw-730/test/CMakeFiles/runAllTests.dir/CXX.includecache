@@ -956,42 +956,6 @@ C:/SFML/include/SFML/Window/WindowStyle.hpp
 
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.cpp
-Enemy.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.h
-SFML/Graphics.hpp
--
-Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
-memory
--
-GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.cpp
-Game.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.h
-memory
--
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.h
-SFML/Graphics.hpp
--
-memory
--
-Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
-Map.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
-GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
-Gunfighter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
-Swordman.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
-
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.cpp
 GameCharacter.h
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
@@ -1001,134 +965,22 @@ SFML/Graphics.hpp
 -
 Definitions.h
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+Obstacle.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
 memory
 -
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.cpp
-iostream
--
-Gunfighter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.cpp
+Obstacle.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
-SFML/Graphics.hpp
--
-Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
-memory
--
-GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
-Projectile.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.cpp
-iostream
--
-Map.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
 SFML/Graphics.hpp
 -
 memory
 -
 Definitions.h
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
-GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
-Gunfighter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
-Swordman.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
-Enemy.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.cpp
-iostream
--
-Projectile.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
-SFML/Graphics.hpp
--
-memory
--
-Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.cpp
-Sword.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h
-SFML/Graphics.hpp
--
-memory
--
-Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.cpp
-Swordman.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
-SFML/Graphics.hpp
--
-Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
-memory
--
-GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
-Sword.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/GameTest.cpp
-gtest/gtest.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/gtest/gtest.h
-../Game.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.h
-../Game.cpp
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.cpp
-../Map.cpp
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.cpp
-../Enemy.cpp
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.cpp
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/GunfighterTest.cpp
-gtest/gtest.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/gtest/gtest.h
-../Gunfighter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
-../Gunfighter.cpp
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.cpp
-../Projectile.cpp
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.cpp
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/ProjectileInstersectionFixture.cpp
-gtest/gtest.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/gtest/gtest.h
-../Map.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordIntersectionFixture.cpp
-gtest/gtest.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/gtest/gtest.h
-../Map.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
-
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordamanTest.cpp
-gtest/gtest.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/gtest/gtest.h
-../Swordman.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
-../Swordman.cpp
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.cpp
-../Sword.cpp
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.cpp
 
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/runAllTests.cpp
 gtest/gtest.h
@@ -1137,4 +989,6 @@ SFML/Graphics.hpp
 -
 ../GameCharacter.cpp
 C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.cpp
+../Obstacle.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.cpp
 

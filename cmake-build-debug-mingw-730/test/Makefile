@@ -225,29 +225,29 @@ SwordIntersectionFixture.cpp.s:
 	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordIntersectionFixture.cpp.s
 .PHONY : SwordIntersectionFixture.cpp.s
 
-SwordamanTest.obj: SwordamanTest.cpp.obj
-.PHONY : SwordamanTest.obj
+SwordmanTest.obj: SwordmanTest.cpp.obj
+.PHONY : SwordmanTest.obj
 
 # target to build an object file
-SwordamanTest.cpp.obj:
-	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj
-.PHONY : SwordamanTest.cpp.obj
+SwordmanTest.cpp.obj:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj
+.PHONY : SwordmanTest.cpp.obj
 
-SwordamanTest.i: SwordamanTest.cpp.i
-.PHONY : SwordamanTest.i
+SwordmanTest.i: SwordmanTest.cpp.i
+.PHONY : SwordmanTest.i
 
 # target to preprocess a source file
-SwordamanTest.cpp.i:
-	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.i
-.PHONY : SwordamanTest.cpp.i
+SwordmanTest.cpp.i:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.i
+.PHONY : SwordmanTest.cpp.i
 
-SwordamanTest.s: SwordamanTest.cpp.s
-.PHONY : SwordamanTest.s
+SwordmanTest.s: SwordmanTest.cpp.s
+.PHONY : SwordmanTest.s
 
 # target to generate assembly for a file
-SwordamanTest.cpp.s:
-	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordamanTest.cpp.s
-.PHONY : SwordamanTest.cpp.s
+SwordmanTest.cpp.s:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.s
+.PHONY : SwordmanTest.cpp.s
 
 runAllTests.obj: runAllTests.cpp.obj
 .PHONY : runAllTests.obj
@@ -294,9 +294,9 @@ help:
 	@echo ... SwordIntersectionFixture.obj
 	@echo ... SwordIntersectionFixture.i
 	@echo ... SwordIntersectionFixture.s
-	@echo ... SwordamanTest.obj
-	@echo ... SwordamanTest.i
-	@echo ... SwordamanTest.s
+	@echo ... SwordmanTest.obj
+	@echo ... SwordmanTest.i
+	@echo ... SwordmanTest.s
 	@echo ... runAllTests.obj
 	@echo ... runAllTests.i
 	@echo ... runAllTests.s

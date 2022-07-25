@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj"
   "CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj"
   "CMakeFiles/runAllTests.dir/SwordIntersectionFixture.cpp.obj"
-  "CMakeFiles/runAllTests.dir/SwordamanTest.cpp.obj"
+  "CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj"
   "CMakeFiles/runAllTests.dir/runAllTests.cpp.obj"
   "librunAllTests.dll.a"
   "runAllTests.exe"

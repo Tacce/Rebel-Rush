@@ -4,8 +4,8 @@
 
 #include "GameCharacter.h"
 
-GameCharacter::GameCharacter(float y,unsigned int hp, float x): isShielded(false), posY(y), yVelocity(0), hp(hp),maxHp(hp),
-posX(x), score(0) {
+GameCharacter::GameCharacter(float y,unsigned int hp, float x): shielded(false), posY(y), yVelocity(0), hp(hp), maxHp(hp),
+                                                                posX(x), score(0) {
     sprite.setPosition(Vector2f(posX,posY));
     //Rectangular shape is a placeholder
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
@@ -20,8 +20,8 @@ void GameCharacter::jump() {
 }
 
 void GameCharacter::receiveDamage() {
-    if(isShielded)
-        isShielded = false;
+    if(shielded)
+        shielded = false;
     else
         hp--;
 }
@@ -43,16 +43,22 @@ void GameCharacter::movementeUpdate() {
     sprite.setPosition(posX, posY);
 }
 
+void GameCharacter::handleObstacleCollision(Obstacle &obstacle) {
+    if(obstacle.getUpGlobalBounds().intersects(this->getGlobalBounds()) ||
+    obstacle.getDownGlobalBounds().intersects(this->getGlobalBounds()))
+        receiveDamage();
+}
+
 Rect<float> GameCharacter::getGlobalBounds() const{
     return sprite.getGlobalBounds();
 }
 
-bool GameCharacter::isShielded1() const {
-    return isShielded;
+bool GameCharacter::isShielded() const {
+    return shielded;
 }
 
-void GameCharacter::setIsShielded(bool isShielded) {
-    GameCharacter::isShielded = isShielded;
+void GameCharacter::setShielded(bool isShielded) {
+    GameCharacter::shielded = isShielded;
 }
 
 float GameCharacter::getPosY() const {
@@ -106,6 +112,7 @@ unsigned int GameCharacter::getMaxHp() const {
 void GameCharacter::setMaxHp(unsigned int maxHp) {
     GameCharacter::maxHp = maxHp;
 }
+
 
 
 
