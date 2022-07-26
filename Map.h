@@ -37,6 +37,7 @@ private:
     std::vector<Obstacle> obstacles;
     int enemiesSpawnCoolDown;
     int obstacleSpawnCoolDown;
+    int level;
 
 };
 

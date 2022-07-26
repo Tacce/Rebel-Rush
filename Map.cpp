@@ -7,7 +7,7 @@
 
 
 Map::Map(std::shared_ptr<GameCharacter> player1):player(std::move(player1)),enemiesSpawnCoolDown(ENEMY_COOLDOWN),
-obstacleSpawnCoolDown(0) {}
+obstacleSpawnCoolDown(OBSTACLE_COOLDOWN), level(0) {}
 
 void Map::draw(const std::shared_ptr<RenderWindow>& window) {
     player->draw(const_cast<std::shared_ptr<RenderWindow> &>(window));
@@ -19,6 +19,7 @@ void Map::draw(const std::shared_ptr<RenderWindow>& window) {
 
 void Map::update() {
     player->update();
+    level=player->getScore()/1000;
     enemiesUpdate();
     obstaclesUpdate();
 }
@@ -27,28 +28,28 @@ void Map::update() {
 void Map::enemiesUpdate() {
     if(enemiesSpawnCoolDown>=ENEMY_COOLDOWN){
         enemiesSpawnCoolDown=0;
-        enemies.emplace_back();
+        enemies.emplace_back(Enemy(ENEMY_SPEED + level ));
     }
-    for (size_t j=0; j<enemies.size();j++) {
-        enemies[j].update();
-        if(player->handleEnemyCollision(&(enemies[j])) || enemies[j].getPosX() < -ENEMY_DIMENSIONS)
-            enemies.erase(enemies.begin() + j);
+    for (size_t i=0; i < enemies.size(); i++) {
+        enemies[i].update();
+        if(player->handleEnemyCollision(&(enemies[i])) || enemies[i].getPosX() < -ENEMY_DIMENSIONS)
+            enemies.erase(enemies.begin() + i);
     }
-    enemiesSpawnCoolDown++;
+    enemiesSpawnCoolDown += 1 + level/5;
 }
 
 void Map::obstaclesUpdate() {
-    if(obstacleSpawnCoolDown>=OBSTACLE_COOLDOWN) {
+    if(obstacleSpawnCoolDown>=OBSTACLE_COOLDOWN && player->getScore()>1000) {
         obstacleSpawnCoolDown = 0;
-        obstacles.emplace_back();
+        obstacles.emplace_back(Obstacle(OBSTACLE_SPEED + level - 1 ));
     }
-    for (size_t j=0; j<obstacles.size();j++) {
-        obstacles[j].update();
-        player->handleObstacleCollision(obstacles[j]);
-        if(obstacles[j].getPosX() < -OBSTACLE_DIMENSION)
-            obstacles.erase(obstacles.begin() + j);
+    for (size_t i=0; i < obstacles.size(); i++) {
+        obstacles[i].update();
+        player->handleObstacleCollision(obstacles[i]);
+        if(obstacles[i].getPosX() < -OBSTACLE_DIMENSION)
+            obstacles.erase(obstacles.begin() + i);
     }
-    obstacleSpawnCoolDown++;
+    obstacleSpawnCoolDown += 1+ (level-1)/2;
 }
 
 const std::shared_ptr<GameCharacter> &Map::getPlayer() const {

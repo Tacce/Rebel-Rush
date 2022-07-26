@@ -5,9 +5,8 @@
 #include "Sword.h"
 
 Sword::Sword(){
-    sprite.setSize(Vector2f(110, 10));
+    sprite.setSize(Vector2f(0, 0));
     sprite.setFillColor(Color::Cyan);
-    sprite.setRotation(50);
 }
 
 void Sword::update(float x, float y) {
@@ -20,9 +19,14 @@ void Sword::draw(std::shared_ptr<RenderWindow> &window) {
 }
 
 void Sword::reset() {
+    sprite.setSize(Vector2f(110, 10));
     sprite.setRotation(50);
 }
 
 Rect<float> Sword::getGlobalBounds() const {
     return sprite.getGlobalBounds();
+}
+
+void Sword::retract() {
+    sprite.setSize(Vector2f(0,0));
 }

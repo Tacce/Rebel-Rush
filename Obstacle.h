@@ -11,7 +11,7 @@ using namespace sf;
 
 class Obstacle {
 public:
-    explicit Obstacle(int sp=OBSTACLE_SPAN,float vel=OBSTACLE_SPEED);
+    explicit Obstacle(float vel=OBSTACLE_SPEED, int sp=OBSTACLE_SPAN);
     void update();
     void draw(std::shared_ptr<RenderWindow> & window);
     Rect<float> getUpGlobalBounds() const;
@@ -19,10 +19,17 @@ public:
 
     float getPosX() const;
     void setPosX(float posX);
+    bool isScored() const;
+    void setScored(bool scored);
+    bool isAlreadyHit() const;
+    void setAlreadyHit(bool alreadyHit);
+
+
 
 
 private:
     bool scored;
+    bool alreadyHit;
     int span;
     float posX,height;
     float xVelocity;

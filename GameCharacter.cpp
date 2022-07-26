@@ -44,9 +44,21 @@ void GameCharacter::movementeUpdate() {
 }
 
 void GameCharacter::handleObstacleCollision(Obstacle &obstacle) {
-    if(obstacle.getUpGlobalBounds().intersects(this->getGlobalBounds()) ||
-    obstacle.getDownGlobalBounds().intersects(this->getGlobalBounds()))
-        receiveDamage();
+    if(!obstacle.isAlreadyHit()){
+        if(obstacle.getUpGlobalBounds().intersects(this->getGlobalBounds()) ||
+           obstacle.getDownGlobalBounds().intersects(this->getGlobalBounds())){
+            obstacle.setAlreadyHit(true);
+            if(shielded)
+                shielded=false;
+            else
+                setHp(0);
+        }
+        if(obstacle.getPosX() + OBSTACLE_DIMENSION < PLAYER_POSX  && !obstacle.isScored()){
+            obstacle.setScored(true);
+            score += POINTS_MULTIPLIER;
+        }
+    }
+
 }
 
 Rect<float> GameCharacter::getGlobalBounds() const{

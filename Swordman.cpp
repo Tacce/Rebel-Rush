@@ -9,8 +9,10 @@ Swordman::Swordman() : GameCharacter(), attacking(false), swordCoolDown(0) {
 }
 
 void Swordman::attack() {
-    if(swordCoolDown <= SWORD_COOLDOWN)
-        attacking=true;
+    if (swordCoolDown <= SWORD_COOLDOWN){
+        attacking = true;
+        sword.reset();
+    }
 }
 
 void Swordman::update() {
@@ -19,12 +21,16 @@ void Swordman::update() {
         sword.update(posX + PLAYER_DIMENSIONS / 2, posY + PLAYER_DIMENSIONS / 2);
         swordCoolDown++;
     }
+    if(swordCoolDown > SWORD_DRAW_COOLDOWN)
+        sword.retract();
     if(swordCoolDown > SWORD_COOLDOWN ){
         attacking=false;
         swordCoolDown=0;
-        sword.reset();
     }
-    score += POINTS_FOR_FRAME;
+    if(posY < SCREEN_HEIGHT-PLAYER_DIMENSIONS && posY>1)
+        score += POINTS_FOR_FRAME;
+    else
+        score += POINTS_FOR_FRAME/5;
 }
 
 void Swordman::draw(std::shared_ptr<RenderWindow> &window) {

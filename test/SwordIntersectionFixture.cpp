@@ -26,6 +26,7 @@ protected:
 };
 
 TEST_F(SwordIntersection, DamageTest){
+    s->attack();
     ASSERT_EQ(1,m->getEnemies().size());
     ASSERT_EQ(3,s->getHp());
     m->update();

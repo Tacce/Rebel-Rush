@@ -12,7 +12,7 @@ using namespace sf;
 
 class Enemy: public GameCharacter {
 public:
-    explicit Enemy(unsigned int hp=1,float vel=ENEMY_SPEED);
+    explicit Enemy(float vel=ENEMY_SPEED, unsigned int hp=1);
     void update() override;
     void draw(std::shared_ptr<RenderWindow> &window) override;
     void attack() override{};

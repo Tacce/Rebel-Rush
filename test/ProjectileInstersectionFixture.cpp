@@ -14,6 +14,7 @@ protected:
         p2.setPosY(400);
         projectiles.push_back(p1);
         projectiles.push_back(p2);
+        g->setPosY(30);
         g->setProjectiles(projectiles);
         m=new Map(g);
         e.setPosX(240);

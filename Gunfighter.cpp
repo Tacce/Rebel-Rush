@@ -25,7 +25,10 @@ void Gunfighter::update() {
             projectiles.erase(projectiles.begin()+i);
     }
     shootingCooldown++;
-    score+=POINTS_FOR_FRAME;
+    if(posY < SCREEN_HEIGHT-PLAYER_DIMENSIONS && posY>1)
+        score += POINTS_FOR_FRAME;
+    else
+        score += POINTS_FOR_FRAME/5;
 }
 
 void Gunfighter::draw(std::shared_ptr<RenderWindow> &window) {

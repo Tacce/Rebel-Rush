@@ -16,6 +16,7 @@ public:
     void update(float x,float y);
     void draw(std::shared_ptr<RenderWindow> &window);
     void reset();
+    void retract();
     Rect<float> getGlobalBounds() const;
 
 
