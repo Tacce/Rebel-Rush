@@ -26,8 +26,8 @@ const int PROJECTILE_COOLDOWN = 15;
 
 //ENEMIES
 const int ENEMY_DIMENSIONS = 60;
-const int ENEMY_COOLDOWN = 40;
-const float ENEMY_SPEED = 20;
+const int ENEMY_COOLDOWN = 45;
+const float ENEMY_SPEED = 18;
 
 //SWORD
 const int SWORD_COOLDOWN = 25;

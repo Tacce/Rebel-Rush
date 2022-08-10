@@ -4,10 +4,10 @@
 
 #include "Game.h"
 #include <memory>
+#include <utility>
 
-Game::Game(const int role) : gameOvered(false), phase(0){
-    window = std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Escape from Hazotic City");
-    window->setFramerateLimit(60);
+Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(false), phase(0),window(std::move(window1)),
+    backToMenu(false){
 
     if(role==0)
         player = std::make_shared<Gunfighter>();
@@ -27,7 +27,7 @@ Game::Game(const int role) : gameOvered(false), phase(0){
 Game::~Game() = default;
 
 void Game::run() {
-    while (window->isOpen()){
+    while (window->isOpen() && !backToMenu){
         handleEvent();
         update();
         draw();
@@ -42,6 +42,8 @@ void Game::handleEvent() {
             player->jump();
         if((Mouse::isButtonPressed(sf::Mouse::Left) || Keyboard::isKeyPressed(Keyboard::D)) && !gameOvered)
             player->attack();
+        if(Mouse::isButtonPressed(sf::Mouse::Left) && gameOvered)
+            backToMenu=true;
     }
 }
 

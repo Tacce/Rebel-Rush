@@ -315,6 +315,33 @@ Map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Map.cpp.s
 .PHONY : Map.cpp.s
 
+Menu.obj: Menu.cpp.obj
+.PHONY : Menu.obj
+
+# target to build an object file
+Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Menu.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Menu.cpp.obj
+.PHONY : Menu.cpp.obj
+
+Menu.i: Menu.cpp.i
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Menu.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Menu.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
 Obstacle.obj: Obstacle.cpp.obj
 .PHONY : Obstacle.obj
 
@@ -478,6 +505,9 @@ help:
 	@echo ... Map.obj
 	@echo ... Map.i
 	@echo ... Map.s
+	@echo ... Menu.obj
+	@echo ... Menu.i
+	@echo ... Menu.s
 	@echo ... Obstacle.obj
 	@echo ... Obstacle.i
 	@echo ... Obstacle.s

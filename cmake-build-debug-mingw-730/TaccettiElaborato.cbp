@@ -317,6 +317,14 @@
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
 		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Menu.cpp">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Menu.h">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.cpp">
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>

@@ -16,7 +16,8 @@ using namespace sf;
 
 class Game {
 public:
-    explicit Game(int role=0);
+    explicit Game(std::shared_ptr<RenderWindow>  window1=std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT),
+            "GAME"), int role=0);
     virtual ~Game();
     virtual void run();
     virtual void update();
@@ -37,6 +38,7 @@ private:
     std::unique_ptr<Map> map;
     unsigned int phase;
     bool gameOvered;
+    bool backToMenu;
 
     Font font;
     Text scoreText;
