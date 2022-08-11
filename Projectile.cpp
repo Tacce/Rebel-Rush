@@ -12,7 +12,7 @@ Projectile::Projectile(float y):posX(PLAYER_POSX),posY(y+PLAYER_DIMENSIONS/3.0){
 }
 
 void Projectile::update() {
-    posX = posX + PROJECTILE_SPEED;
+    posX += PROJECTILE_SPEED;
     sprite.setPosition(Vector2f(posX,posY));
 }
 

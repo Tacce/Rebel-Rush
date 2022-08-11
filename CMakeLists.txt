@@ -4,7 +4,7 @@ project(TaccettiElaborato)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(TaccettiElaborato main.cpp GameCharacter.cpp GameCharacter.h Game.cpp Game.h Gunfighter.cpp Gunfighter.h
-        Swordman.cpp Swordman.h Map.cpp Map.h Projectile.cpp Projectile.h Enemy.cpp Enemy.h Sword.cpp Sword.h Obstacle.cpp Obstacle.h Menu.cpp Menu.h)
+        Swordman.cpp Swordman.h Map.cpp Map.h Projectile.cpp Projectile.h Enemy.cpp Enemy.h Sword.cpp Sword.h Obstacle.cpp Obstacle.h Menu.cpp Menu.h Shield.cpp Shield.h)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/lib/cmake/SFML)
@@ -15,6 +15,6 @@ target_link_libraries(TaccettiElaborato sfml-system sfml-window sfml-graphics sf
 add_subdirectory(test)
 
 set(SOURCE_FILES main.cpp GameCharacter.cpp GameCharacter.h Definitions.h Game.cpp Game.h Gunfighter.cpp Gunfighter.h
-        Swordman.cpp Swordman.h Map.cpp Map.h Projectile.cpp Projectile.h Enemy.cpp Enemy.h Sword.cpp Sword.h Obstacle.cpp Obstacle.h Menu.cpp Menu.h)
+        Swordman.cpp Swordman.h Map.cpp Map.h Projectile.cpp Projectile.h Enemy.cpp Enemy.h Sword.cpp Sword.h Obstacle.cpp Obstacle.h Menu.cpp Menu.h Shield.cpp Shield.h)
 add_library(core ${SOURCE_FILES})
 target_link_libraries(TaccettiElaborato core)

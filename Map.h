@@ -12,6 +12,7 @@
 #include "Swordman.h"
 #include "Enemy.h"
 #include "Obstacle.h"
+#include "Shield.h"
 using namespace sf;
 
 class Map {
@@ -25,16 +26,22 @@ public:
     const std::vector<Enemy> &getEnemies() const;
     void setEnemies(const std::vector<Enemy> &enemies);
     int getEnemiesSpawnCoolDown() const;
+    void setObstacles(const std::vector<Obstacle> &obstacles);
+    const std::vector<Obstacle> &getObstacles() const;
     void setEnemiesSpawnCoolDown(int enemiesSpawnCoolDown);
+    void setObstacleSpawnCoolDown(int obstacleSpawnCoolDown);
+
 
 private:
     void enemiesUpdate();
     void obstaclesUpdate();
+    void shieldUpdate();
 
 
     std::shared_ptr<GameCharacter> player;
     std::vector<Enemy> enemies;
     std::vector<Obstacle> obstacles;
+    std::shared_ptr<Shield> shield;
     int enemiesSpawnCoolDown;
     int obstacleSpawnCoolDown;
     int level;

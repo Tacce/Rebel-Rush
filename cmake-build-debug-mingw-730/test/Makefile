@@ -177,6 +177,30 @@ GunfighterTest.cpp.s:
 	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.s
 .PHONY : GunfighterTest.cpp.s
 
+ObstacleIntersectionFixture.obj: ObstacleIntersectionFixture.cpp.obj
+.PHONY : ObstacleIntersectionFixture.obj
+
+# target to build an object file
+ObstacleIntersectionFixture.cpp.obj:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/ObstacleIntersectionFixture.cpp.obj
+.PHONY : ObstacleIntersectionFixture.cpp.obj
+
+ObstacleIntersectionFixture.i: ObstacleIntersectionFixture.cpp.i
+.PHONY : ObstacleIntersectionFixture.i
+
+# target to preprocess a source file
+ObstacleIntersectionFixture.cpp.i:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/ObstacleIntersectionFixture.cpp.i
+.PHONY : ObstacleIntersectionFixture.cpp.i
+
+ObstacleIntersectionFixture.s: ObstacleIntersectionFixture.cpp.s
+.PHONY : ObstacleIntersectionFixture.s
+
+# target to generate assembly for a file
+ObstacleIntersectionFixture.cpp.s:
+	cd /d C:\Users\FRANCE~1\OneDrive\Desktop\UNIFI\corsi\PROGRA~1\progetto\TACCET~1\CMAKE-~2 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/ObstacleIntersectionFixture.cpp.s
+.PHONY : ObstacleIntersectionFixture.cpp.s
+
 ProjectileInstersectionFixture.obj: ProjectileInstersectionFixture.cpp.obj
 .PHONY : ProjectileInstersectionFixture.obj
 
@@ -288,6 +312,9 @@ help:
 	@echo ... GunfighterTest.obj
 	@echo ... GunfighterTest.i
 	@echo ... GunfighterTest.s
+	@echo ... ObstacleIntersectionFixture.obj
+	@echo ... ObstacleIntersectionFixture.i
+	@echo ... ObstacleIntersectionFixture.s
 	@echo ... ProjectileInstersectionFixture.obj
 	@echo ... ProjectileInstersectionFixture.i
 	@echo ... ProjectileInstersectionFixture.s

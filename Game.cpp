@@ -18,6 +18,8 @@ Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(
     font.loadFromFile(R"(..\Font\PublicPixel-0W5Kv.ttf)");
     scoreText.setFont(font);
     scoreText.setFillColor(Color::White);
+    hpText.setFont(font);
+    hpText.setPosition(0,70);
     gameOverText.setFont(font);
     gameOverText.setFillColor(Color::Red);
     gameOverText.setPosition(SCREEN_WIDTH/2.7,SCREEN_HEIGHT/2.7);
@@ -53,12 +55,14 @@ void Game::update() {
     if(!gameOvered)
         map->update();
     scoreText.setString("SCORE:\n"+std::to_string(static_cast<int>(player->getScore())));
+    hpText.setString("HP:" + std::to_string(player->getHp()));
 }
 
 void Game::draw() {
     window->clear();
     map->draw(window);
     window->draw(scoreText);
+    window->draw(hpText);
     if(gameOvered)
         window->draw(gameOverText);
     window->display();

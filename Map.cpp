@@ -6,7 +6,7 @@
 #include "Map.h"
 
 
-Map::Map(std::shared_ptr<GameCharacter> player1):player(std::move(player1)),enemiesSpawnCoolDown(ENEMY_COOLDOWN),
+Map::Map(std::shared_ptr<GameCharacter> player1):player(std::move(player1)), shield(nullptr), enemiesSpawnCoolDown(ENEMY_COOLDOWN),
 obstacleSpawnCoolDown(OBSTACLE_COOLDOWN), level(0) {}
 
 void Map::draw(const std::shared_ptr<RenderWindow>& window) {
@@ -15,6 +15,8 @@ void Map::draw(const std::shared_ptr<RenderWindow>& window) {
         enemy.draw(const_cast<std::shared_ptr<RenderWindow> &>(window));
     for(auto & obstacle : obstacles)
         obstacle.draw(const_cast<std::shared_ptr<RenderWindow> &>(window));
+    if(shield!= nullptr)
+        shield->draw(const_cast<std::shared_ptr<RenderWindow> &>(window));
 }
 
 void Map::update() {
@@ -22,6 +24,7 @@ void Map::update() {
     level=player->getScore()/1000;
     enemiesUpdate();
     obstaclesUpdate();
+    shieldUpdate();
 }
 
 
@@ -52,6 +55,15 @@ void Map::obstaclesUpdate() {
     obstacleSpawnCoolDown += 1+ (level-1)/2;
 }
 
+void Map::shieldUpdate() {
+    if (!player->isShielded() && player->getHp()!=0 && shield == nullptr && !(rand() % (1000 * player->getHp())))
+        shield = std::make_shared<Shield>();
+    if (shield != nullptr) {
+        shield->update();
+        if(shield->getPosX() < -SHIELD_RADIUS*2 || player->handleShieldCollision(shield))
+            shield= nullptr;
+    }
+}
 const std::shared_ptr<GameCharacter> &Map::getPlayer() const {
     return player;
 }
@@ -75,4 +87,17 @@ int Map::getEnemiesSpawnCoolDown() const {
 void Map::setEnemiesSpawnCoolDown(int enemiesSpawnCoolDown) {
     Map::enemiesSpawnCoolDown = enemiesSpawnCoolDown;
 }
+
+void Map::setObstacleSpawnCoolDown(int obstacleSpawnCoolDown) {
+    Map::obstacleSpawnCoolDown = obstacleSpawnCoolDown;
+}
+
+void Map::setObstacles(const std::vector<Obstacle> &obstacles) {
+    Map::obstacles = obstacles;
+}
+
+const std::vector<Obstacle> &Map::getObstacles() const {
+    return obstacles;
+}
+
 

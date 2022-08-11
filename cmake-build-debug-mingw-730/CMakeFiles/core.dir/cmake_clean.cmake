@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/core.dir/Menu.cpp.obj"
   "CMakeFiles/core.dir/Obstacle.cpp.obj"
   "CMakeFiles/core.dir/Projectile.cpp.obj"
+  "CMakeFiles/core.dir/Shield.cpp.obj"
   "CMakeFiles/core.dir/Sword.cpp.obj"
   "CMakeFiles/core.dir/Swordman.cpp.obj"
   "CMakeFiles/core.dir/main.cpp.obj"

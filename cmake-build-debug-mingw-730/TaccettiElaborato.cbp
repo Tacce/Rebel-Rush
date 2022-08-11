@@ -341,6 +341,14 @@
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
 		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Shield.cpp">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Shield.h">
+			<Option target="TaccettiElaborato"/>
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.cpp">
 			<Option target="TaccettiElaborato"/>
 			<Option target="core"/>
@@ -365,6 +373,9 @@
 			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/GunfighterTest.cpp">
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/ObstacleIntersectionFixture.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/ProjectileInstersectionFixture.cpp">

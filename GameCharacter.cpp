@@ -10,6 +10,11 @@ GameCharacter::GameCharacter(float y,unsigned int hp, float x): shielded(false),
     //Rectangular shape is a placeholder
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
     sprite.setFillColor(Color::Green);
+
+    shieldSprite.setRadius(SHIELD_SPRITE_RADIUS);
+    shieldSprite.setFillColor(Color::Transparent);
+    shieldSprite.setOutlineThickness(5);
+    shieldSprite.setOutlineColor(Color::Blue);
 }
 
 void GameCharacter::jump() {
@@ -28,6 +33,8 @@ void GameCharacter::receiveDamage() {
 
 void GameCharacter::characterDraw(std::shared_ptr<RenderWindow> & window) {
     window->draw(sprite);
+    if(shielded)
+        window->draw(shieldSprite);
 }
 
 void GameCharacter::movementeUpdate() {
@@ -40,7 +47,9 @@ void GameCharacter::movementeUpdate() {
         posY = 0;
         yVelocity=0;
     }
-    sprite.setPosition(posX, posY);
+    sprite.setPosition(Vector2f(posX, posY));
+    if(shielded)
+        shieldSprite.setPosition(posX-(SHIELD_SPRITE_RADIUS-PLAYER_DIMENSIONS/2), posY-(SHIELD_SPRITE_RADIUS-PLAYER_DIMENSIONS/2));
 }
 
 void GameCharacter::handleObstacleCollision(Obstacle &obstacle) {
@@ -51,14 +60,22 @@ void GameCharacter::handleObstacleCollision(Obstacle &obstacle) {
             if(shielded)
                 shielded=false;
             else
-                setHp(0);
+                hp=0;
         }
         if(obstacle.getPosX() + OBSTACLE_DIMENSION < PLAYER_POSX  && !obstacle.isScored()){
             obstacle.setScored(true);
             score += POINTS_MULTIPLIER;
         }
     }
+}
 
+bool GameCharacter::handleShieldCollision(std::shared_ptr<Shield> shield) {
+    if(shield->getGlobalBounds().intersects(this->getGlobalBounds())){
+        shielded=true;
+        hp=maxHp;
+        return true;
+    }else
+        return false;
 }
 
 Rect<float> GameCharacter::getGlobalBounds() const{
@@ -124,7 +141,5 @@ unsigned int GameCharacter::getMaxHp() const {
 void GameCharacter::setMaxHp(unsigned int maxHp) {
     GameCharacter::maxHp = maxHp;
 }
-
-
 
 

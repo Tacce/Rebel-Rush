@@ -23,6 +23,7 @@ public:
     void setScored(bool scored);
     bool isAlreadyHit() const;
     void setAlreadyHit(bool alreadyHit);
+    void setHeight(float height);
 
 
 

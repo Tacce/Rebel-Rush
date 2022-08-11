@@ -40,6 +40,10 @@ const float OBSTACLE_SPEED = 13;
 const int OBSTACLE_COOLDOWN = 80*2;
 const int OBSTACLE_SPAN = 350;
 
+//SHIELD
+const int SHIELD_RADIUS = 30;
+const float SHIELD_SPEED = 10;
+const int SHIELD_SPRITE_RADIUS = 50;
 
 
 #endif //TACCETTIELABORATO_DEFINITIONS_H

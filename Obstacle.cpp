@@ -52,3 +52,7 @@ bool Obstacle::isAlreadyHit() const {
 void Obstacle::setAlreadyHit(bool alreadyHit) {
     Obstacle::alreadyHit = alreadyHit;
 }
+
+void Obstacle::setHeight(float height) {
+    Obstacle::height = height;
+}

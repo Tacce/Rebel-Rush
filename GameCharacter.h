@@ -9,6 +9,7 @@
 #include <SFML/Graphics.hpp>
 #include "Definitions.h"
 #include "Obstacle.h"
+#include "Shield.h"
 #include <memory>
 using namespace sf;
 
@@ -24,6 +25,7 @@ public:
     virtual Rect<float> getGlobalBounds() const;
     virtual bool handleEnemyCollision(GameCharacter* enemy)=0;
     virtual void handleObstacleCollision(Obstacle & obstacle);
+    virtual bool handleShieldCollision(std::shared_ptr<Shield> shield);
 
     bool isShielded() const;
     void setShielded(bool isShielded);
@@ -52,6 +54,7 @@ protected:
     unsigned int hp;
     unsigned int maxHp;
     RectangleShape sprite;
+    CircleShape shieldSprite;
     Clock movementClock;
     float score;
 
