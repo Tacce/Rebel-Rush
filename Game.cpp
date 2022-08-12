@@ -18,12 +18,18 @@ Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(
     font.loadFromFile(R"(..\Font\PublicPixel-0W5Kv.ttf)");
     scoreText.setFont(font);
     scoreText.setFillColor(Color::White);
+    scoreText.setOutlineThickness(2);
+    scoreText.setOutlineColor(Color::Black);
     hpText.setFont(font);
     hpText.setPosition(0,70);
+    hpText.setOutlineThickness(2);
+    hpText.setOutlineColor(Color::Black);
     gameOverText.setFont(font);
     gameOverText.setFillColor(Color::Red);
     gameOverText.setPosition(SCREEN_WIDTH/2.7,SCREEN_HEIGHT/2.7);
     gameOverText.setString("GAME OVER");
+    gameOverText.setOutlineThickness(2);
+    gameOverText.setOutlineColor(Color::Black);
 }
 
 Game::~Game() = default;
@@ -44,7 +50,7 @@ void Game::handleEvent() {
             player->jump();
         if((Mouse::isButtonPressed(sf::Mouse::Left) || Keyboard::isKeyPressed(Keyboard::D)) && !gameOvered)
             player->attack();
-        if(Mouse::isButtonPressed(sf::Mouse::Left) && gameOvered)
+        if((Mouse::isButtonPressed(sf::Mouse::Left) && gameOvered) || Keyboard::isKeyPressed(Keyboard::Escape))
             backToMenu=true;
     }
 }

@@ -4,16 +4,32 @@
 
 #include "Menu.h"
 
-Menu::Menu(): game(nullptr) {
-    window = std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Escape from Hazotic City");
+Menu::Menu(): game(nullptr), highscore(0) {
+    window = std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Rebel Rush");
     window->setFramerateLimit(60);
+
+    titleTexture.loadFromFile(R"(..\Textures\TitleMenu.png)");
+    gunButTexture.loadFromFile(R"(..\Textures\GunfighterButton.png)");
+    sworButTexture.loadFromFile(R"(..\Textures\SwordmanButton.png)");
+
+    gameTitle.setTexture(titleTexture);
 
     gunfighterButton.setSize(Vector2f(450,300));
     gunfighterButton.setPosition(100,300);
-    gunfighterButton.setFillColor(Color(255,127,0));
+    gunfighterButton.setTexture(&gunButTexture);
+    //gunfighterButton.setFillColor(Color(255,127,0));
+
     swordmanButton.setSize(Vector2f(450,300));
     swordmanButton.setPosition(650,300);
-    swordmanButton.setFillColor(Color::Cyan);
+    //swordmanButton.setFillColor(Color::Cyan);
+    swordmanButton.setTexture(&sworButTexture);
+
+    font.loadFromFile(R"(..\Font\PublicPixel-0W5Kv.ttf)");
+    highscoreText.setFont(font);
+    highscoreText.setFillColor(Color::White);
+    highscoreText.setOutlineThickness(4);
+    highscoreText.setOutlineColor(Color::Black);
+    highscoreText.setPosition(Vector2f(10,SCREEN_HEIGHT-40));
 }
 
 void Menu::handleEvent() {
@@ -35,14 +51,21 @@ void Menu::run() {
     while (window->isOpen()){
         handleEvent();
         draw();
-        if(game!=nullptr)
+        if(game!=nullptr){
+            srand(time(NULL));
             game->run();
+            if(game->getPlayer()->getScore() > highscore)
+                highscore=game->getPlayer()->getScore();
+        }
     }
 }
 
 void Menu::draw() {
     window->clear();
+    window->draw(gameTitle);
     window->draw(gunfighterButton);
     window->draw(swordmanButton);
+    highscoreText.setString("HIGHSCORE:" + std::to_string(highscore));
+    window->draw(highscoreText);
     window->display();
 }

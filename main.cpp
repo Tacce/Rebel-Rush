@@ -7,7 +7,6 @@
 using namespace sf;
 
 int main(){
-    srand(time(NULL));
     Menu menu;
     menu.run();
 }

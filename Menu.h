@@ -23,10 +23,15 @@ private:
     std::shared_ptr<RenderWindow> window;
     Event event{};
     std::unique_ptr<Game> game;
+    int highscore;
+
     RectangleShape gunfighterButton;
     RectangleShape swordmanButton;
-    RectangleShape gameTitle;
+    Sprite gameTitle;
 
+    Texture gunButTexture,sworButTexture,titleTexture;
+    Font font;
+    Text highscoreText;
 
 
 };

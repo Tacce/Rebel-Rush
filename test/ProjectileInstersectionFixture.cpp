@@ -41,6 +41,6 @@ TEST_F(ProjectileIntersection, DamageTest){
     ASSERT_EQ(1,g->getProjectiles().size());
     ASSERT_EQ(100 + PROJECTILE_SPEED,g->getProjectiles()[0].getPosX());
     ASSERT_EQ(400,g->getProjectiles()[0].getPosY());
-    ASSERT_FLOAT_EQ(POINTS_MULTIPLIER+ POINTS_FOR_FRAME,g->getScore());
+    ASSERT_FLOAT_EQ(POINTS_MULTIPLIER+POINTS_MULTIPLIER/4+ POINTS_FOR_FRAME,g->getScore());
 }
 

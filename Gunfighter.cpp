@@ -54,7 +54,7 @@ bool Gunfighter::handleEnemyCollision(GameCharacter *enemy) {
             j++;
         else{
             killed=true;
-            score += POINTS_MULTIPLIER * (enemy->getMaxHp());
+            score += (POINTS_MULTIPLIER+POINTS_MULTIPLIER/4) * (enemy->getMaxHp());
         }
     }
 
