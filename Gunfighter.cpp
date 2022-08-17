@@ -7,7 +7,9 @@
 
 
 Gunfighter::Gunfighter(): GameCharacter() ,shootingCooldown(PROJECTILE_COOLDOWN){
-    sprite.setFillColor(Color(255,127,0));
+    if(texture.loadFromFile(R"(..\Textures\GunfighterSprite.png)"))
+        sprite.setTexture(&texture);
+    else sprite.setFillColor(Color(255,127,0));
 }
 
 void Gunfighter::attack() {

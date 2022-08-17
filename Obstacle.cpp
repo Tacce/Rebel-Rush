@@ -8,6 +8,14 @@ Obstacle::Obstacle(float vel, int sp): posX(SCREEN_WIDTH), span(sp), scored(fals
     height = rand() % (SCREEN_HEIGHT - span);
     upSprite.setSize(Vector2f(OBSTACLE_DIMENSION, height));
     downSprite.setSize(Vector2f(OBSTACLE_DIMENSION,SCREEN_HEIGHT- height - span));
+
+    upTexture.loadFromFile(R"(..\Textures\ObstacleTexture2.png)");
+    upSprite.setTextureRect(IntRect (0,SCREEN_HEIGHT - span - height,OBSTACLE_DIMENSION, height));
+    upSprite.setTexture(&upTexture);
+
+    downTexture.loadFromFile(R"(..\Textures\ObstacleTexture.png)");
+    downSprite.setTextureRect(IntRect (0,0,OBSTACLE_DIMENSION, SCREEN_HEIGHT - height - span));
+    downSprite.setTexture(&downTexture);
 }
 
 void Obstacle::update() {
@@ -17,7 +25,9 @@ void Obstacle::update() {
 }
 
 void Obstacle::draw(std::shared_ptr<RenderWindow> &window) {
+    upSprite.setTexture(&upTexture);
     window->draw(upSprite);
+    downSprite.setTexture(&downTexture);
     window->draw(downSprite);
 }
 

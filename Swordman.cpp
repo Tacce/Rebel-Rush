@@ -5,7 +5,9 @@
 #include "Swordman.h"
 
 Swordman::Swordman() : GameCharacter(), attacking(false), swordCoolDown(0) {
-    sprite.setFillColor(Color::Cyan);
+    if(texture.loadFromFile(R"(..\Textures\SwordmanSprite.png)"))
+        sprite.setTexture(&texture);
+    else sprite.setFillColor(Color::Cyan);
 }
 
 void Swordman::attack() {
@@ -34,9 +36,9 @@ void Swordman::update() {
 }
 
 void Swordman::draw(std::shared_ptr<RenderWindow> &window) {
-    characterDraw(const_cast<std::shared_ptr<RenderWindow> &>(window));
     if(attacking && swordCoolDown < SWORD_DRAW_COOLDOWN)
         sword.draw(window);
+    characterDraw(const_cast<std::shared_ptr<RenderWindow> &>(window));
 }
 
 bool Swordman::handleEnemyCollision(GameCharacter *enemy) {

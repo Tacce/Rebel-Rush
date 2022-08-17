@@ -9,7 +9,7 @@ GameCharacter::GameCharacter(float y,unsigned int hp, float x): shielded(false),
     sprite.setPosition(Vector2f(posX,posY));
     //Rectangular shape is a placeholder
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
-    sprite.setFillColor(Color::Green);
+    //sprite.setFillColor(Color::Green);
 
     shieldSprite.setRadius(SHIELD_SPRITE_RADIUS);
     shieldSprite.setFillColor(Color::Transparent);

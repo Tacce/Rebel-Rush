@@ -44,6 +44,8 @@ private:
     Text scoreText;
     Text gameOverText;
     Text hpText;
+    Sprite background;
+    Texture backgroundTexture;
 };
 
 

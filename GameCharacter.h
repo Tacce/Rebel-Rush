@@ -58,6 +58,8 @@ protected:
     Clock movementClock;
     float score;
 
+    Texture texture;
+
 };
 
 

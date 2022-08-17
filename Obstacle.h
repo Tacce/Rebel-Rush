@@ -37,6 +37,8 @@ private:
     RectangleShape upSprite;
     RectangleShape downSprite;
 
+    Texture upTexture,downTexture;
+
 };
 
 

@@ -15,20 +15,25 @@ Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(
         player = std::make_shared<Swordman>();
     map = std::make_unique<Map>(player);
 
+    backgroundTexture.loadFromFile(R"(..\Textures\BackgroundTexture.png)");
+    background.setTexture(backgroundTexture);
+
     font.loadFromFile(R"(..\Font\PublicPixel-0W5Kv.ttf)");
     scoreText.setFont(font);
     scoreText.setFillColor(Color::White);
-    scoreText.setOutlineThickness(2);
+    scoreText.setOutlineThickness(4);
     scoreText.setOutlineColor(Color::Black);
+
     hpText.setFont(font);
     hpText.setPosition(0,70);
-    hpText.setOutlineThickness(2);
+    hpText.setOutlineThickness(4);
     hpText.setOutlineColor(Color::Black);
+
     gameOverText.setFont(font);
     gameOverText.setFillColor(Color::Red);
     gameOverText.setPosition(SCREEN_WIDTH/2.7,SCREEN_HEIGHT/2.7);
     gameOverText.setString("GAME OVER");
-    gameOverText.setOutlineThickness(2);
+    gameOverText.setOutlineThickness(4);
     gameOverText.setOutlineColor(Color::Black);
 }
 
@@ -66,6 +71,7 @@ void Game::update() {
 
 void Game::draw() {
     window->clear();
+    window->draw(background);
     map->draw(window);
     window->draw(scoreText);
     window->draw(hpText);

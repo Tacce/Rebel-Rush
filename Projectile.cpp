@@ -5,7 +5,7 @@
 #include <iostream>
 #include "Projectile.h"
 
-Projectile::Projectile(float y):posX(PLAYER_POSX),posY(y+PLAYER_DIMENSIONS/3.0){
+Projectile::Projectile(float y):posX(PLAYER_POSX),posY(y+35){
     sprite.setPosition(Vector2f(posX,posY));
     sprite.setSize(Vector2f(60,5));
     sprite.setFillColor(Color(255,127,0));
