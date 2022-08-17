@@ -73,6 +73,7 @@ bool GameCharacter::handleShieldCollision(std::shared_ptr<Shield> shield) {
     if(shield->getGlobalBounds().intersects(this->getGlobalBounds())){
         shielded=true;
         hp=maxHp;
+        shieldSprite.setPosition(posX-(SHIELD_SPRITE_RADIUS-PLAYER_DIMENSIONS/2), posY-(SHIELD_SPRITE_RADIUS-PLAYER_DIMENSIONS/2));
         return true;
     }else
         return false;

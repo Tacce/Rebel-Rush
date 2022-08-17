@@ -4,9 +4,6 @@
 
 #include "gtest/gtest.h"
 #include "../Game.h"
-#include "../Game.cpp"
-#include "../Map.cpp"
-#include "../Enemy.cpp"
 
 TEST(Game,GameOver){
     Game g;

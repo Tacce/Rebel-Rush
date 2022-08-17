@@ -116,19 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TaccettiElaborato
-
-# Build rule for target.
-TaccettiElaborato: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TaccettiElaborato
-.PHONY : TaccettiElaborato
-
-# fast build rule for target.
-TaccettiElaborato/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/build
-.PHONY : TaccettiElaborato/fast
-
-#=============================================================================
 # Target rules for targets named core
 
 # Build rule for target.
@@ -140,6 +127,19 @@ core: cmake_check_build_system
 core/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/build
 .PHONY : core/fast
+
+#=============================================================================
+# Target rules for targets named TaccettiElaborato
+
+# Build rule for target.
+TaccettiElaborato: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TaccettiElaborato
+.PHONY : TaccettiElaborato
+
+# fast build rule for target.
+TaccettiElaborato/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/build
+.PHONY : TaccettiElaborato/fast
 
 #=============================================================================
 # Target rules for targets named runAllTests
@@ -185,7 +185,6 @@ Enemy.obj: Enemy.cpp.obj
 
 # target to build an object file
 Enemy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Enemy.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Enemy.cpp.obj
 .PHONY : Enemy.cpp.obj
 
@@ -194,7 +193,6 @@ Enemy.i: Enemy.cpp.i
 
 # target to preprocess a source file
 Enemy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Enemy.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Enemy.cpp.i
 .PHONY : Enemy.cpp.i
 
@@ -203,7 +201,6 @@ Enemy.s: Enemy.cpp.s
 
 # target to generate assembly for a file
 Enemy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Enemy.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Enemy.cpp.s
 .PHONY : Enemy.cpp.s
 
@@ -212,7 +209,6 @@ Game.obj: Game.cpp.obj
 
 # target to build an object file
 Game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Game.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Game.cpp.obj
 .PHONY : Game.cpp.obj
 
@@ -221,7 +217,6 @@ Game.i: Game.cpp.i
 
 # target to preprocess a source file
 Game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Game.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Game.cpp.i
 .PHONY : Game.cpp.i
 
@@ -230,7 +225,6 @@ Game.s: Game.cpp.s
 
 # target to generate assembly for a file
 Game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Game.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
@@ -239,7 +233,6 @@ GameCharacter.obj: GameCharacter.cpp.obj
 
 # target to build an object file
 GameCharacter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/GameCharacter.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GameCharacter.cpp.obj
 .PHONY : GameCharacter.cpp.obj
 
@@ -248,7 +241,6 @@ GameCharacter.i: GameCharacter.cpp.i
 
 # target to preprocess a source file
 GameCharacter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/GameCharacter.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GameCharacter.cpp.i
 .PHONY : GameCharacter.cpp.i
 
@@ -257,7 +249,6 @@ GameCharacter.s: GameCharacter.cpp.s
 
 # target to generate assembly for a file
 GameCharacter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/GameCharacter.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/GameCharacter.cpp.s
 .PHONY : GameCharacter.cpp.s
 
@@ -266,7 +257,6 @@ Gunfighter.obj: Gunfighter.cpp.obj
 
 # target to build an object file
 Gunfighter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfighter.cpp.obj
 .PHONY : Gunfighter.cpp.obj
 
@@ -275,7 +265,6 @@ Gunfighter.i: Gunfighter.cpp.i
 
 # target to preprocess a source file
 Gunfighter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfighter.cpp.i
 .PHONY : Gunfighter.cpp.i
 
@@ -284,7 +273,6 @@ Gunfighter.s: Gunfighter.cpp.s
 
 # target to generate assembly for a file
 Gunfighter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Gunfighter.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfighter.cpp.s
 .PHONY : Gunfighter.cpp.s
 
@@ -293,7 +281,6 @@ Map.obj: Map.cpp.obj
 
 # target to build an object file
 Map.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Map.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Map.cpp.obj
 .PHONY : Map.cpp.obj
 
@@ -302,7 +289,6 @@ Map.i: Map.cpp.i
 
 # target to preprocess a source file
 Map.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Map.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Map.cpp.i
 .PHONY : Map.cpp.i
 
@@ -311,7 +297,6 @@ Map.s: Map.cpp.s
 
 # target to generate assembly for a file
 Map.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Map.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Map.cpp.s
 .PHONY : Map.cpp.s
 
@@ -320,7 +305,6 @@ Menu.obj: Menu.cpp.obj
 
 # target to build an object file
 Menu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Menu.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Menu.cpp.obj
 .PHONY : Menu.cpp.obj
 
@@ -329,7 +313,6 @@ Menu.i: Menu.cpp.i
 
 # target to preprocess a source file
 Menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Menu.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Menu.cpp.i
 .PHONY : Menu.cpp.i
 
@@ -338,7 +321,6 @@ Menu.s: Menu.cpp.s
 
 # target to generate assembly for a file
 Menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Menu.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Menu.cpp.s
 .PHONY : Menu.cpp.s
 
@@ -347,7 +329,6 @@ Obstacle.obj: Obstacle.cpp.obj
 
 # target to build an object file
 Obstacle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Obstacle.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Obstacle.cpp.obj
 .PHONY : Obstacle.cpp.obj
 
@@ -356,7 +337,6 @@ Obstacle.i: Obstacle.cpp.i
 
 # target to preprocess a source file
 Obstacle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Obstacle.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Obstacle.cpp.i
 .PHONY : Obstacle.cpp.i
 
@@ -365,7 +345,6 @@ Obstacle.s: Obstacle.cpp.s
 
 # target to generate assembly for a file
 Obstacle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Obstacle.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Obstacle.cpp.s
 .PHONY : Obstacle.cpp.s
 
@@ -374,7 +353,6 @@ Projectile.obj: Projectile.cpp.obj
 
 # target to build an object file
 Projectile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Projectile.cpp.obj
 .PHONY : Projectile.cpp.obj
 
@@ -383,7 +361,6 @@ Projectile.i: Projectile.cpp.i
 
 # target to preprocess a source file
 Projectile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Projectile.cpp.i
 .PHONY : Projectile.cpp.i
 
@@ -392,7 +369,6 @@ Projectile.s: Projectile.cpp.s
 
 # target to generate assembly for a file
 Projectile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Projectile.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Projectile.cpp.s
 .PHONY : Projectile.cpp.s
 
@@ -401,7 +377,6 @@ Shield.obj: Shield.cpp.obj
 
 # target to build an object file
 Shield.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Shield.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Shield.cpp.obj
 .PHONY : Shield.cpp.obj
 
@@ -410,7 +385,6 @@ Shield.i: Shield.cpp.i
 
 # target to preprocess a source file
 Shield.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Shield.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Shield.cpp.i
 .PHONY : Shield.cpp.i
 
@@ -419,7 +393,6 @@ Shield.s: Shield.cpp.s
 
 # target to generate assembly for a file
 Shield.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Shield.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Shield.cpp.s
 .PHONY : Shield.cpp.s
 
@@ -428,7 +401,6 @@ Sword.obj: Sword.cpp.obj
 
 # target to build an object file
 Sword.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Sword.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Sword.cpp.obj
 .PHONY : Sword.cpp.obj
 
@@ -437,7 +409,6 @@ Sword.i: Sword.cpp.i
 
 # target to preprocess a source file
 Sword.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Sword.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Sword.cpp.i
 .PHONY : Sword.cpp.i
 
@@ -446,7 +417,6 @@ Sword.s: Sword.cpp.s
 
 # target to generate assembly for a file
 Sword.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Sword.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Sword.cpp.s
 .PHONY : Sword.cpp.s
 
@@ -455,7 +425,6 @@ Swordman.obj: Swordman.cpp.obj
 
 # target to build an object file
 Swordman.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Swordman.cpp.obj
 .PHONY : Swordman.cpp.obj
 
@@ -464,7 +433,6 @@ Swordman.i: Swordman.cpp.i
 
 # target to preprocess a source file
 Swordman.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Swordman.cpp.i
 .PHONY : Swordman.cpp.i
 
@@ -473,7 +441,6 @@ Swordman.s: Swordman.cpp.s
 
 # target to generate assembly for a file
 Swordman.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/Swordman.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Swordman.cpp.s
 .PHONY : Swordman.cpp.s
 
@@ -483,7 +450,6 @@ main.obj: main.cpp.obj
 # target to build an object file
 main.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/main.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -492,7 +458,6 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -501,7 +466,6 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target

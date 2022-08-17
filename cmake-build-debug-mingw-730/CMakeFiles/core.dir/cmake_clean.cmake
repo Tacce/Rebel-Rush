@@ -10,7 +10,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/core.dir/Shield.cpp.obj"
   "CMakeFiles/core.dir/Sword.cpp.obj"
   "CMakeFiles/core.dir/Swordman.cpp.obj"
-  "CMakeFiles/core.dir/main.cpp.obj"
   "libcore.a"
   "libcore.pdb"
 )

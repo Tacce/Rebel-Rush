@@ -26,8 +26,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../test/lib/googletest"
-  "C:/SFML/include"
   "../test/lib/googletest/include"
+  "C:/SFML/include"
   )
 
 # The set of dependency files which are needed:
@@ -36,6 +36,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/CMakeFiles/core.dir/DependInfo.cmake"
   "C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )

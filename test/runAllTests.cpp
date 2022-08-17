@@ -1,8 +1,5 @@
 #include "gtest/gtest.h"
 #include <SFML/Graphics.hpp>
-#include "../GameCharacter.cpp"
-#include "../Obstacle.cpp"
-#include "../Shield.cpp"
 
 int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);

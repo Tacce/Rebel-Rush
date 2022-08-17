@@ -3,8 +3,6 @@
 //
 #include "gtest/gtest.h"
 #include "../Swordman.h"
-#include "../Swordman.cpp"
-#include "../Sword.cpp"
 
 TEST(Swordman, DefaultConstructor) {
     Swordman s;

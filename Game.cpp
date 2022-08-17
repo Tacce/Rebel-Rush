@@ -4,7 +4,6 @@
 
 #include "Game.h"
 #include <memory>
-#include <utility>
 
 Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(false), phase(0),window(std::move(window1)),
     backToMenu(false){
