@@ -31,7 +31,7 @@ void Map::update() {
 void Map::enemiesUpdate() {
     if(enemiesSpawnCoolDown>=ENEMY_COOLDOWN){
         enemiesSpawnCoolDown=0;
-        enemies.emplace_back(Enemy(ENEMY_SPEED + level ));
+        enemies.emplace_back(Enemy(ENEMY_SPEED + level, !(rand() % (8 * player->getHp()))));
     }
     for (size_t i=0; i < enemies.size(); i++) {
         enemies[i].update();
@@ -56,7 +56,8 @@ void Map::obstaclesUpdate() {
 }
 
 void Map::shieldUpdate() {
-    if (!player->isShielded() && player->getHp()!=0 && shield == nullptr && !(rand() % (1000 * player->getHp())))
+    if (!player->isShielded() && player->getHp()!=0 && shield == nullptr && player->getScore() > 800
+        && !(rand() % (1000 * player->getHp())))
         shield = std::make_shared<Shield>();
     if (shield != nullptr) {
         shield->update();

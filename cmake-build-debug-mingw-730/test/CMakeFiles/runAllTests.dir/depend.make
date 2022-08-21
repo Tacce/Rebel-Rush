@@ -99,13 +99,10 @@ test/CMakeFiles/runAllTests.dir/GameTest.cpp.obj: \
  C:/SFML/include/SFML/Window/WindowHandle.hpp \
  C:/SFML/include/SFML/Window/WindowStyle.hpp \
  ../Definitions.h \
- ../Enemy.cpp \
  ../Enemy.h \
- ../Game.cpp \
  ../Game.h \
  ../GameCharacter.h \
  ../Gunfighter.h \
- ../Map.cpp \
  ../Map.h \
  ../Obstacle.h \
  ../Projectile.h \
@@ -212,10 +209,8 @@ test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj: \
  C:/SFML/include/SFML/Window/WindowStyle.hpp \
  ../Definitions.h \
  ../GameCharacter.h \
- ../Gunfighter.cpp \
  ../Gunfighter.h \
  ../Obstacle.h \
- ../Projectile.cpp \
  ../Projectile.h \
  ../Shield.h \
  ../test/GunfighterTest.cpp
@@ -644,9 +639,7 @@ test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj: \
  ../GameCharacter.h \
  ../Obstacle.h \
  ../Shield.h \
- ../Sword.cpp \
  ../Sword.h \
- ../Swordman.cpp \
  ../Swordman.h \
  ../test/SwordmanTest.cpp
 test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj: \
@@ -746,11 +739,4 @@ test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj: \
  C:/SFML/include/SFML/Window/Window.hpp \
  C:/SFML/include/SFML/Window/WindowHandle.hpp \
  C:/SFML/include/SFML/Window/WindowStyle.hpp \
- ../Definitions.h \
- ../GameCharacter.cpp \
- ../GameCharacter.h \
- ../Obstacle.cpp \
- ../Obstacle.h \
- ../Shield.cpp \
- ../Shield.h \
  ../test/runAllTests.cpp

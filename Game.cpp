@@ -6,7 +6,7 @@
 #include <memory>
 
 Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(false), phase(0),window(std::move(window1)),
-    backToMenu(false){
+    backToMenu(false), gameOverCooldown(GAMEOVER_COOLDOWN){
 
     if(role==0)
         player = std::make_shared<Gunfighter>();
@@ -54,18 +54,23 @@ void Game::handleEvent() {
             player->jump();
         if((Mouse::isButtonPressed(sf::Mouse::Left) || Keyboard::isKeyPressed(Keyboard::D)) && !gameOvered)
             player->attack();
-        if((Mouse::isButtonPressed(sf::Mouse::Left) && gameOvered) || Keyboard::isKeyPressed(Keyboard::Escape))
+        if((Mouse::isButtonPressed(sf::Mouse::Left) && gameOvered && gameOverCooldown>GAMEOVER_COOLDOWN) ||
+            Keyboard::isKeyPressed(Keyboard::Escape))
             backToMenu=true;
     }
 }
 
 void Game::update() {
-    if(player->getHp() <= 0)
-        gameOvered= true;
+    if(player->getHp() <= 0 && !gameOvered) {
+        gameOvered = true;
+        gameOverCooldown = 0;
+    }
     if(!gameOvered)
         map->update();
     scoreText.setString("SCORE:\n"+std::to_string(static_cast<int>(player->getScore())));
     hpText.setString("HP:" + std::to_string(player->getHp()));
+    if(gameOvered)
+        gameOverCooldown++;
 }
 
 void Game::draw() {

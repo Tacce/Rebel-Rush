@@ -19,8 +19,6 @@ protected:
         m=new Map(g);
         e.setPosX(240);
         e.setPosY(300);
-        enemies.push_back(e);
-        m->setEnemies(enemies);
         m->setEnemiesSpawnCoolDown(0);
         g->setScore(0);
     }
@@ -33,6 +31,8 @@ protected:
 };
 
 TEST_F(ProjectileIntersection, DamageTest){
+    enemies.push_back(e);
+    m->setEnemies(enemies);
     ASSERT_EQ(2,g->getProjectiles().size());
     ASSERT_EQ(1,m->getEnemies().size());
     m->update();
@@ -42,5 +42,21 @@ TEST_F(ProjectileIntersection, DamageTest){
     ASSERT_EQ(100 + PROJECTILE_SPEED,g->getProjectiles()[0].getPosX());
     ASSERT_EQ(400,g->getProjectiles()[0].getPosY());
     ASSERT_FLOAT_EQ(POINTS_MULTIPLIER+POINTS_MULTIPLIER/4+ POINTS_FOR_FRAME,g->getScore());
+}
+
+TEST_F(ProjectileIntersection, MedicalDamageTest){
+    e.setMedical(true);
+    enemies.push_back(e);
+    m->setEnemies(enemies);
+    ASSERT_TRUE(m->getEnemies()[0].isMedical());
+    ASSERT_EQ(2,g->getProjectiles().size());
+    ASSERT_EQ(1,m->getEnemies().size());
+    ASSERT_EQ(3,g->getHp());
+    m->update();
+    //Player does not get any points and receives damage
+    ASSERT_EQ(0,m->getEnemies().size());
+    ASSERT_EQ(1,g->getProjectiles().size());
+    ASSERT_FLOAT_EQ( POINTS_FOR_FRAME,g->getScore());
+    ASSERT_EQ(2,g->getHp());
 }
 

@@ -24,6 +24,7 @@ public:
 
 private:
     float xVelocity;
+    Texture texture;
 
 };
 

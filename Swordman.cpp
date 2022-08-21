@@ -45,15 +45,18 @@ bool Swordman::handleEnemyCollision(GameCharacter *enemy) {
     bool killed=false;
     if(enemy->getGlobalBounds().intersects(this->getGlobalBounds())){
         killed=true;
-        this->receiveDamage();
+        enemy->inflictDamage(this);
     }
     if(enemy->getGlobalBounds().intersects(sword.getGlobalBounds())){
+        enemy->receiveDamage(this);
         killed=true;
-        score += POINTS_MULTIPLIER * (enemy->getMaxHp());
     }
     return killed;
 }
 
+void Swordman::collectPoints(unsigned int multiplier) {
+    score += POINTS_MULTIPLIER * multiplier;
+}
 int Swordman::getSwordCoolDown() const {
     return swordCoolDown;
 }
@@ -69,3 +72,5 @@ bool Swordman::isAttacking() const {
 void Swordman::setAttacking(bool isAttacking) {
     Swordman::attacking = isAttacking;
 }
+
+

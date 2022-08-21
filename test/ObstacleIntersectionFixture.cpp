@@ -3,6 +3,7 @@
 //
 #include "gtest/gtest.h"
 #include "../Map.h"
+
 class ObstacleIntersection : public ::testing::Test {
 protected:
     void SetUp() override {

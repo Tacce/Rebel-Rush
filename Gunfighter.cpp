@@ -44,23 +44,25 @@ bool Gunfighter::handleEnemyCollision(GameCharacter *enemy) {
     bool killed=false;
     if(enemy->getGlobalBounds().intersects(this->getGlobalBounds())){
         killed=true;
-        this->receiveDamage();
+        enemy->inflictDamage(this);
     }
     size_t j=0;
     while(j<projectiles.size() && !killed) {
         if(projectiles[j].getGlobalBounds().intersects(enemy->getGlobalBounds())) {
             projectiles.erase(projectiles.begin() + j);
-            enemy->receiveDamage();
+            enemy->receiveDamage(this);
         }
         if(enemy->getHp()>0)
             j++;
         else{
             killed=true;
-            score += (POINTS_MULTIPLIER+POINTS_MULTIPLIER/4) * (enemy->getMaxHp());
         }
     }
-
     return killed;
+}
+
+void Gunfighter::collectPoints(unsigned int multiplier) {
+    score += (POINTS_MULTIPLIER+POINTS_MULTIPLIER/4) * multiplier;
 }
 
 void Gunfighter::setProjectiles(const std::vector<Projectile> &projectiles) {
@@ -74,4 +76,5 @@ const std::vector<Projectile> &Gunfighter::getProjectiles() const {
 int Gunfighter::getShootingCooldown() const {
     return shootingCooldown;
 }
+
 

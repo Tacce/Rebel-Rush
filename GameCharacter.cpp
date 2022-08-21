@@ -5,26 +5,29 @@
 #include "GameCharacter.h"
 
 GameCharacter::GameCharacter(float y,unsigned int hp, float x): shielded(false), posY(y), yVelocity(0), hp(hp), maxHp(hp),
-                                                                posX(x), score(0) {
+                                                                posX(x), score(0), fireCooldown(FIRE_COOLDOWN) {
     sprite.setPosition(Vector2f(posX,posY));
-    //Rectangular shape is a placeholder
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
-    //sprite.setFillColor(Color::Green);
 
     shieldSprite.setRadius(SHIELD_SPRITE_RADIUS);
     shieldSprite.setFillColor(Color::Transparent);
     shieldSprite.setOutlineThickness(5);
     shieldSprite.setOutlineColor(Color::Blue);
+
+    fireTexture.loadFromFile(R"(..\Textures\FireTexture.png)");
+    fireSprite.setTexture(fireTexture);
+    fireSprite.setPosition(posX,posY + PLAYER_DIMENSIONS);
 }
 
 void GameCharacter::jump() {
-    if(yVelocity>=0) {
+    if(yVelocity>=0 && hp>0) {
         movementClock.restart();
         yVelocity = JUMP_FORCE;
+        fireCooldown=0;
     }
 }
 
-void GameCharacter::receiveDamage() {
+void GameCharacter::receiveDamage(GameCharacter * attacker) {
     if(shielded)
         shielded = false;
     else
@@ -35,6 +38,8 @@ void GameCharacter::characterDraw(std::shared_ptr<RenderWindow> & window) {
     window->draw(sprite);
     if(shielded)
         window->draw(shieldSprite);
+    if(fireCooldown<FIRE_COOLDOWN)
+        window->draw(fireSprite);
 }
 
 void GameCharacter::movementeUpdate() {
@@ -50,6 +55,10 @@ void GameCharacter::movementeUpdate() {
     sprite.setPosition(Vector2f(posX, posY));
     if(shielded)
         shieldSprite.setPosition(posX-(SHIELD_SPRITE_RADIUS-PLAYER_DIMENSIONS/2), posY-(SHIELD_SPRITE_RADIUS-PLAYER_DIMENSIONS/2));
+    if(fireCooldown<FIRE_COOLDOWN){
+        fireCooldown++;
+        fireSprite.setPosition(posX,posY + PLAYER_DIMENSIONS);
+    }
 }
 
 void GameCharacter::handleObstacleCollision(Obstacle &obstacle) {
@@ -141,6 +150,15 @@ unsigned int GameCharacter::getMaxHp() const {
 
 void GameCharacter::setMaxHp(unsigned int maxHp) {
     GameCharacter::maxHp = maxHp;
+}
+
+void GameCharacter::inflictDamage(GameCharacter *target) {
+    target->receiveDamage(this);
+}
+
+void GameCharacter::heal() {
+    if(hp < maxHp)
+        hp++;
 }
 
 

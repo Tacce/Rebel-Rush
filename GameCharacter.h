@@ -21,11 +21,14 @@ public:
     virtual void jump();
     virtual void draw(std::shared_ptr<RenderWindow> & window)=0;
     virtual void update() = 0;
-    virtual void receiveDamage();
+    virtual void receiveDamage(GameCharacter * attacker);
     virtual Rect<float> getGlobalBounds() const;
-    virtual bool handleEnemyCollision(GameCharacter* enemy)=0;
+    virtual bool handleEnemyCollision(GameCharacter * enemy)=0;
     virtual void handleObstacleCollision(Obstacle & obstacle);
     virtual bool handleShieldCollision(std::shared_ptr<Shield> shield);
+    virtual void inflictDamage(GameCharacter * target);
+    virtual void heal();
+    virtual void collectPoints(unsigned int multiplier)=0;
 
     bool isShielded() const;
     void setShielded(bool isShielded);
@@ -57,8 +60,10 @@ protected:
     CircleShape shieldSprite;
     Clock movementClock;
     float score;
+    Sprite fireSprite;
+    int fireCooldown;
 
-    Texture texture;
+    Texture texture,fireTexture;
 
 };
 

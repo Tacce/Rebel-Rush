@@ -39,6 +39,7 @@ private:
     unsigned int phase;
     bool gameOvered;
     bool backToMenu;
+    int gameOverCooldown;
 
     Font font;
     Text scoreText;
