@@ -56,8 +56,14 @@ void Map::obstaclesUpdate() {
 }
 
 void Map::shieldUpdate() {
-    if (!player->isShielded() && player->getHp()!=0 && shield == nullptr && player->getScore() > 800
-        && !(rand() % (1000 * player->getHp())))
+    int shieldProbability;
+    if(player->getHp()!=0 && (SHIELD_PROBABILITY_HP * player->getHp() - SHIELD_PROBABILITY_LEVEL * level)>0 &&
+        rand() % (SHIELD_PROBABILITY_HP * player->getHp() - SHIELD_PROBABILITY_LEVEL * level) > SHIELD_PROBABILITY_MAX)
+        shieldProbability=rand() % (SHIELD_PROBABILITY_HP * player->getHp() - SHIELD_PROBABILITY_LEVEL * level);
+    else
+        shieldProbability=SHIELD_PROBABILITY_MAX;
+
+    if (!player->isShielded() && player->getHp()!=0 && shield == nullptr && player->getScore() > 500 && !shieldProbability)
         shield = std::make_shared<Shield>();
     if (shield != nullptr) {
         shield->update();

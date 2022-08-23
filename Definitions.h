@@ -15,6 +15,7 @@ const int PLAYER_POSX = 200;
 const float POINTS_FOR_FRAME = 0.1;
 const int POINTS_MULTIPLIER = 100;
 const int FIRE_COOLDOWN = 20;
+const int DAMAGE_HEAL_COOLDOWN = 7;
 
 //JUMP
 const int GRAVITY = 21;
@@ -45,6 +46,9 @@ const int OBSTACLE_SPAN = 350;
 const int SHIELD_RADIUS = 30;
 const float SHIELD_SPEED = 10;
 const int SHIELD_SPRITE_RADIUS = 50;
+const int SHIELD_PROBABILITY_HP = 500;
+const int SHIELD_PROBABILITY_LEVEL = 250;
+const int SHIELD_PROBABILITY_MAX = 350;
 
 //GAME
 const int GAMEOVER_COOLDOWN = 50;

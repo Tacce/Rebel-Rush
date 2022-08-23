@@ -34,9 +34,9 @@ void Gunfighter::update() {
 }
 
 void Gunfighter::draw(std::shared_ptr<RenderWindow> &window) {
-    characterDraw(window);
     for(auto & projectile : projectiles)
         projectile.draw(window);
+    characterDraw(window);
 }
 
 
@@ -61,7 +61,7 @@ bool Gunfighter::handleEnemyCollision(GameCharacter *enemy) {
     return killed;
 }
 
-void Gunfighter::collectPoints(unsigned int multiplier) {
+void Gunfighter::collectEnemyPoints(float multiplier){
     score += (POINTS_MULTIPLIER+POINTS_MULTIPLIER/4) * multiplier;
 }
 

@@ -39,7 +39,7 @@ void Enemy::receiveDamage(GameCharacter *attacker){
     if(medical)
         attacker->receiveDamage(this);
     else if(hp==0)
-        attacker->collectPoints(maxHp);
+        attacker->collectEnemyPoints(maxHp);
 }
 
 bool Enemy::isMedical() const {

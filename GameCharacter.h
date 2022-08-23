@@ -28,7 +28,8 @@ public:
     virtual bool handleShieldCollision(std::shared_ptr<Shield> shield);
     virtual void inflictDamage(GameCharacter * target);
     virtual void heal();
-    virtual void collectPoints(unsigned int multiplier)=0;
+    virtual void collectEnemyPoints(float multiplier)=0;
+    virtual void collectPoints(float multiplier);
 
     bool isShielded() const;
     void setShielded(bool isShielded);
@@ -62,6 +63,7 @@ protected:
     float score;
     Sprite fireSprite;
     int fireCooldown;
+    int damageHealCooldown;
 
     Texture texture,fireTexture;
 

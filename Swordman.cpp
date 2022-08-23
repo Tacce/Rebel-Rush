@@ -54,9 +54,10 @@ bool Swordman::handleEnemyCollision(GameCharacter *enemy) {
     return killed;
 }
 
-void Swordman::collectPoints(unsigned int multiplier) {
-    score += POINTS_MULTIPLIER * multiplier;
+void Swordman::collectEnemyPoints(float multiplier) {
+    collectPoints(multiplier);
 }
+
 int Swordman::getSwordCoolDown() const {
     return swordCoolDown;
 }

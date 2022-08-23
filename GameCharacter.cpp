@@ -5,7 +5,7 @@
 #include "GameCharacter.h"
 
 GameCharacter::GameCharacter(float y,unsigned int hp, float x): shielded(false), posY(y), yVelocity(0), hp(hp), maxHp(hp),
-                                                                posX(x), score(0), fireCooldown(FIRE_COOLDOWN) {
+                                                                posX(x), score(0), fireCooldown(FIRE_COOLDOWN), damageHealCooldown(0) {
     sprite.setPosition(Vector2f(posX,posY));
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
 
@@ -32,6 +32,10 @@ void GameCharacter::receiveDamage(GameCharacter * attacker) {
         shielded = false;
     else
         hp--;
+    if(hp!=0){
+        damageHealCooldown = DAMAGE_HEAL_COOLDOWN;
+        sprite.setFillColor(Color::Red);
+    }
 }
 
 void GameCharacter::characterDraw(std::shared_ptr<RenderWindow> & window) {
@@ -59,6 +63,10 @@ void GameCharacter::movementeUpdate() {
         fireCooldown++;
         fireSprite.setPosition(posX,posY + PLAYER_DIMENSIONS);
     }
+    if(damageHealCooldown == 1 || hp == 0)
+        sprite.setFillColor(Color::White);
+    if(damageHealCooldown > 0)
+        damageHealCooldown--;
 }
 
 void GameCharacter::handleObstacleCollision(Obstacle &obstacle) {
@@ -73,7 +81,7 @@ void GameCharacter::handleObstacleCollision(Obstacle &obstacle) {
         }
         if(obstacle.getPosX() + OBSTACLE_DIMENSION < PLAYER_POSX  && !obstacle.isScored()){
             obstacle.setScored(true);
-            score += POINTS_MULTIPLIER;
+            collectPoints(1);
         }
     }
 }
@@ -83,9 +91,25 @@ bool GameCharacter::handleShieldCollision(std::shared_ptr<Shield> shield) {
         shielded=true;
         hp=maxHp;
         shieldSprite.setPosition(posX-(SHIELD_SPRITE_RADIUS-PLAYER_DIMENSIONS/2), posY-(SHIELD_SPRITE_RADIUS-PLAYER_DIMENSIONS/2));
+        damageHealCooldown=DAMAGE_HEAL_COOLDOWN;
+        sprite.setFillColor(Color::Blue);
         return true;
     }else
         return false;
+}
+
+void GameCharacter::heal() {
+    if(hp < maxHp) {
+        hp++;
+        damageHealCooldown=DAMAGE_HEAL_COOLDOWN;
+        sprite.setFillColor(Color::Green);
+    }
+    else
+        collectPoints(0.5);
+}
+
+void GameCharacter::collectPoints(float multiplier) {
+    score += POINTS_MULTIPLIER * multiplier;
 }
 
 Rect<float> GameCharacter::getGlobalBounds() const{
@@ -156,9 +180,6 @@ void GameCharacter::inflictDamage(GameCharacter *target) {
     target->receiveDamage(this);
 }
 
-void GameCharacter::heal() {
-    if(hp < maxHp)
-        hp++;
-}
+
 
 

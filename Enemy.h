@@ -19,7 +19,7 @@ public:
     bool handleEnemyCollision(GameCharacter *enemy) override{return false;};
     void inflictDamage(GameCharacter *target) override;
     void receiveDamage(GameCharacter *attacker) override;
-    void collectPoints(unsigned int multiplier) override{};
+    void collectEnemyPoints(float multiplier) override{};
     bool isMedical() const;
     void setMedical(bool medical);
 

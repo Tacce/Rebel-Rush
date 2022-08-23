@@ -20,7 +20,7 @@ public:
     void update() override;
     void draw(std::shared_ptr<RenderWindow> & window) override;
     bool handleEnemyCollision(GameCharacter *enemy) override;
-    void collectPoints(unsigned int multiplier) override;
+    void collectEnemyPoints(float multiplier) override;
     int getSwordCoolDown() const;
     void setSwordCoolDown(int swordCoolDown);
     bool isAttacking() const;
