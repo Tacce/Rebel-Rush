@@ -18,9 +18,9 @@ const int FIRE_COOLDOWN = 20;
 const int DAMAGE_HEAL_COOLDOWN = 7;
 
 //JUMP
-const int GRAVITY = 21;
-const int JUMP_FORCE = (-470);
-const int MAX_YVELOCITY = 550;
+const int GRAVITY = 20;
+const int JUMP_FORCE = (-420);
+const int MAX_YVELOCITY = 450;
 
 //PROJECTILES
 const int PROJECTILE_SPEED = 50;
@@ -47,8 +47,8 @@ const int SHIELD_RADIUS = 30;
 const float SHIELD_SPEED = 10;
 const int SHIELD_SPRITE_RADIUS = 50;
 const int SHIELD_PROBABILITY_HP = 500;
-const int SHIELD_PROBABILITY_LEVEL = 250;
-const int SHIELD_PROBABILITY_MAX = 350;
+const int SHIELD_PROBABILITY_LEVEL = 300;
+const int SHIELD_PROBABILITY_MAX = 330;
 
 //GAME
 const int GAMEOVER_COOLDOWN = 50;

@@ -18,18 +18,17 @@ public:
     void draw();
 
 
-
 private:
     std::shared_ptr<RenderWindow> window;
     Event event{};
     std::unique_ptr<Game> game;
     int highscore;
+    bool displayingRules;
 
-    RectangleShape gunfighterButton;
-    RectangleShape swordmanButton;
-    Sprite gameTitle;
+    RectangleShape gunfighterButton, swordmanButton, rulesButton;
+    Sprite gameTitle, rules;
 
-    Texture gunButTexture,sworButTexture,titleTexture;
+    Texture gunButTexture,sworButTexture,titleTexture,rulesTexture,rulesButTexture,backButTexture;
     Font font;
     Text highscoreText;
 
