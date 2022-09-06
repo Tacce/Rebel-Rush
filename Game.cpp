@@ -5,7 +5,7 @@
 #include "Game.h"
 #include <memory>
 
-Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(false), phase(0),window(std::move(window1)),
+Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(false),window(std::move(window1)),
     backToMenu(false), gameOverCooldown(GAMEOVER_COOLDOWN) {
 
     if(role==0)
@@ -20,10 +20,10 @@ Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(
     badge->setFillColor(Color::Transparent);
     badgeDisplayer = std::make_unique<KillCounterObserver>(player,badge);
 
-    backgroundTexture.loadFromFile(R"(..\Textures\BackgroundTexture.png)");
+    backgroundTexture.loadFromFile(R"(Textures\BackgroundTexture.png)");
     background.setTexture(backgroundTexture);
 
-    font.loadFromFile(R"(..\Font\PublicPixel-0W5Kv.ttf)");
+    font.loadFromFile(R"(Font\PublicPixel-0W5Kv.ttf)");
     scoreText.setFont(font);
     scoreText.setFillColor(Color::White);
     scoreText.setOutlineThickness(4);
@@ -93,10 +93,6 @@ void Game::draw() {
 
 const std::shared_ptr<GameCharacter> &Game::getPlayer() const {
     return player;
-}
-
-const std::shared_ptr<RenderWindow> &Game::getWindow() const {
-    return window;
 }
 
 bool Game::isGameOvered() const {

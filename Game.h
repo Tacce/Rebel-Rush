@@ -24,7 +24,6 @@ public:
     virtual void update();
 
     const std::shared_ptr<GameCharacter> &getPlayer() const;
-    const std::shared_ptr<RenderWindow> &getWindow() const;
     bool isGameOvered() const;
 
 
@@ -38,7 +37,6 @@ private:
     std::shared_ptr<GameCharacter> player;
     std::unique_ptr<Map> map;
     std::unique_ptr<KillCounterObserver> badgeDisplayer;
-    unsigned int phase;
     bool gameOvered;
     bool backToMenu;
     int gameOverCooldown;

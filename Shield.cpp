@@ -6,7 +6,7 @@
 
 Shield::Shield(float vel): posX(SCREEN_WIDTH), posY(rand()%(SCREEN_HEIGHT-SHIELD_RADIUS*2)), xVelocity(vel) {
     sprite.setRadius(SHIELD_RADIUS);
-    if(texture.loadFromFile(R"(..\Textures\ShieldTexture.png)"))
+    if(texture.loadFromFile(R"(Textures\ShieldTexture.png)"))
         sprite.setTexture(&texture);
     else sprite.setFillColor(Color::Blue);
     sprite.setPosition(Vector2f(posX,posY));

@@ -14,7 +14,7 @@ GameCharacter::GameCharacter(float y,unsigned int hp, float x): shielded(false),
     shieldSprite.setOutlineThickness(5);
     shieldSprite.setOutlineColor(Color::Blue);
 
-    fireTexture.loadFromFile(R"(..\Textures\FireTexture.png)");
+    fireTexture.loadFromFile(R"(Textures\FireTexture.png)");
     fireSprite.setTexture(fireTexture);
     fireSprite.setPosition(posX,posY + PLAYER_DIMENSIONS);
 }
@@ -67,6 +67,10 @@ void GameCharacter::movementeUpdate() {
         sprite.setFillColor(Color::White);
     if(damageHealCooldown > 0)
         damageHealCooldown--;
+    if(posY < SCREEN_HEIGHT-PLAYER_DIMENSIONS && posY>1)
+        score += POINTS_FOR_FRAME;
+    else
+        score += POINTS_FOR_FRAME/5;
 }
 
 void GameCharacter::handleObstacleCollision(Obstacle &obstacle) {

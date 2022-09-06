@@ -7,10 +7,9 @@
 
 KillCounterObserver::KillCounterObserver(const std::shared_ptr <GameCharacter>& subject, std::shared_ptr<RectangleShape> badge): subject(subject), badge(std::move(badge)){
     subject->registerObserver(this);
-    goldTexture.loadFromFile(R"(..\Textures\GoldBadge.png)");
-    silverTexture.loadFromFile(R"(..\Textures\SilverBadge.png)");
-    bronzeTexture.loadFromFile(R"(..\Textures\BronzeBadge.png)");
-
+    goldTexture.loadFromFile(R"(Textures\GoldBadge.png)");
+    silverTexture.loadFromFile(R"(Textures\SilverBadge.png)");
+    bronzeTexture.loadFromFile(R"(Textures\BronzeBadge.png)");
 }
 
 KillCounterObserver::~KillCounterObserver() {
@@ -19,9 +18,9 @@ KillCounterObserver::~KillCounterObserver() {
 
 void KillCounterObserver::update() {
     int killCount= subject->getKillCounter();
-    if(killCount >= 50)
+    if(killCount >= 30)
         badge->setTexture(&goldTexture);
-    else if(killCount >= 30)
+    else if(killCount >= 22)
         badge->setTexture(&silverTexture);
     else if(killCount >= 15) {
         badge->setFillColor(Color::White);

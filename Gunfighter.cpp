@@ -7,7 +7,7 @@
 
 
 Gunfighter::Gunfighter(): GameCharacter() ,shootingCooldown(PROJECTILE_COOLDOWN){
-    if(texture.loadFromFile(R"(..\Textures\GunfighterSprite.png)"))
+    if(texture.loadFromFile(R"(Textures\GunfighterSprite.png)"))
         sprite.setTexture(&texture);
     else sprite.setFillColor(Color(255,127,0));
 }
@@ -27,10 +27,6 @@ void Gunfighter::update() {
             projectiles.erase(projectiles.begin()+i);
     }
     shootingCooldown++;
-    if(posY < SCREEN_HEIGHT-PLAYER_DIMENSIONS && posY>1)
-        score += POINTS_FOR_FRAME;
-    else
-        score += POINTS_FOR_FRAME/5;
 }
 
 void Gunfighter::draw(std::shared_ptr<RenderWindow> &window) {

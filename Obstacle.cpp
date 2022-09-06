@@ -9,11 +9,11 @@ Obstacle::Obstacle(float vel, int sp): posX(SCREEN_WIDTH), span(sp), scored(fals
     upSprite.setSize(Vector2f(OBSTACLE_DIMENSION, height));
     downSprite.setSize(Vector2f(OBSTACLE_DIMENSION,SCREEN_HEIGHT- height - span));
 
-    upTexture.loadFromFile(R"(..\Textures\ObstacleTexture2.png)");
+    upTexture.loadFromFile(R"(Textures\ObstacleTexture2.png)");
     upSprite.setTextureRect(IntRect (0,SCREEN_HEIGHT - span - height,OBSTACLE_DIMENSION, height));
     upSprite.setTexture(&upTexture);
 
-    downTexture.loadFromFile(R"(..\Textures\ObstacleTexture.png)");
+    downTexture.loadFromFile(R"(Textures\ObstacleTexture.png)");
     downSprite.setTextureRect(IntRect (0,0,OBSTACLE_DIMENSION, SCREEN_HEIGHT - height - span));
     downSprite.setTexture(&downTexture);
 }

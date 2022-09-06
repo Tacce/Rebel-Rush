@@ -7,11 +7,11 @@
 Enemy::Enemy(float vel,bool med, unsigned int hp): GameCharacter((rand()%(SCREEN_HEIGHT-ENEMY_DIMENSIONS)),hp,SCREEN_WIDTH),
                                                    xVelocity(vel), medical(med){
     if(!medical){
-        if(texture.loadFromFile(R"(..\Textures\EnemyTexture.png)"))
+        if(texture.loadFromFile(R"(Textures\EnemyTexture.png)"))
             sprite.setTexture(&texture);
         else sprite.setFillColor(Color::Red);
     }else{
-        if(texture.loadFromFile(R"(..\Textures\MedicalSupportTexture.png)"))
+        if(texture.loadFromFile(R"(Textures\MedicalSupportTexture.png)"))
             sprite.setTexture(&texture);
         else sprite.setFillColor(Color::Green);
     }

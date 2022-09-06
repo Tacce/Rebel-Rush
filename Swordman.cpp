@@ -5,7 +5,7 @@
 #include "Swordman.h"
 
 Swordman::Swordman() : GameCharacter(), attacking(false), swordCoolDown(0) {
-    if(texture.loadFromFile(R"(..\Textures\SwordmanSprite.png)"))
+    if(texture.loadFromFile(R"(Textures\SwordmanSprite.png)"))
         sprite.setTexture(&texture);
     else sprite.setFillColor(Color::Cyan);
 }
@@ -29,10 +29,6 @@ void Swordman::update() {
         attacking=false;
         swordCoolDown=0;
     }
-    if(posY < SCREEN_HEIGHT-PLAYER_DIMENSIONS && posY>1)
-        score += POINTS_FOR_FRAME;
-    else
-        score += POINTS_FOR_FRAME/5;
 }
 
 void Swordman::draw(std::shared_ptr<RenderWindow> &window) {

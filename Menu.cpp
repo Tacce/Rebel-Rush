@@ -8,32 +8,32 @@ Menu::Menu(): game(nullptr), highscore(0), displayingRules(false) {
     window = std::make_shared<RenderWindow>(VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Rebel Rush");
     window->setFramerateLimit(60);
 
-    titleTexture.loadFromFile(R"(..\Textures\TitleMenu.png)");
+    titleTexture.loadFromFile(R"(Textures\TitleMenu.png)");
     gameTitle.setTexture(titleTexture);
 
-    rulesTexture.loadFromFile(R"(..\Textures\RulesTexture.png)");
+    rulesTexture.loadFromFile(R"(Textures\RulesTexture.png)");
     rules.setTexture(rulesTexture);
 
     gunfighterButton.setSize(Vector2f(450,300));
     gunfighterButton.setPosition(100,300);
-    if(gunButTexture.loadFromFile(R"(..\Textures\GunfighterButton.png)"))
+    if(gunButTexture.loadFromFile(R"(Textures\GunfighterButton.png)"))
         gunfighterButton.setTexture(&gunButTexture);
     else gunfighterButton.setFillColor(Color(255,127,0));
 
     swordmanButton.setSize(Vector2f(450,300));
     swordmanButton.setPosition(650,300);
-    if(sworButTexture.loadFromFile(R"(..\Textures\SwordmanButton.png)"))
+    if(sworButTexture.loadFromFile(R"(Textures\SwordmanButton.png)"))
         swordmanButton.setTexture(&sworButTexture);
     else swordmanButton.setFillColor(Color::Cyan);
 
     rulesButton.setSize(Vector2f(100,100));
     rulesButton.setPosition(1100,0);
-    backButTexture.loadFromFile(R"(..\Textures\BackButton.png)");
-    if(rulesButTexture.loadFromFile(R"(..\Textures\RulesButton.png)"))
+    backButTexture.loadFromFile(R"(Textures\BackButton.png)");
+    if(rulesButTexture.loadFromFile(R"(Textures\RulesButton.png)"))
         rulesButton.setTexture(&rulesButTexture);
     else rulesButton.setFillColor(Color::Magenta);
 
-    font.loadFromFile(R"(..\Font\PublicPixel-0W5Kv.ttf)");
+    font.loadFromFile(R"(Font\PublicPixel-0W5Kv.ttf)");
     highscoreText.setFont(font);
     highscoreText.setFillColor(Color::White);
     highscoreText.setOutlineThickness(4);
