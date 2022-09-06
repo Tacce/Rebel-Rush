@@ -50,6 +50,7 @@ bool Swordman::handleEnemyCollision(GameCharacter *enemy) {
     if(enemy->getGlobalBounds().intersects(sword.getGlobalBounds())){
         enemy->receiveDamage(this);
         killed=true;
+        setState();
     }
     return killed;
 }

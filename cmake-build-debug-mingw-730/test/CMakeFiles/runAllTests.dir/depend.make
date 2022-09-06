@@ -103,10 +103,13 @@ test/CMakeFiles/runAllTests.dir/GameTest.cpp.obj: \
  ../Game.h \
  ../GameCharacter.h \
  ../Gunfighter.h \
+ ../KillCounterObserver.h \
  ../Map.h \
+ ../Observer.h \
  ../Obstacle.h \
  ../Projectile.h \
  ../Shield.h \
+ ../Subject.h \
  ../Sword.h \
  ../Swordman.h \
  ../test/GameTest.cpp
@@ -210,9 +213,11 @@ test/CMakeFiles/runAllTests.dir/GunfighterTest.cpp.obj: \
  ../Definitions.h \
  ../GameCharacter.h \
  ../Gunfighter.h \
+ ../Observer.h \
  ../Obstacle.h \
  ../Projectile.h \
  ../Shield.h \
+ ../Subject.h \
  ../test/GunfighterTest.cpp
 test/CMakeFiles/runAllTests.dir/ObstacleIntersectionFixture.cpp.obj: \
  ../test/lib/googletest/include/gtest/gtest-death-test.h \
@@ -316,9 +321,11 @@ test/CMakeFiles/runAllTests.dir/ObstacleIntersectionFixture.cpp.obj: \
  ../GameCharacter.h \
  ../Gunfighter.h \
  ../Map.h \
+ ../Observer.h \
  ../Obstacle.h \
  ../Projectile.h \
  ../Shield.h \
+ ../Subject.h \
  ../Sword.h \
  ../Swordman.h \
  ../test/ObstacleIntersectionFixture.cpp
@@ -424,9 +431,11 @@ test/CMakeFiles/runAllTests.dir/ProjectileInstersectionFixture.cpp.obj: \
  ../GameCharacter.h \
  ../Gunfighter.h \
  ../Map.h \
+ ../Observer.h \
  ../Obstacle.h \
  ../Projectile.h \
  ../Shield.h \
+ ../Subject.h \
  ../Sword.h \
  ../Swordman.h \
  ../test/ProjectileInstersectionFixture.cpp
@@ -532,9 +541,11 @@ test/CMakeFiles/runAllTests.dir/SwordIntersectionFixture.cpp.obj: \
  ../GameCharacter.h \
  ../Gunfighter.h \
  ../Map.h \
+ ../Observer.h \
  ../Obstacle.h \
  ../Projectile.h \
  ../Shield.h \
+ ../Subject.h \
  ../Sword.h \
  ../Swordman.h \
  ../test/SwordIntersectionFixture.cpp
@@ -637,8 +648,10 @@ test/CMakeFiles/runAllTests.dir/SwordmanTest.cpp.obj: \
  C:/SFML/include/SFML/Window/WindowStyle.hpp \
  ../Definitions.h \
  ../GameCharacter.h \
+ ../Observer.h \
  ../Obstacle.h \
  ../Shield.h \
+ ../Subject.h \
  ../Sword.h \
  ../Swordman.h \
  ../test/SwordmanTest.cpp

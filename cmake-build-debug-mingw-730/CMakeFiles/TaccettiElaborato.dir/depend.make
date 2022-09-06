@@ -81,11 +81,14 @@ CMakeFiles/TaccettiElaborato.dir/main.cpp.obj: \
  ../Game.h \
  ../GameCharacter.h \
  ../Gunfighter.h \
+ ../KillCounterObserver.h \
  ../Map.h \
  ../Menu.h \
+ ../Observer.h \
  ../Obstacle.h \
  ../Projectile.h \
  ../Shield.h \
+ ../Subject.h \
  ../Sword.h \
  ../Swordman.h \
  ../main.cpp

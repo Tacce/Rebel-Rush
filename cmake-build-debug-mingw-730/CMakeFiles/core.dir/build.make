@@ -219,6 +219,34 @@ CMakeFiles/core.dir/Shield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Shield.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Shield.cpp" -o CMakeFiles\core.dir\Shield.cpp.s
 
+CMakeFiles/core.dir/Subject.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Subject.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/Subject.cpp.obj: ../Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/core.dir/Subject.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Subject.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Subject.cpp"
+
+CMakeFiles/core.dir/Subject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Subject.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Subject.cpp" > CMakeFiles\core.dir\Subject.cpp.i
+
+CMakeFiles/core.dir/Subject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Subject.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\Subject.cpp" -o CMakeFiles\core.dir\Subject.cpp.s
+
+CMakeFiles/core.dir/KillCounterObserver.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/KillCounterObserver.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/KillCounterObserver.cpp.obj: ../KillCounterObserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/core.dir/KillCounterObserver.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\KillCounterObserver.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\KillCounterObserver.cpp"
+
+CMakeFiles/core.dir/KillCounterObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/KillCounterObserver.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\KillCounterObserver.cpp" > CMakeFiles\core.dir\KillCounterObserver.cpp.i
+
+CMakeFiles/core.dir/KillCounterObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/KillCounterObserver.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\KillCounterObserver.cpp" -o CMakeFiles\core.dir\KillCounterObserver.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/GameCharacter.cpp.obj" \
@@ -231,7 +259,9 @@ core_OBJECTS = \
 "CMakeFiles/core.dir/Sword.cpp.obj" \
 "CMakeFiles/core.dir/Obstacle.cpp.obj" \
 "CMakeFiles/core.dir/Menu.cpp.obj" \
-"CMakeFiles/core.dir/Shield.cpp.obj"
+"CMakeFiles/core.dir/Shield.cpp.obj" \
+"CMakeFiles/core.dir/Subject.cpp.obj" \
+"CMakeFiles/core.dir/KillCounterObserver.cpp.obj"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -247,9 +277,11 @@ libcore.a: CMakeFiles/core.dir/Sword.cpp.obj
 libcore.a: CMakeFiles/core.dir/Obstacle.cpp.obj
 libcore.a: CMakeFiles/core.dir/Menu.cpp.obj
 libcore.a: CMakeFiles/core.dir/Shield.cpp.obj
+libcore.a: CMakeFiles/core.dir/Subject.cpp.obj
+libcore.a: CMakeFiles/core.dir/KillCounterObserver.cpp.obj
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\core.dir\link.txt --verbose=$(VERBOSE)
 

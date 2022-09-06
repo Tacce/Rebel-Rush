@@ -56,6 +56,7 @@ bool Gunfighter::handleEnemyCollision(GameCharacter *enemy) {
             j++;
         else{
             killed=true;
+            setState();
         }
     }
     return killed;

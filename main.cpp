@@ -2,7 +2,6 @@
 #include "GameCharacter.h"
 #include "Game.h"
 #include "Menu.h"
-#include <SFML/Graphics.hpp>
 #include <iostream>
 using namespace sf;
 

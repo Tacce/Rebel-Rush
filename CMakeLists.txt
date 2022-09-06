@@ -11,7 +11,7 @@ find_package(SFML COMPONENTS system window graphics audio network REQUIRED)
 include_directories(C:/SFML/include)
 
 set(SOURCE_FILES GameCharacter.cpp GameCharacter.h Definitions.h Game.cpp Game.h Gunfighter.cpp Gunfighter.h
-        Swordman.cpp Swordman.h Map.cpp Map.h Projectile.cpp Projectile.h Enemy.cpp Enemy.h Sword.cpp Sword.h Obstacle.cpp Obstacle.h Menu.cpp Menu.h Shield.cpp Shield.h)
+        Swordman.cpp Swordman.h Map.cpp Map.h Projectile.cpp Projectile.h Enemy.cpp Enemy.h Sword.cpp Sword.h Obstacle.cpp Obstacle.h Menu.cpp Menu.h Shield.cpp Shield.h Subject.h Observer.h Subject.cpp KillCounterObserver.cpp KillCounterObserver.h)
 
 add_library(core ${SOURCE_FILES})
 target_link_libraries(core sfml-system sfml-window sfml-graphics sfml-audio sfml-network)

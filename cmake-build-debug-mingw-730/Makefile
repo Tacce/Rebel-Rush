@@ -276,6 +276,30 @@ Gunfighter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Gunfighter.cpp.s
 .PHONY : Gunfighter.cpp.s
 
+KillCounterObserver.obj: KillCounterObserver.cpp.obj
+.PHONY : KillCounterObserver.obj
+
+# target to build an object file
+KillCounterObserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/KillCounterObserver.cpp.obj
+.PHONY : KillCounterObserver.cpp.obj
+
+KillCounterObserver.i: KillCounterObserver.cpp.i
+.PHONY : KillCounterObserver.i
+
+# target to preprocess a source file
+KillCounterObserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/KillCounterObserver.cpp.i
+.PHONY : KillCounterObserver.cpp.i
+
+KillCounterObserver.s: KillCounterObserver.cpp.s
+.PHONY : KillCounterObserver.s
+
+# target to generate assembly for a file
+KillCounterObserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/KillCounterObserver.cpp.s
+.PHONY : KillCounterObserver.cpp.s
+
 Map.obj: Map.cpp.obj
 .PHONY : Map.obj
 
@@ -396,6 +420,30 @@ Shield.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Shield.cpp.s
 .PHONY : Shield.cpp.s
 
+Subject.obj: Subject.cpp.obj
+.PHONY : Subject.obj
+
+# target to build an object file
+Subject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Subject.cpp.obj
+.PHONY : Subject.cpp.obj
+
+Subject.i: Subject.cpp.i
+.PHONY : Subject.i
+
+# target to preprocess a source file
+Subject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Subject.cpp.i
+.PHONY : Subject.cpp.i
+
+Subject.s: Subject.cpp.s
+.PHONY : Subject.s
+
+# target to generate assembly for a file
+Subject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Subject.cpp.s
+.PHONY : Subject.cpp.s
+
 Sword.obj: Sword.cpp.obj
 .PHONY : Sword.obj
 
@@ -493,6 +541,9 @@ help:
 	@echo ... Gunfighter.obj
 	@echo ... Gunfighter.i
 	@echo ... Gunfighter.s
+	@echo ... KillCounterObserver.obj
+	@echo ... KillCounterObserver.i
+	@echo ... KillCounterObserver.s
 	@echo ... Map.obj
 	@echo ... Map.i
 	@echo ... Map.s
@@ -508,6 +559,9 @@ help:
 	@echo ... Shield.obj
 	@echo ... Shield.i
 	@echo ... Shield.s
+	@echo ... Subject.obj
+	@echo ... Subject.i
+	@echo ... Subject.s
 	@echo ... Sword.obj
 	@echo ... Sword.i
 	@echo ... Sword.s

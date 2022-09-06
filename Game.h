@@ -12,6 +12,7 @@
 #include "GameCharacter.h"
 #include "Gunfighter.h"
 #include "Swordman.h"
+#include "KillCounterObserver.h"
 using namespace sf;
 
 class Game {
@@ -36,10 +37,12 @@ private:
     Event event{};
     std::shared_ptr<GameCharacter> player;
     std::unique_ptr<Map> map;
+    std::unique_ptr<KillCounterObserver> badgeDisplayer;
     unsigned int phase;
     bool gameOvered;
     bool backToMenu;
     int gameOverCooldown;
+
 
     Font font;
     Text scoreText;
@@ -47,6 +50,8 @@ private:
     Text hpText;
     Sprite background;
     Texture backgroundTexture;
+    std::shared_ptr<RectangleShape> badge;
+
 };
 
 

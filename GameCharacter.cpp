@@ -4,8 +4,8 @@
 
 #include "GameCharacter.h"
 
-GameCharacter::GameCharacter(float y,unsigned int hp, float x): shielded(false), posY(y), yVelocity(0), hp(hp), maxHp(hp),
-                                                                posX(x), score(0), fireCooldown(FIRE_COOLDOWN), damageHealCooldown(0) {
+GameCharacter::GameCharacter(float y,unsigned int hp, float x): shielded(false), posY(y), yVelocity(0), hp(hp), maxHp(hp),posX(x),
+                                                                score(0), fireCooldown(FIRE_COOLDOWN), damageHealCooldown(0), killCounter(0) {
     sprite.setPosition(Vector2f(posX,posY));
     sprite.setSize(Vector2f(PLAYER_DIMENSIONS,PLAYER_DIMENSIONS));
 
@@ -112,6 +112,26 @@ void GameCharacter::collectPoints(float multiplier) {
     score += POINTS_MULTIPLIER * multiplier;
 }
 
+void GameCharacter::inflictDamage(GameCharacter *target) {
+    target->receiveDamage(this);
+}
+
+//SUBJECT METHODS OVERRIDE
+
+void GameCharacter::notifyObservers() {
+    for (Observer *observer : observers) {
+        observer->update();
+    }
+}
+
+void GameCharacter::setState() {
+    killCounter++;
+    if(killCounter<=50)
+        notifyObservers();
+}
+
+//GETTER AND SETTER
+
 Rect<float> GameCharacter::getGlobalBounds() const{
     return sprite.getGlobalBounds();
 }
@@ -176,9 +196,11 @@ void GameCharacter::setMaxHp(unsigned int maxHp) {
     GameCharacter::maxHp = maxHp;
 }
 
-void GameCharacter::inflictDamage(GameCharacter *target) {
-    target->receiveDamage(this);
+int GameCharacter::getKillCounter() const {
+    return killCounter;
 }
+
+
 
 
 

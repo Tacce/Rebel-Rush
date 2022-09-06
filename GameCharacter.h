@@ -8,12 +8,13 @@
 
 #include <SFML/Graphics.hpp>
 #include "Definitions.h"
+#include "Subject.h"
 #include "Obstacle.h"
 #include "Shield.h"
 #include <memory>
 using namespace sf;
 
-class GameCharacter {
+class GameCharacter: public Subject{
 public:
     explicit GameCharacter(float y=0, unsigned int hp=3, float x=PLAYER_POSX);
     virtual ~GameCharacter() = default;
@@ -31,6 +32,13 @@ public:
     virtual void collectEnemyPoints(float multiplier)=0;
     virtual void collectPoints(float multiplier);
 
+
+
+    void notifyObservers() override;
+    void setState();
+
+
+
     bool isShielded() const;
     void setShielded(bool isShielded);
     float getPosY() const;
@@ -46,6 +54,8 @@ public:
     void setPosX(float posX);
     float getScore() const;
     void setScore(float score);
+    int getKillCounter() const;
+
 
 protected:
     virtual void movementeUpdate();
@@ -61,6 +71,7 @@ protected:
     CircleShape shieldSprite;
     Clock movementClock;
     float score;
+    int killCounter;
     Sprite fireSprite;
     int fireCooldown;
     int damageHealCooldown;

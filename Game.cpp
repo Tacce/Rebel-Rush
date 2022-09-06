@@ -6,13 +6,19 @@
 #include <memory>
 
 Game::Game(std::shared_ptr<RenderWindow>  window1, const int role) : gameOvered(false), phase(0),window(std::move(window1)),
-    backToMenu(false), gameOverCooldown(GAMEOVER_COOLDOWN){
+    backToMenu(false), gameOverCooldown(GAMEOVER_COOLDOWN) {
 
     if(role==0)
         player = std::make_shared<Gunfighter>();
     else if(role==1)
         player = std::make_shared<Swordman>();
     map = std::make_unique<Map>(player);
+
+    badge = std::make_shared<RectangleShape>();
+    badge->setPosition(Vector2f(10,110));
+    badge->setSize(Vector2f(30,46));
+    badge->setFillColor(Color::Transparent);
+    badgeDisplayer = std::make_unique<KillCounterObserver>(player,badge);
 
     backgroundTexture.loadFromFile(R"(..\Textures\BackgroundTexture.png)");
     background.setTexture(backgroundTexture);
@@ -79,6 +85,7 @@ void Game::draw() {
     map->draw(window);
     window->draw(scoreText);
     window->draw(hpText);
+    window->draw(*badge);
     if(gameOvered)
         window->draw(gameOverText);
     window->display();
