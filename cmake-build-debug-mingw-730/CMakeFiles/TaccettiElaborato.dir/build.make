@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato"
+CMAKE_SOURCE_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730"
+CMAKE_BINARY_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TaccettiElaborato.dir/depend.make
@@ -68,16 +68,16 @@ include CMakeFiles/TaccettiElaborato.dir/flags.make
 CMakeFiles/TaccettiElaborato.dir/main.cpp.obj: CMakeFiles/TaccettiElaborato.dir/flags.make
 CMakeFiles/TaccettiElaborato.dir/main.cpp.obj: CMakeFiles/TaccettiElaborato.dir/includes_CXX.rsp
 CMakeFiles/TaccettiElaborato.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TaccettiElaborato.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TaccettiElaborato.dir\main.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TaccettiElaborato.dir/main.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TaccettiElaborato.dir\main.cpp.obj -c "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\main.cpp"
 
 CMakeFiles/TaccettiElaborato.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TaccettiElaborato.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\main.cpp" > CMakeFiles\TaccettiElaborato.dir\main.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\main.cpp" > CMakeFiles\TaccettiElaborato.dir\main.cpp.i
 
 CMakeFiles/TaccettiElaborato.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TaccettiElaborato.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\main.cpp" -o CMakeFiles\TaccettiElaborato.dir\main.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\main.cpp" -o CMakeFiles\TaccettiElaborato.dir\main.cpp.s
 
 # Object files for target TaccettiElaborato
 TaccettiElaborato_OBJECTS = \
@@ -89,22 +89,22 @@ TaccettiElaborato_EXTERNAL_OBJECTS =
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/main.cpp.obj
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/build.make
 TaccettiElaborato.exe: libcore.a
-TaccettiElaborato.exe: C:/SFML/lib/libsfml-graphics-s-d.a
-TaccettiElaborato.exe: C:/SFML/lib/libsfml-window-s-d.a
-TaccettiElaborato.exe: C:/SFML/lib/libfreetype.a
-TaccettiElaborato.exe: C:/SFML/lib/libsfml-audio-s-d.a
-TaccettiElaborato.exe: C:/SFML/lib/libopenal32.a
-TaccettiElaborato.exe: C:/SFML/lib/libvorbisfile.a
-TaccettiElaborato.exe: C:/SFML/lib/libvorbisenc.a
-TaccettiElaborato.exe: C:/SFML/lib/libvorbis.a
-TaccettiElaborato.exe: C:/SFML/lib/libogg.a
-TaccettiElaborato.exe: C:/SFML/lib/libFLAC.a
-TaccettiElaborato.exe: C:/SFML/lib/libsfml-network-s-d.a
-TaccettiElaborato.exe: C:/SFML/lib/libsfml-system-s-d.a
+TaccettiElaborato.exe: ../SFML/lib/libsfml-graphics-s-d.a
+TaccettiElaborato.exe: ../SFML/lib/libsfml-window-s-d.a
+TaccettiElaborato.exe: ../SFML/lib/libfreetype.a
+TaccettiElaborato.exe: ../SFML/lib/libsfml-audio-s-d.a
+TaccettiElaborato.exe: ../SFML/lib/libopenal32.a
+TaccettiElaborato.exe: ../SFML/lib/libvorbisfile.a
+TaccettiElaborato.exe: ../SFML/lib/libvorbisenc.a
+TaccettiElaborato.exe: ../SFML/lib/libvorbis.a
+TaccettiElaborato.exe: ../SFML/lib/libogg.a
+TaccettiElaborato.exe: ../SFML/lib/libFLAC.a
+TaccettiElaborato.exe: ../SFML/lib/libsfml-network-s-d.a
+TaccettiElaborato.exe: ../SFML/lib/libsfml-system-s-d.a
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/linklibs.rsp
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/objects1.rsp
 TaccettiElaborato.exe: CMakeFiles/TaccettiElaborato.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TaccettiElaborato.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TaccettiElaborato.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TaccettiElaborato.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +116,6 @@ CMakeFiles/TaccettiElaborato.dir/clean:
 .PHONY : CMakeFiles/TaccettiElaborato.dir/clean
 
 CMakeFiles/TaccettiElaborato.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles\TaccettiElaborato.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles\TaccettiElaborato.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/TaccettiElaborato.dir/depend
 

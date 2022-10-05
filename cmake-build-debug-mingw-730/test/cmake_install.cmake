@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test
+# Install script for directory: C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/cmake_install.cmake")
+  include("C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,16 @@
-"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato"
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato"
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/mingw64/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 CMake Deprecation Warning at test/lib/googletest/CMakeLists.txt:53 (cmake_minimum_required):
   Compatibility with CMake < 2.8.12 will be removed from a future version of
   CMake.
@@ -8,7 +20,7 @@ CMake Deprecation Warning at test/lib/googletest/CMakeLists.txt:53 (cmake_minimu
 
 
 -- Could NOT find PythonInterp (missing: PYTHON_EXECUTABLE) 
--- Found SFML 2.5.1 in C:/SFML/lib/cmake/SFML
+-- Found SFML 2.5.1 in C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/lib/cmake/SFML
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730
+-- Build files have been written to: C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730

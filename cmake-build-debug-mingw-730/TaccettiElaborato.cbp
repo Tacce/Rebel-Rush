@@ -5,27 +5,27 @@
 		<Option title="TaccettiElaborato"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\SFML\;CMake Files\..\..\..\..\..\..\..\..\..\SFML\lib\;CMake Files\..\..\..\..\..\..\..\..\..\SFML\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFML\;CMake Files\SFML\lib\;CMake Files\SFML\lib\cmake\;CMake Files\SFML\lib\cmake\SFML\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="core">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/libcore.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSFML_STATIC"/>
-					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/include"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -34,21 +34,21 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 core"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="core/fast">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/libcore.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSFML_STATIC"/>
-					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/include"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -57,31 +57,31 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 core/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TaccettiElaborato">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/TaccettiElaborato.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/TaccettiElaborato.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSFML_STATIC"/>
-					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/include"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -90,21 +90,21 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 TaccettiElaborato"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 TaccettiElaborato"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TaccettiElaborato/fast">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/TaccettiElaborato.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/TaccettiElaborato.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSFML_STATIC"/>
-					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/include"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -113,33 +113,33 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 TaccettiElaborato/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 TaccettiElaborato/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="runAllTests">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/runAllTests.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/runAllTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSFML_STATIC"/>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
-					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/include"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -148,23 +148,23 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 runAllTests"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 runAllTests"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="runAllTests/fast">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/runAllTests.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/runAllTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSFML_STATIC"/>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
-					<Add directory="C:/SFML/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/include"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -173,21 +173,21 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 runAllTests/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 runAllTests/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -196,21 +196,21 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -219,21 +219,21 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -242,21 +242,21 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest"/>
+				<Option output="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
-					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest"/>
+					<Add directory="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/include"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
@@ -265,155 +265,155 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/cmake-build-debug-mingw-730/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Enemy.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Enemy.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Game.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Game.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Gunfighter.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Gunfighter.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Map.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Map.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Menu.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Menu.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Menu.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Menu.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Observer.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Observer.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Obstacle.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Obstacle.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Projectile.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Projectile.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Shield.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Shield.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Shield.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Shield.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Subject.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Subject.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Subject.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Subject.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Sword.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Sword.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Swordman.cpp">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Swordman.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/main.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/main.cpp">
 			<Option target="TaccettiElaborato"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/GameTest.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/GameTest.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/GunfighterTest.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/GunfighterTest.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/ObstacleIntersectionFixture.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/ObstacleIntersectionFixture.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/ProjectileInstersectionFixture.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/ProjectileInstersectionFixture.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordIntersectionFixture.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/SwordIntersectionFixture.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/SwordmanTest.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/SwordmanTest.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/src/gtest-all.cc">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/src/gtest_main.cc">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/runAllTests.cpp">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/runAllTests.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/CMakeLists.txt">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/../../../../../../../../../SFML/lib/cmake/SFML/SFMLConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/../../../../../../../../../SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/../../../../../../../../../SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/../../../../../../../../../SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/../../../../../../../../../SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/../../../../../../../../../SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\SFML\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/SFML/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\SFML\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/CMakeLists.txt">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/CMakeLists.txt">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\googletest\"/>
 		</Unit>
-		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/cmake/internal_utils.cmake">
+		<Unit filename="C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/test/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
 		</Unit>
 	</Project>

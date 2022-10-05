@@ -2,13 +2,14 @@ cmake_minimum_required(VERSION 3.20)
 project(TaccettiElaborato)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_EXE_LINKER_FLAGS "-static")
 
 add_subdirectory(test)
 
 set(SFML_STATIC_LIBRARIES TRUE)
-set(SFML_DIR C:/SFML/lib/cmake/SFML)
+set(SFML_DIR SFML/lib/cmake/SFML)
 find_package(SFML COMPONENTS system window graphics audio network REQUIRED)
-include_directories(C:/SFML/include)
+include_directories(SFML/include)
 
 set(SOURCE_FILES GameCharacter.cpp GameCharacter.h Definitions.h Game.cpp Game.h Gunfighter.cpp Gunfighter.h
         Swordman.cpp Swordman.h Map.cpp Map.h Projectile.cpp Projectile.h Enemy.cpp Enemy.h Sword.cpp Sword.h Obstacle.cpp Obstacle.h Menu.cpp Menu.h Shield.cpp Shield.h Subject.h Observer.h Subject.cpp KillCounterObserver.cpp KillCounterObserver.h)

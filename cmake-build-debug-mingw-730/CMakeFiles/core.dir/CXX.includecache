@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/SFML/include/SFML/Config.hpp
+../SFML/include/SFML/Config.hpp
 TargetConditionals.h
-C:/SFML/include/SFML/TargetConditionals.h
+../SFML/include/SFML/TargetConditionals.h
 
-C:/SFML/include/SFML/Graphics.hpp
+../SFML/include/SFML/Graphics.hpp
 SFML/Window.hpp
 -
 SFML/Graphics/BlendMode.hpp
@@ -66,21 +66,21 @@ SFML/Graphics/VertexBuffer.hpp
 SFML/Graphics/View.hpp
 -
 
-C:/SFML/include/SFML/Graphics/BlendMode.hpp
+../SFML/include/SFML/Graphics/BlendMode.hpp
 SFML/Graphics/Export.hpp
 -
 
-C:/SFML/include/SFML/Graphics/CircleShape.hpp
+../SFML/include/SFML/Graphics/CircleShape.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Shape.hpp
 -
 
-C:/SFML/include/SFML/Graphics/Color.hpp
+../SFML/include/SFML/Graphics/Color.hpp
 SFML/Graphics/Export.hpp
 -
 
-C:/SFML/include/SFML/Graphics/ConvexShape.hpp
+../SFML/include/SFML/Graphics/ConvexShape.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Shape.hpp
@@ -88,17 +88,17 @@ SFML/Graphics/Shape.hpp
 vector
 -
 
-C:/SFML/include/SFML/Graphics/Drawable.hpp
+../SFML/include/SFML/Graphics/Drawable.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/RenderStates.hpp
 -
 
-C:/SFML/include/SFML/Graphics/Export.hpp
+../SFML/include/SFML/Graphics/Export.hpp
 SFML/Config.hpp
 -
 
-C:/SFML/include/SFML/Graphics/Font.hpp
+../SFML/include/SFML/Graphics/Font.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Glyph.hpp
@@ -118,7 +118,7 @@ string
 vector
 -
 
-C:/SFML/include/SFML/Graphics/Glsl.hpp
+../SFML/include/SFML/Graphics/Glsl.hpp
 SFML/Graphics/Transform.hpp
 -
 SFML/Graphics/Color.hpp
@@ -130,15 +130,15 @@ SFML/System/Vector3.hpp
 SFML/Graphics/Glsl.inl
 -
 
-C:/SFML/include/SFML/Graphics/Glsl.inl
+../SFML/include/SFML/Graphics/Glsl.inl
 
-C:/SFML/include/SFML/Graphics/Glyph.hpp
+../SFML/include/SFML/Graphics/Glyph.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Rect.hpp
 -
 
-C:/SFML/include/SFML/Graphics/Image.hpp
+../SFML/include/SFML/Graphics/Image.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Color.hpp
@@ -150,9 +150,9 @@ string
 vector
 -
 
-C:/SFML/include/SFML/Graphics/PrimitiveType.hpp
+../SFML/include/SFML/Graphics/PrimitiveType.hpp
 
-C:/SFML/include/SFML/Graphics/Rect.hpp
+../SFML/include/SFML/Graphics/Rect.hpp
 SFML/System/Vector2.hpp
 -
 algorithm
@@ -160,15 +160,15 @@ algorithm
 SFML/Graphics/Rect.inl
 -
 
-C:/SFML/include/SFML/Graphics/Rect.inl
+../SFML/include/SFML/Graphics/Rect.inl
 
-C:/SFML/include/SFML/Graphics/RectangleShape.hpp
+../SFML/include/SFML/Graphics/RectangleShape.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Shape.hpp
 -
 
-C:/SFML/include/SFML/Graphics/RenderStates.hpp
+../SFML/include/SFML/Graphics/RenderStates.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/BlendMode.hpp
@@ -176,7 +176,7 @@ SFML/Graphics/BlendMode.hpp
 SFML/Graphics/Transform.hpp
 -
 
-C:/SFML/include/SFML/Graphics/RenderTarget.hpp
+../SFML/include/SFML/Graphics/RenderTarget.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Color.hpp
@@ -198,7 +198,7 @@ SFML/Graphics/Vertex.hpp
 SFML/System/NonCopyable.hpp
 -
 
-C:/SFML/include/SFML/Graphics/RenderTexture.hpp
+../SFML/include/SFML/Graphics/RenderTexture.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -208,7 +208,7 @@ SFML/Graphics/RenderTarget.hpp
 SFML/Window/ContextSettings.hpp
 -
 
-C:/SFML/include/SFML/Graphics/RenderWindow.hpp
+../SFML/include/SFML/Graphics/RenderWindow.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/RenderTarget.hpp
@@ -220,7 +220,7 @@ SFML/Window/Window.hpp
 string
 -
 
-C:/SFML/include/SFML/Graphics/Shader.hpp
+../SFML/include/SFML/Graphics/Shader.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Glsl.hpp
@@ -238,7 +238,7 @@ map
 string
 -
 
-C:/SFML/include/SFML/Graphics/Shape.hpp
+../SFML/include/SFML/Graphics/Shape.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Drawable.hpp
@@ -250,7 +250,7 @@ SFML/Graphics/VertexArray.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/SFML/include/SFML/Graphics/Sprite.hpp
+../SFML/include/SFML/Graphics/Sprite.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Drawable.hpp
@@ -262,7 +262,7 @@ SFML/Graphics/Vertex.hpp
 SFML/Graphics/Rect.hpp
 -
 
-C:/SFML/include/SFML/Graphics/Text.hpp
+../SFML/include/SFML/Graphics/Text.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Drawable.hpp
@@ -282,7 +282,7 @@ string
 vector
 -
 
-C:/SFML/include/SFML/Graphics/Texture.hpp
+../SFML/include/SFML/Graphics/Texture.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Image.hpp
@@ -290,7 +290,7 @@ SFML/Graphics/Image.hpp
 SFML/Window/GlResource.hpp
 -
 
-C:/SFML/include/SFML/Graphics/Transform.hpp
+../SFML/include/SFML/Graphics/Transform.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Rect.hpp
@@ -298,13 +298,13 @@ SFML/Graphics/Rect.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/SFML/include/SFML/Graphics/Transformable.hpp
+../SFML/include/SFML/Graphics/Transformable.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Transform.hpp
 -
 
-C:/SFML/include/SFML/Graphics/Vertex.hpp
+../SFML/include/SFML/Graphics/Vertex.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Color.hpp
@@ -312,7 +312,7 @@ SFML/Graphics/Color.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/SFML/include/SFML/Graphics/VertexArray.hpp
+../SFML/include/SFML/Graphics/VertexArray.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Vertex.hpp
@@ -326,7 +326,7 @@ SFML/Graphics/Drawable.hpp
 vector
 -
 
-C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
+../SFML/include/SFML/Graphics/VertexBuffer.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/PrimitiveType.hpp
@@ -336,7 +336,7 @@ SFML/Graphics/Drawable.hpp
 SFML/Window/GlResource.hpp
 -
 
-C:/SFML/include/SFML/Graphics/View.hpp
+../SFML/include/SFML/Graphics/View.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Rect.hpp
@@ -346,7 +346,7 @@ SFML/Graphics/Transform.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/SFML/include/SFML/System.hpp
+../SFML/include/SFML/System.hpp
 SFML/Config.hpp
 -
 SFML/System/Clock.hpp
@@ -384,23 +384,23 @@ SFML/System/Vector2.hpp
 SFML/System/Vector3.hpp
 -
 
-C:/SFML/include/SFML/System/Clock.hpp
+../SFML/include/SFML/System/Clock.hpp
 SFML/System/Export.hpp
 -
 SFML/System/Time.hpp
 -
 
-C:/SFML/include/SFML/System/Err.hpp
+../SFML/include/SFML/System/Err.hpp
 SFML/System/Export.hpp
 -
 ostream
 -
 
-C:/SFML/include/SFML/System/Export.hpp
+../SFML/include/SFML/System/Export.hpp
 SFML/Config.hpp
 -
 
-C:/SFML/include/SFML/System/FileInputStream.hpp
+../SFML/include/SFML/System/FileInputStream.hpp
 SFML/Config.hpp
 -
 SFML/System/Export.hpp
@@ -414,19 +414,19 @@ cstdio
 string
 -
 
-C:/SFML/include/SFML/System/InputStream.hpp
+../SFML/include/SFML/System/InputStream.hpp
 SFML/Config.hpp
 -
 SFML/System/Export.hpp
 -
 
-C:/SFML/include/SFML/System/Lock.hpp
+../SFML/include/SFML/System/Lock.hpp
 SFML/System/Export.hpp
 -
 SFML/System/NonCopyable.hpp
 -
 
-C:/SFML/include/SFML/System/MemoryInputStream.hpp
+../SFML/include/SFML/System/MemoryInputStream.hpp
 SFML/Config.hpp
 -
 SFML/System/InputStream.hpp
@@ -436,23 +436,23 @@ SFML/System/Export.hpp
 cstdlib
 -
 
-C:/SFML/include/SFML/System/Mutex.hpp
+../SFML/include/SFML/System/Mutex.hpp
 SFML/System/Export.hpp
 -
 SFML/System/NonCopyable.hpp
 -
 
-C:/SFML/include/SFML/System/NonCopyable.hpp
+../SFML/include/SFML/System/NonCopyable.hpp
 SFML/System/Export.hpp
 -
 
-C:/SFML/include/SFML/System/Sleep.hpp
+../SFML/include/SFML/System/Sleep.hpp
 SFML/System/Export.hpp
 -
 SFML/System/Time.hpp
 -
 
-C:/SFML/include/SFML/System/String.hpp
+../SFML/include/SFML/System/String.hpp
 SFML/System/Export.hpp
 -
 SFML/System/Utf.hpp
@@ -466,9 +466,9 @@ string
 SFML/System/String.inl
 -
 
-C:/SFML/include/SFML/System/String.inl
+../SFML/include/SFML/System/String.inl
 
-C:/SFML/include/SFML/System/Thread.hpp
+../SFML/include/SFML/System/Thread.hpp
 SFML/System/Export.hpp
 -
 SFML/System/NonCopyable.hpp
@@ -478,9 +478,9 @@ cstdlib
 SFML/System/Thread.inl
 -
 
-C:/SFML/include/SFML/System/Thread.inl
+../SFML/include/SFML/System/Thread.inl
 
-C:/SFML/include/SFML/System/ThreadLocal.hpp
+../SFML/include/SFML/System/ThreadLocal.hpp
 SFML/System/Export.hpp
 -
 SFML/System/NonCopyable.hpp
@@ -488,19 +488,19 @@ SFML/System/NonCopyable.hpp
 cstdlib
 -
 
-C:/SFML/include/SFML/System/ThreadLocalPtr.hpp
+../SFML/include/SFML/System/ThreadLocalPtr.hpp
 SFML/System/ThreadLocal.hpp
 -
 SFML/System/ThreadLocalPtr.inl
 -
 
-C:/SFML/include/SFML/System/ThreadLocalPtr.inl
+../SFML/include/SFML/System/ThreadLocalPtr.inl
 
-C:/SFML/include/SFML/System/Time.hpp
+../SFML/include/SFML/System/Time.hpp
 SFML/System/Export.hpp
 -
 
-C:/SFML/include/SFML/System/Utf.hpp
+../SFML/include/SFML/System/Utf.hpp
 SFML/Config.hpp
 -
 algorithm
@@ -514,21 +514,21 @@ cstdlib
 SFML/System/Utf.inl
 -
 
-C:/SFML/include/SFML/System/Utf.inl
+../SFML/include/SFML/System/Utf.inl
 
-C:/SFML/include/SFML/System/Vector2.hpp
+../SFML/include/SFML/System/Vector2.hpp
 SFML/System/Vector2.inl
 -
 
-C:/SFML/include/SFML/System/Vector2.inl
+../SFML/include/SFML/System/Vector2.inl
 
-C:/SFML/include/SFML/System/Vector3.hpp
+../SFML/include/SFML/System/Vector3.hpp
 SFML/System/Vector3.inl
 -
 
-C:/SFML/include/SFML/System/Vector3.inl
+../SFML/include/SFML/System/Vector3.inl
 
-C:/SFML/include/SFML/Window.hpp
+../SFML/include/SFML/Window.hpp
 SFML/System.hpp
 -
 SFML/Window/Clipboard.hpp
@@ -560,13 +560,13 @@ SFML/Window/WindowHandle.hpp
 SFML/Window/WindowStyle.hpp
 -
 
-C:/SFML/include/SFML/Window/Clipboard.hpp
+../SFML/include/SFML/Window/Clipboard.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/String.hpp
 -
 
-C:/SFML/include/SFML/Window/Context.hpp
+../SFML/include/SFML/Window/Context.hpp
 SFML/Window/Export.hpp
 -
 SFML/Window/GlResource.hpp
@@ -576,11 +576,11 @@ SFML/Window/ContextSettings.hpp
 SFML/System/NonCopyable.hpp
 -
 
-C:/SFML/include/SFML/Window/ContextSettings.hpp
+../SFML/include/SFML/Window/ContextSettings.hpp
 SFML/Config.hpp
 -
 
-C:/SFML/include/SFML/Window/Cursor.hpp
+../SFML/include/SFML/Window/Cursor.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/NonCopyable.hpp
@@ -588,7 +588,7 @@ SFML/System/NonCopyable.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/SFML/include/SFML/Window/Event.hpp
+../SFML/include/SFML/Window/Event.hpp
 SFML/Config.hpp
 -
 SFML/Window/Joystick.hpp
@@ -600,33 +600,33 @@ SFML/Window/Mouse.hpp
 SFML/Window/Sensor.hpp
 -
 
-C:/SFML/include/SFML/Window/Export.hpp
+../SFML/include/SFML/Window/Export.hpp
 SFML/Config.hpp
 -
 
-C:/SFML/include/SFML/Window/GlResource.hpp
+../SFML/include/SFML/Window/GlResource.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/NonCopyable.hpp
 -
 
-C:/SFML/include/SFML/Window/Joystick.hpp
+../SFML/include/SFML/Window/Joystick.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/String.hpp
 -
 
-C:/SFML/include/SFML/Window/Keyboard.hpp
+../SFML/include/SFML/Window/Keyboard.hpp
 SFML/Window/Export.hpp
 -
 
-C:/SFML/include/SFML/Window/Mouse.hpp
+../SFML/include/SFML/Window/Mouse.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/Vector2.hpp
 -
 
-C:/SFML/include/SFML/Window/Sensor.hpp
+../SFML/include/SFML/Window/Sensor.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/Vector3.hpp
@@ -634,19 +634,19 @@ SFML/System/Vector3.hpp
 SFML/System/Time.hpp
 -
 
-C:/SFML/include/SFML/Window/Touch.hpp
+../SFML/include/SFML/Window/Touch.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/Vector2.hpp
 -
 
-C:/SFML/include/SFML/Window/VideoMode.hpp
+../SFML/include/SFML/Window/VideoMode.hpp
 SFML/Window/Export.hpp
 -
 vector
 -
 
-C:/SFML/include/SFML/Window/Window.hpp
+../SFML/include/SFML/Window/Window.hpp
 SFML/Window/ContextSettings.hpp
 -
 SFML/Window/Cursor.hpp
@@ -670,167 +670,183 @@ SFML/System/String.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/SFML/include/SFML/Window/WindowHandle.hpp
+../SFML/include/SFML/Window/WindowHandle.hpp
 SFML/Config.hpp
 -
 
-C:/SFML/include/SFML/Window/WindowStyle.hpp
+../SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Enemy.cpp
 Enemy.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Enemy.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Enemy.h
 SFML/Graphics.hpp
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 memory
 -
 GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Game.cpp
 Game.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Game.h
 memory
 -
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Game.h
 SFML/Graphics.hpp
 -
 memory
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 Map.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Map.h
 GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
 Gunfighter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
 Swordman.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Swordman.h
 KillCounterObserver.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.cpp
 GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
 SFML/Graphics.hpp
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 Subject.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Subject.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Subject.h
 Obstacle.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Obstacle.h
 Shield.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Shield.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Shield.h
 memory
 -
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Gunfighter.cpp
 iostream
 -
 Gunfighter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
 SFML/Graphics.hpp
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 memory
 -
 GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
 Projectile.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Projectile.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.cpp
 memory
 -
 KillCounterObserver.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/KillCounterObserver.h
 GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Map.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Map.cpp
+iostream
+-
+Map.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Map.h
+
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Map.h
 SFML/Graphics.hpp
 -
 memory
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
 Gunfighter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Gunfighter.h
 Swordman.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Swordman.h
 Enemy.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Enemy.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Enemy.h
 Obstacle.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Obstacle.h
 Shield.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Shield.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Shield.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Menu.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Menu.cpp
 Menu.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Menu.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Menu.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Menu.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Menu.h
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 SFML/Graphics.hpp
 -
 memory
 -
 Game.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Game.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Game.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Observer.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Observer.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Obstacle.cpp
 Obstacle.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Obstacle.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Obstacle.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Obstacle.h
 SFML/Graphics.hpp
 -
 memory
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Projectile.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Projectile.cpp
+iostream
+-
+Projectile.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Projectile.h
+
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Projectile.h
 SFML/Graphics.hpp
 -
 memory
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Shield.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Shield.cpp
 Shield.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Shield.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Shield.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Shield.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Shield.h
 SFML/Graphics.hpp
 -
 memory
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Subject.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Subject.cpp
+Subject.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Subject.h
+
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Subject.h
 vector
 -
 algorithm
@@ -838,29 +854,33 @@ algorithm
 iostream
 -
 Observer.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Observer.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Observer.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Sword.cpp
+Sword.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Sword.h
+
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Sword.h
 SFML/Graphics.hpp
 -
 memory
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.cpp
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Swordman.cpp
 Swordman.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Swordman.h
 
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Swordman.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Swordman.h
 SFML/Graphics.hpp
 -
 Definitions.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Definitions.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Definitions.h
 memory
 -
 GameCharacter.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/GameCharacter.h
 Sword.h
-C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Programmazione/progetto/TaccettiElaborato/Sword.h
+C:/Users/Francesco Taccetti/OneDrive/Desktop/UNIFI/corsi/Primo Anno/Programmazione/progetto/TaccettiElaborato/Sword.h
 

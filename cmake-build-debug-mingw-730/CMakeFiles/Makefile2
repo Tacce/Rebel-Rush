@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato"
+CMAKE_SOURCE_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730"
+CMAKE_BINARY_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -118,14 +118,14 @@ test/lib/googletest/clean: test/lib/googletest/CMakeFiles/gtest_main.dir/clean
 CMakeFiles/core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target core"
 .PHONY : CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 14
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/core.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
 .PHONY : CMakeFiles/core.dir/rule
 
 # Convenience name for target.
@@ -144,14 +144,14 @@ CMakeFiles/core.dir/clean:
 CMakeFiles/TaccettiElaborato.dir/all: CMakeFiles/core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TaccettiElaborato.dir\build.make CMakeFiles/TaccettiElaborato.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=1,2 "Built target TaccettiElaborato"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=1,2 "Built target TaccettiElaborato"
 .PHONY : CMakeFiles/TaccettiElaborato.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TaccettiElaborato.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 16
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TaccettiElaborato.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
 .PHONY : CMakeFiles/TaccettiElaborato.dir/rule
 
 # Convenience name for target.
@@ -167,19 +167,19 @@ CMakeFiles/TaccettiElaborato.dir/clean:
 # Target rules for target test/CMakeFiles/runAllTests.dir
 
 # All Build rule for target.
-test/CMakeFiles/runAllTests.dir/all: CMakeFiles/core.dir/all
 test/CMakeFiles/runAllTests.dir/all: test/lib/googletest/CMakeFiles/gtest.dir/all
 test/CMakeFiles/runAllTests.dir/all: test/lib/googletest/CMakeFiles/gtest_main.dir/all
+test/CMakeFiles/runAllTests.dir/all: CMakeFiles/core.dir/all
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=21,22,23,24,25,26,27,28 "Built target runAllTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=21,22,23,24,25,26,27,28 "Built target runAllTests"
 .PHONY : test/CMakeFiles/runAllTests.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runAllTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 26
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/runAllTests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
 .PHONY : test/CMakeFiles/runAllTests.dir/rule
 
 # Convenience name for target.
@@ -198,14 +198,14 @@ test/CMakeFiles/runAllTests.dir/clean:
 test/lib/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f test\lib\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f test\lib\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=17,18 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=17,18 "Built target gtest"
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 test/lib/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/lib/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -224,14 +224,14 @@ test/lib/googletest/CMakeFiles/gtest.dir/clean:
 test/lib/googletest/CMakeFiles/gtest_main.dir/all: test/lib/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=19,20 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" --progress-num=19,20 "Built target gtest_main"
 .PHONY : test/lib/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 test/lib/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/lib/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
 .PHONY : test/lib/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato"
+CMAKE_SOURCE_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730"
+CMAKE_BINARY_DIR = "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Francesco Taccetti\OneDrive\Desktop\UNIFI\corsi\Primo Anno\Programmazione\progetto\TaccettiElaborato\cmake-build-debug-mingw-730\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
